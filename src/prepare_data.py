@@ -16,6 +16,13 @@ FILES = [
     ("cedar_tcell_neg_fixed.csv", "CEDAR", 0),
 ]
 
+PEPTIDE_COL_OVERRIDES = {
+    "iedb_tcell_pos_fixed.csv":  "Epitope.1|Name",
+    "iedb_tcell_neg_fixed.csv":  "Epitope.1|Name",
+    "cedar_tcell_pos_fixed.csv": "Epitope.1|Name",
+    "cedar_tcell_neg_fixed.csv": "Epitope.1|Name",
+}
+
 def pick_peptide_col(cols):
     cols_lower = [c.lower() for c in cols]
     # Best: Epitope|Linear sequence
@@ -39,12 +46,22 @@ def main():
         if not path.exists():
             print(f"[WARN] Missing {fname}, skipping.")
             continue
+
         df = pd.read_csv(path, low_memory=False)
-        idx = pick_peptide_col(df.columns)
-        if idx is None:
-            print(f"[WARN] No peptide column found in {fname}")
-            continue
-        pep_col = df.columns[idx]
+        
+        # Overriding first
+        override = PEPTIDE_COL_OVERRIDES.get(fname)
+        if override and override in df.columns:
+            pep_col = override
+            print(f"[INFO] Using override peptide column '{pep_col}' for {fname}")
+        else:
+            # Falling back to heuristic if no override
+            idx = pick_peptide_col(df.columns)
+            if idx is None:
+                print(f"[WARN] No peptide column found in {fname}")
+                continue
+            pep_col = df.columns[idx]
+
         out = df[[pep_col]].copy()
         out.columns = ["peptide"]
         out["source"] = source
