@@ -1,0 +1,3 @@
+peptide,epitope_id,peptide_stratum,status,error,http_status,n_rows_retrieved,reported_total,retrieval_time_utc,retrieval_batch
+ALRKVPTDNY,1330905,retained_pos_iedb_only,fail,Remote end closed connection without response,,0,,2026-11-12T17:42:16Z,full
+YYTSNPTTFHL,1334431,retained_pos_iedb_only,fail,Remote end closed connection without response,,0,,2026-11-12T18:00:28Z,full

@@ -1,0 +1,40 @@
+{
+  "structure_id": "44920",
+  "page_size": 50,
+  "order": "tcell_id",
+  "status": "incomplete",
+  "error": "stopped after max_pages=2",
+  "reported_total": 920,
+  "n_rows": 100,
+  "n_unique_tcell_id": 100,
+  "pages": [
+    {
+      "offset": 0,
+      "n": 50,
+      "n_new_ids": 50,
+      "sha256": "8b5cf3145dccd307c0022dec4800b38a8f8d747de88b22ebcffb863c90700e25",
+      "content_range": "0-49/920",
+      "range_start": 0,
+      "range_end": 49,
+      "reported_total": 920,
+      "first_tcell_id": 5437,
+      "last_tcell_id": 1383391,
+      "raw_path": "audit/retrieval/pagination_test/raw/resume_part1/structure_44920_limit_50_offset_0.json",
+      "retrieval_time_utc": "2026-11-07T18:09:34Z"
+    },
+    {
+      "offset": 50,
+      "n": 50,
+      "n_new_ids": 50,
+      "sha256": "98d57c54e32060bf6e6d3f77e140e3936a9aacd5c4e444fd8f0602973c32d132",
+      "content_range": "50-99/920",
+      "range_start": 50,
+      "range_end": 99,
+      "reported_total": 920,
+      "first_tcell_id": 1383395,
+      "last_tcell_id": 1409862,
+      "raw_path": "audit/retrieval/pagination_test/raw/resume_part1/structure_44920_limit_50_offset_50.json",
+      "retrieval_time_utc": "2026-11-07T18:09:35Z"
+    }
+  ]
+}

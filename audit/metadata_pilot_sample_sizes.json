@@ -1,0 +1,26 @@
+{
+  "retained_pos_iedb_only": {
+    "n_available": 9398,
+    "n_sampled": 10
+  },
+  "retained_neg_iedb_only": {
+    "n_available": 23733,
+    "n_sampled": 10
+  },
+  "retained_both_databases": {
+    "n_available": 14471,
+    "n_sampled": 10
+  },
+  "conflict_iedb_only": {
+    "n_available": 4532,
+    "n_sampled": 8
+  },
+  "conflict_both_databases": {
+    "n_available": 2314,
+    "n_sampled": 8
+  },
+  "cedar_only": {
+    "n_available": 0,
+    "n_sampled": 0
+  }
+}

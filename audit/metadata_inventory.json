@@ -1,0 +1,29 @@
+{
+  "download_date_documented": "2025-11-03",
+  "download_filters_documented": "Linear Peptides, T Cell Assay, Outcome = Positive/Negative (data/README.md)",
+  "export_grain": "epitope-level list rows, NOT assay-level records",
+  "fields_present_in_exports": [
+    "Epitope ID",
+    "Epitope Name (sequence)",
+    "Modifications / modified residues",
+    "Source molecule / parent / organism",
+    "Epitope Species",
+    "Related Object fields"
+  ],
+  "fields_absent_from_exports": [
+    "Assay ID",
+    "Qualitative measure / assay type detail",
+    "Host organism (assay host)",
+    "MHC allele / MHC class field",
+    "Publication / reference ID",
+    "Donor / sample ID",
+    "Stimulation / processing context"
+  ],
+  "how_labels_assigned": "File membership only: rows in *_tcell_pos_* get label=1; rows in *_tcell_neg_* get label=0 (src/prepare_data.py). No outcome column is read from the CSV.",
+  "n_conflicting_peptides_any_aa": 26504,
+  "n_conflicting_peptides_valid_aa": 26204,
+  "n_rows_removed_at_conflict_stage_valid_aa": 63301,
+  "n_raw_rows": 308790,
+  "n_cleaned_peptides": 199860,
+  "n_modeling_8_11mers": 47602
+}

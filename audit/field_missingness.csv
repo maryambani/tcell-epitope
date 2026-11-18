@@ -1,0 +1,131 @@
+file,column,non_null_frac,n_unique
+iedb_tcell_pos_fixed.csv,Epitope ID|IEDB IRI,1.0,73435
+iedb_tcell_pos_fixed.csv,Epitope|Object Type,1.0,1
+iedb_tcell_pos_fixed.csv,Epitope.1|Name,1.0,73435
+iedb_tcell_pos_fixed.csv,Epitope.2|Modified Residue(s),0.0148,396
+iedb_tcell_pos_fixed.csv,Epitope.3|Modifications,0.0148,37
+iedb_tcell_pos_fixed.csv,Epitope.4|Starting Position,0.8562,3844
+iedb_tcell_pos_fixed.csv,Epitope.5|Ending Position,0.8562,3835
+iedb_tcell_pos_fixed.csv,Epitope.6|IRI,0.0,0
+iedb_tcell_pos_fixed.csv,Epitope.7|Synonyms,0.0,0
+iedb_tcell_pos_fixed.csv,Epitope.8|Source Molecule,0.8813,9362
+iedb_tcell_pos_fixed.csv,Epitope.9|Source Molecule IRI,0.8751,13815
+iedb_tcell_pos_fixed.csv,Epitope.10|Molecule Parent,0.869,6154
+iedb_tcell_pos_fixed.csv,Epitope.11|Molecule Parent IRI,0.869,8187
+iedb_tcell_pos_fixed.csv,Epitope.12|Source Organism,0.8813,1544
+iedb_tcell_pos_fixed.csv,Epitope.13|Source Organism IRI,0.8691,1505
+iedb_tcell_pos_fixed.csv,Epitope.14|Species,0.8813,814
+iedb_tcell_pos_fixed.csv,Epitope.15|Species IRI,0.8813,814
+iedb_tcell_pos_fixed.csv,Related Object|Epitope Relation,0.1123,6
+iedb_tcell_pos_fixed.csv,Related Object.1|Object Type,0.1123,8
+iedb_tcell_pos_fixed.csv,Related Object.2|Name,0.1122,5747
+iedb_tcell_pos_fixed.csv,Related Object.3|Starting Position,0.1007,1387
+iedb_tcell_pos_fixed.csv,Related Object.4|Ending Position,0.1007,1383
+iedb_tcell_pos_fixed.csv,Related Object.5|IRI,0.0003,6
+iedb_tcell_pos_fixed.csv,Related Object.6|Synonyms,0.0973,3780
+iedb_tcell_pos_fixed.csv,Related Object.7|Source Molecule,0.1029,3846
+iedb_tcell_pos_fixed.csv,Related Object.8|Source Molecule IRI,0.1017,3982
+iedb_tcell_pos_fixed.csv,Related Object.9|Molecule Parent,0.1062,3445
+iedb_tcell_pos_fixed.csv,Related Object.10|Molecule Parent IRI,0.1061,3622
+iedb_tcell_pos_fixed.csv,Related Object.11|Source Organism,0.1117,145
+iedb_tcell_pos_fixed.csv,Related Object.12|Source Organism IRI,0.103,130
+iedb_tcell_pos_fixed.csv,Related Object.13|Species,0.103,97
+iedb_tcell_pos_fixed.csv,Related Object.14|Species IRI,0.103,97
+iedb_tcell_neg_fixed.csv,Epitope ID|IEDB IRI,1.0,180768
+iedb_tcell_neg_fixed.csv,Epitope|Object Type,1.0,1
+iedb_tcell_neg_fixed.csv,Epitope.1|Name,1.0,180768
+iedb_tcell_neg_fixed.csv,Epitope.2|Modified Residue(s),0.0046,325
+iedb_tcell_neg_fixed.csv,Epitope.3|Modifications,0.0046,29
+iedb_tcell_neg_fixed.csv,Epitope.4|Starting Position,0.8434,4604
+iedb_tcell_neg_fixed.csv,Epitope.5|Ending Position,0.8434,4669
+iedb_tcell_neg_fixed.csv,Epitope.6|IRI,0.0,0
+iedb_tcell_neg_fixed.csv,Epitope.7|Synonyms,0.0,0
+iedb_tcell_neg_fixed.csv,Epitope.8|Source Molecule,0.859,16655
+iedb_tcell_neg_fixed.csv,Epitope.9|Source Molecule IRI,0.8507,27018
+iedb_tcell_neg_fixed.csv,Epitope.10|Molecule Parent,0.8414,10933
+iedb_tcell_neg_fixed.csv,Epitope.11|Molecule Parent IRI,0.8414,15871
+iedb_tcell_neg_fixed.csv,Epitope.12|Source Organism,0.859,945
+iedb_tcell_neg_fixed.csv,Epitope.13|Source Organism IRI,0.8458,918
+iedb_tcell_neg_fixed.csv,Epitope.14|Species,0.859,478
+iedb_tcell_neg_fixed.csv,Epitope.15|Species IRI,0.859,478
+iedb_tcell_neg_fixed.csv,Related Object|Epitope Relation,0.1398,6
+iedb_tcell_neg_fixed.csv,Related Object.1|Object Type,0.1398,8
+iedb_tcell_neg_fixed.csv,Related Object.2|Name,0.1398,24244
+iedb_tcell_neg_fixed.csv,Related Object.3|Starting Position,0.136,2664
+iedb_tcell_neg_fixed.csv,Related Object.4|Ending Position,0.136,2672
+iedb_tcell_neg_fixed.csv,Related Object.5|IRI,0.0,2
+iedb_tcell_neg_fixed.csv,Related Object.6|Synonyms,0.1346,12532
+iedb_tcell_neg_fixed.csv,Related Object.7|Source Molecule,0.1368,12714
+iedb_tcell_neg_fixed.csv,Related Object.8|Source Molecule IRI,0.1359,13687
+iedb_tcell_neg_fixed.csv,Related Object.9|Molecule Parent,0.1381,10555
+iedb_tcell_neg_fixed.csv,Related Object.10|Molecule Parent IRI,0.138,11244
+iedb_tcell_neg_fixed.csv,Related Object.11|Source Organism,0.1397,90
+iedb_tcell_neg_fixed.csv,Related Object.12|Source Organism IRI,0.1368,75
+iedb_tcell_neg_fixed.csv,Related Object.13|Species,0.1368,59
+iedb_tcell_neg_fixed.csv,Related Object.14|Species IRI,0.1368,59
+cedar_tcell_pos_fixed.csv,Epitope ID|CEDAR IRI,1.0,15120
+cedar_tcell_pos_fixed.csv,Epitope|Object Type,1.0,1
+cedar_tcell_pos_fixed.csv,Epitope.1|Name,1.0,15120
+cedar_tcell_pos_fixed.csv,Epitope.2|Modified Residue(s),0.0138,110
+cedar_tcell_pos_fixed.csv,Epitope.3|Modifications,0.0138,19
+cedar_tcell_pos_fixed.csv,Epitope.4|Starting Position,0.6456,1876
+cedar_tcell_pos_fixed.csv,Epitope.5|Ending Position,0.6456,1905
+cedar_tcell_pos_fixed.csv,Epitope.6|IRI,0.0,0
+cedar_tcell_pos_fixed.csv,Epitope.7|Synonyms,0.0,0
+cedar_tcell_pos_fixed.csv,Epitope.8|Source Molecule,0.6679,1761
+cedar_tcell_pos_fixed.csv,Epitope.9|Source Molecule IRI,0.6653,2346
+cedar_tcell_pos_fixed.csv,Epitope.10|Molecule Parent,0.6679,1191
+cedar_tcell_pos_fixed.csv,Epitope.11|Molecule Parent IRI,0.6679,1215
+cedar_tcell_pos_fixed.csv,Epitope.12|Source Organism,0.6679,89
+cedar_tcell_pos_fixed.csv,Epitope.13|Source Organism IRI,0.6679,89
+cedar_tcell_pos_fixed.csv,Epitope.14|Species,0.6679,17
+cedar_tcell_pos_fixed.csv,Epitope.15|Species IRI,0.6679,17
+cedar_tcell_pos_fixed.csv,Epitope.16|Mutation,0.1856,2203
+cedar_tcell_pos_fixed.csv,Related Object|Epitope Relation,0.3335,6
+cedar_tcell_pos_fixed.csv,Related Object.1|Object Type,0.3335,5
+cedar_tcell_pos_fixed.csv,Related Object.2|Name,0.3333,4719
+cedar_tcell_pos_fixed.csv,Related Object.3|Starting Position,0.3041,1343
+cedar_tcell_pos_fixed.csv,Related Object.4|Ending Position,0.3041,1343
+cedar_tcell_pos_fixed.csv,Related Object.5|IRI,0.0,0
+cedar_tcell_pos_fixed.csv,Related Object.6|Synonyms,0.312,3398
+cedar_tcell_pos_fixed.csv,Related Object.7|Source Molecule,0.3121,3398
+cedar_tcell_pos_fixed.csv,Related Object.8|Source Molecule IRI,0.3062,3449
+cedar_tcell_pos_fixed.csv,Related Object.9|Molecule Parent,0.3206,3144
+cedar_tcell_pos_fixed.csv,Related Object.10|Molecule Parent IRI,0.3204,3265
+cedar_tcell_pos_fixed.csv,Related Object.11|Source Organism,0.3335,6
+cedar_tcell_pos_fixed.csv,Related Object.12|Source Organism IRI,0.3121,5
+cedar_tcell_pos_fixed.csv,Related Object.13|Species,0.3121,4
+cedar_tcell_pos_fixed.csv,Related Object.14|Species IRI,0.3121,4
+cedar_tcell_neg_fixed.csv,Epitope ID|CEDAR IRI,1.0,39467
+cedar_tcell_neg_fixed.csv,Epitope|Object Type,1.0,1
+cedar_tcell_neg_fixed.csv,Epitope.1|Name,1.0,39467
+cedar_tcell_neg_fixed.csv,Epitope.2|Modified Residue(s),0.0054,96
+cedar_tcell_neg_fixed.csv,Epitope.3|Modifications,0.0054,16
+cedar_tcell_neg_fixed.csv,Epitope.4|Starting Position,0.3838,2576
+cedar_tcell_neg_fixed.csv,Epitope.5|Ending Position,0.3838,2703
+cedar_tcell_neg_fixed.csv,Epitope.6|IRI,0.0,0
+cedar_tcell_neg_fixed.csv,Epitope.7|Synonyms,0.0,0
+cedar_tcell_neg_fixed.csv,Epitope.8|Source Molecule,0.3908,1794
+cedar_tcell_neg_fixed.csv,Epitope.9|Source Molecule IRI,0.3866,2243
+cedar_tcell_neg_fixed.csv,Epitope.10|Molecule Parent,0.3908,1261
+cedar_tcell_neg_fixed.csv,Epitope.11|Molecule Parent IRI,0.3908,1282
+cedar_tcell_neg_fixed.csv,Epitope.12|Source Organism,0.3908,71
+cedar_tcell_neg_fixed.csv,Epitope.13|Source Organism IRI,0.3908,71
+cedar_tcell_neg_fixed.csv,Epitope.14|Species,0.3908,16
+cedar_tcell_neg_fixed.csv,Epitope.15|Species IRI,0.3908,16
+cedar_tcell_neg_fixed.csv,Epitope.16|Mutation,0.4544,13219
+cedar_tcell_neg_fixed.csv,Related Object|Epitope Relation,0.6093,4
+cedar_tcell_neg_fixed.csv,Related Object.1|Object Type,0.6093,5
+cedar_tcell_neg_fixed.csv,Related Object.2|Name,0.6093,23484
+cedar_tcell_neg_fixed.csv,Related Object.3|Starting Position,0.5957,2665
+cedar_tcell_neg_fixed.csv,Related Object.4|Ending Position,0.5957,2668
+cedar_tcell_neg_fixed.csv,Related Object.5|IRI,0.0,0
+cedar_tcell_neg_fixed.csv,Related Object.6|Synonyms,0.59,12301
+cedar_tcell_neg_fixed.csv,Related Object.7|Source Molecule,0.5991,12438
+cedar_tcell_neg_fixed.csv,Related Object.8|Source Molecule IRI,0.595,13355
+cedar_tcell_neg_fixed.csv,Related Object.9|Molecule Parent,0.6039,10393
+cedar_tcell_neg_fixed.csv,Related Object.10|Molecule Parent IRI,0.6035,11046
+cedar_tcell_neg_fixed.csv,Related Object.11|Source Organism,0.6093,7
+cedar_tcell_neg_fixed.csv,Related Object.12|Source Organism IRI,0.5991,6
+cedar_tcell_neg_fixed.csv,Related Object.13|Species,0.5991,5
+cedar_tcell_neg_fixed.csv,Related Object.14|Species IRI,0.5991,5

@@ -1,0 +1,8 @@
+{
+  "api": "https://query-api.iedb.org/tcell_search",
+  "select": "tcell_id,tcell_iri,structure_id,structure_iri,linear_sequence,e_modification,qualitative_measure,assay_names,assay_description,host_organism_name,host_organism_iri,mhc_class,mhc_allele_name,mhc_restriction,mhc_allele_evidence,reference_id,reference_iri,pubmed_id,immunization_description,direct_ex_vivo_bool,parent_source_antigen_name,source_organism_name",
+  "page_size": 1000,
+  "order": "tcell_id",
+  "prefer": "count=exact",
+  "sleep_s": 0.12
+}

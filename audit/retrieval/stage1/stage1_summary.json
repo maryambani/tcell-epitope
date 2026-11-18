@@ -1,0 +1,52 @@
+{
+  "n_peptides_queried": 240,
+  "n_epitope_ids_queried": 240,
+  "n_observations": 2235,
+  "n_unique_tcell_id": 2235,
+  "log_status": {
+    "ok": 240
+  },
+  "elapsed_seconds": 199.43,
+  "seconds_per_epitope_id": 0.831,
+  "assays_per_peptide_min": 1,
+  "assays_per_peptide_median": 2,
+  "assays_per_peptide_max": 920,
+  "top_peptide": "NLVPMVATV",
+  "top_peptide_n": 920,
+  "frac_obs_from_top_peptide": 0.4116,
+  "endpoint_family": {
+    "functional_response": 1494,
+    "recognition_binding": 644,
+    "other_or_unresolved": 88,
+    "structural": 9
+  },
+  "outcome_family": {
+    "positive": 1858,
+    "negative": 377
+  },
+  "mhc_specificity": {
+    "allele": 1759,
+    "class_only": 44,
+    "serotype": 342,
+    "other": 58,
+    "missing": 32
+  },
+  "mhc_class": {
+    "I": 2087,
+    "II": 72,
+    "non classical": 44,
+    "MISSING": 32
+  },
+  "host_is_human_assays": 1927,
+  "n_mixed_outcome_peptides": 96,
+  "disagreement_classes": {
+    "across_known_context": 82,
+    "within_recorded_context": 14
+  },
+  "n_distinct_reference_id": 748,
+  "do_not_extrapolate_from_pilot": true,
+  "v2_labels_defined": false,
+  "retrieval_time_utc": "2026-11-07T10:27:24Z",
+  "n_epitope_id_requests": 240,
+  "disagreement_recomputed_after_ex_vivo_zero_fix": true
+}

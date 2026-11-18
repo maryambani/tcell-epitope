@@ -1,0 +1,33 @@
+{
+  "v2_labels_defined": false,
+  "retrieval_described_as_complete": true,
+  "collection": "historical_8_11_preconflict_54448",
+  "not_a_census_of_current_iedb": true,
+  "n_pool_peptides": 54448,
+  "n_pool_epitope_ids": 54448,
+  "n_manifest_rows": 54448,
+  "n_missing_ids_from_manifest": 0,
+  "n_extra_ids_in_manifest": 0,
+  "n_never_requested": 0,
+  "status_latest_per_id": {
+    "ok": 54448
+  },
+  "n_ok": 54448,
+  "n_empty": 0,
+  "n_fail": 0,
+  "n_incomplete": 0,
+  "n_historically_unresolved_file_rows": 2,
+  "n_currently_unresolved": 0,
+  "unresolved_note": "unresolved_queries.csv and completeness_log.csv are append-only history. n_historically_unresolved_file_rows counts every fail/incomplete row ever written, including attempts later superseded by a successful retry. n_currently_unresolved counts pool epitope IDs whose LATEST log row is fail or incomplete; only that number reflects outstanding retrieval gaps.",
+  "n_observations": 157300,
+  "n_unique_tcell_id": 157300,
+  "n_tcell_ids_with_duplicate_rows": 0,
+  "n_duplicate_rows_same_payload_multiple_linkages": 0,
+  "n_inconsistent_duplicate_payloads": 0,
+  "n_sequence_mismatches": 0,
+  "n_structure_id_mismatches": 0,
+  "n_peptide_link_issues": 0,
+  "frac_ids_resolved_ok_or_empty": 1.0,
+  "empty_is_not_fail": true,
+  "duplicates_not_discarded": true
+}

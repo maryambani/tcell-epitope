@@ -1,0 +1,90 @@
+{
+  "v2_labels_defined": false,
+  "illustrative_not_v2_policy": true,
+  "sampling_note": "Equal n per stratum. Peptide-level summaries reduce domination by heavily studied peptides; stratum-specific summaries reveal heterogeneity. Neither directly estimates full-pool coverage without accounting for the sampling design.",
+  "concentration_not_resolved": true,
+  "eligibility_headline": [
+    {
+      "subset_id": "all_observations",
+      "subset_label": "All recovered observations",
+      "n_peptides_with_eligible_assays": 240,
+      "n_peptides_positive_only": 59,
+      "n_peptides_negative_only": 83,
+      "n_peptides_mixed": 98,
+      "n_peptides_insufficient_unknown": 0,
+      "n_assays": 766,
+      "n_references": 266,
+      "frac_assays_from_NLVPMVATV": 0.0,
+      "n_v1_conflict_now_positive_only": 0,
+      "n_v1_conflict_now_negative_only": 0,
+      "n_v1_conflict_still_task_mixed": 96,
+      "n_v1_conflict_now_insufficient": 0
+    },
+    {
+      "subset_id": "human_host",
+      "subset_label": "Human host",
+      "n_peptides_with_eligible_assays": 164,
+      "n_peptides_positive_only": 44,
+      "n_peptides_negative_only": 63,
+      "n_peptides_mixed": 57,
+      "n_peptides_insufficient_unknown": 76,
+      "n_assays": 530,
+      "n_references": 176,
+      "frac_assays_from_NLVPMVATV": 0.0,
+      "n_v1_conflict_now_positive_only": 8,
+      "n_v1_conflict_now_negative_only": 10,
+      "n_v1_conflict_still_task_mixed": 56,
+      "n_v1_conflict_now_insufficient": 22
+    },
+    {
+      "subset_id": "human_class_I",
+      "subset_label": "Human host + annotated class I",
+      "n_peptides_with_eligible_assays": 150,
+      "n_peptides_positive_only": 36,
+      "n_peptides_negative_only": 59,
+      "n_peptides_mixed": 55,
+      "n_peptides_insufficient_unknown": 90,
+      "n_assays": 503,
+      "n_references": 162,
+      "frac_assays_from_NLVPMVATV": 0.0,
+      "n_v1_conflict_now_positive_only": 7,
+      "n_v1_conflict_now_negative_only": 8,
+      "n_v1_conflict_still_task_mixed": 54,
+      "n_v1_conflict_now_insufficient": 27
+    },
+    {
+      "subset_id": "human_class_I_functional",
+      "subset_label": "Human host + annotated class I + functional endpoint",
+      "n_peptides_with_eligible_assays": 111,
+      "n_peptides_positive_only": 25,
+      "n_peptides_negative_only": 45,
+      "n_peptides_mixed": 41,
+      "n_peptides_insufficient_unknown": 129,
+      "n_assays": 359,
+      "n_references": 132,
+      "frac_assays_from_NLVPMVATV": 0.0,
+      "n_v1_conflict_now_positive_only": 10,
+      "n_v1_conflict_now_negative_only": 7,
+      "n_v1_conflict_still_task_mixed": 41,
+      "n_v1_conflict_now_insufficient": 38
+    }
+  ],
+  "context_audit": {
+    "n_mixed_peptides": 98,
+    "disagreement_class": {
+      "across_known_context": 84,
+      "within_recorded_context": 14
+    },
+    "disagreement_detail": {
+      "across_known_context_both_families_have_complete_context": 78,
+      "mixed_after_matching_complete_context": 14,
+      "across_or_unmatched_pos_context_incomplete": 3,
+      "across_or_unmatched_neg_context_incomplete": 2,
+      "across_or_unmatched_both_families_incomplete": 1
+    },
+    "n_both_families_have_complete_context": 92,
+    "n_still_mixed_after_matching_recorded_context": 14,
+    "n_raw_allele_strings_differ": 34,
+    "note": "across_known_context is not automatically 'both families have complete context'. See disagreement_detail. Exact allele-string differences can prevent a match without a meaningful experimental difference. Raw allele strings and specificity flags are stored separately."
+  }
+}

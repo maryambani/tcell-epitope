@@ -1,0 +1,11 @@
+{
+  "structure_id": "not_an_integer",
+  "page_size": 50,
+  "order": "tcell_id",
+  "status": "fail",
+  "error": "HTTP Error 400: Bad Request",
+  "reported_total": null,
+  "n_rows": 0,
+  "n_unique_tcell_id": 0,
+  "pages": []
+}

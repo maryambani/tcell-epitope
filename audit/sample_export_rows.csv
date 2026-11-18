@@ -1,0 +1,33 @@
+export_file,source,assigned_label,epitope_id,peptide,object_type,modifications,source_molecule,source_organism,epitope_species,related_object_name,related_object_species
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/157254,FLPETEPPEI,Linear peptide,,unnamed protein product,Homo sapiens,Homo sapiens,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/2257867,KVLKCWNYR,Linear peptide,,,,,V-type proton ATPase subunit E 1 isoform a,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/1318192,HTTDPSFLGR,Linear peptide,,orf1ab polyprotein [Severe acute respiratory syndrome coronavirus 2],Severe acute respiratory syndrome coronavirus 2,Severe acute respiratory syndrome coronavirus 2,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/1918178,NQLESKMFG,Linear peptide,,nucleocapsid phosphoprotein [Severe acute respiratory syndrome coronavirus 2],SARS-CoV2 Alpha,Severe acute respiratory syndrome coronavirus 2,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/539900,SGMLWMADVPLQWIA,Linear peptide,,polyprotein,dengue virus type 3,Dengue virus,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/167206,AGTIAGLNVMRIINEPTAAA + CITR(R11),Linear peptide,Citrullination|CITR,Endoplasmic reticulum chaperone BiP,Homo sapiens,Homo sapiens,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/110960,PETTDLYCYEQLNDSSEEEDE,Linear peptide,,E7,Human papillomavirus 16,Alphapapillomavirus 9,,
+iedb_tcell_pos_fixed.csv,IEDB,1,http://www.iedb.org/epitope/2001192,LQSYGFQPTNGVGYQPYR,Linear peptide,,Spike glycoprotein,Severe acute respiratory syndrome coronavirus 2,Severe acute respiratory syndrome coronavirus 2,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/715,ADLMGYIPL,Linear peptide,,Genome polyprotein,Hepatitis C virus (isolate 1),Hepacivirus hominis,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/457011,MPRDILIVV,Linear peptide,,"glycine amidinotransferase, mitochondrial precursor",Homo sapiens,Homo sapiens,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/86125,LYMVVDGSV,Linear peptide,,Protein A51,Vaccinia virus WR,Vaccinia virus,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/1741621,ELLRSFFYV,Linear peptide,,Telomerase reverse transcriptase,Homo sapiens,Homo sapiens,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/205987,DRWVYEFGRRRNIAI,Linear peptide,,monooxygenase,Mycobacterium tuberculosis,Mycobacterium tuberculosis,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/113171,SQKVAKEGPRLSKNQKFSEHFS,Linear peptide,,MOBP170,Mus musculus,Mus musculus,,
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/2222132,TPIHLSAACGHIGVLEALLQSAASMDANPAT,Linear peptide,,,,,TPIHLSAACGHIGVLGALLQSAASMDANPAT,Homo sapiens
+iedb_tcell_neg_fixed.csv,IEDB,0,http://www.iedb.org/epitope/2193671,AGMTEFLKARRTSAA,Linear peptide,,TolQ-like translocation protein [Bordetella pertussis Tohama I],Bordetella pertussis Tohama I,Bordetella pertussis,,
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/1170567,SPPHPGRLPDL,Linear peptide,,,,,SPPRPGRLPDL,Homo sapiens
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/2271384,ISIFKTRNSF,Linear peptide,,,,,ISIFKTRNSS,Homo sapiens
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/2223612,KGYEGYYVL,Linear peptide,,,,,Homo sapiens (human),
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/27992,IPQCRLTPL,Linear peptide,,EBNA-1,human gammaherpesvirus 4,human gammaherpesvirus 4,,
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/946898,SFLVFFCAAWYIKGRLAPGA,Linear peptide,,polyprotein,Hepatitis C virus isolate HC-J4,Hepacivirus hominis,,
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/2233611,PIYSEEIVEMYKGKKRHEMPPHIYA,Linear peptide,,Myosin heavy chain 9,Homo sapiens,Homo sapiens,,
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/1972707,GIWSKVYDPLYC,Linear peptide,,Prostatic acid phosphatase,Homo sapiens,Homo sapiens,,
+cedar_tcell_pos_fixed.csv,CEDAR,1,https://cedar.iedb.org/epitope/2188822,SRAFQTREFIPLPWL,Linear peptide,,,,,SRAFQTREFIPLPRL,Homo sapiens
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/232562,RTLGLSAMS,Linear peptide,,X protein,Hepatitis B virus,Hepatitis B virus,,
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/1312428,FHETRQYKF,Linear peptide,,,,,FHGTRQYKF,Homo sapiens
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/32238,KLVVLGINAV,Linear peptide,,polyprotein [Hepatitis C virus subtype 1a],Hepacivirus hominis,Hepacivirus hominis,,
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/1312225,ASSYIILAM,Linear peptide,,,,,ASSYMILAM,Homo sapiens
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/2233519,GTRSAAREDDSICPFKVETSDEEIH,Linear peptide,,,,,GTRSAAREDDSIRPFKVETSDEEIH,Homo sapiens
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/1548666,KEFGRIDILINCVAGNFLCPAGALS,Linear peptide,,,,,KEFGRIDILINCAAGNFLCPAGALS,Homo sapiens
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/17406,FPSIRDLLDTASALYREALESPEHCSP,Linear peptide,,Core antigen,Hepatitis B virus,Hepatitis B virus,,
+cedar_tcell_neg_fixed.csv,CEDAR,0,https://cedar.iedb.org/epitope/1547107,GHSTNLPDLVSGMGDSANRVPFAPL,Linear peptide,,,,,GHSTNLPDLVSGLGDSANRVPFAPL,Homo sapiens

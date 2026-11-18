@@ -12,3 +12,6 @@ audit/retrieval/full/observations.csv
 audit/retrieval/full/completeness_log.csv
 audit/retrieval/*/raw/
 __pycache__/
+
+# Large binary outputs (regeneratable)
+audit/test_arrays_for_scoring.npz

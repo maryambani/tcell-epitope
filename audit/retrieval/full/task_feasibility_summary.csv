@@ -1,0 +1,9 @@
+subset_id,subset_label,n_peptides_with_eligible_assays,n_positive_only,n_negative_only,n_mixed,n_no_eligible_evidence_among_retrieved,n_not_yet_retrieved,n_eligible_uninterpretable_outcome,n_assays,n_mixed_peptides_with_mixed_complete_context_key,n_mixed_complete_context_groups,n_single_study_posneg_only,n_multi_study_posneg_only,n_study_connected_components_posneg_only,n_peptides_in_multi_study_components_posneg_only,largest_study_component_n_peptides_posneg_only,n_posneg_only_if_collapse_to_component_representatives,largest_hamming1_component_posneg_only,n_posneg_only_if_drop_hamming1_nonsingletons
+all_observations,All recovered observations,54448,14093,33424,6931,0,0,0,157300,1025,1495,41379,6138,1939,46727,22160,1939,72,42984
+human_host,Human host,35122,10518,20180,4424,19326,0,0,105079,623,923,28036,2662,1125,30270,17342,1125,71,27535
+human_class_I,Human host + annotated class I,31749,9336,18301,4112,22699,0,0,97830,589,863,25103,2534,883,27339,16610,883,38,24923
+human_class_I_functional,Human host + annotated class I + functional endpoint,23642,7015,13619,3008,30806,0,0,71059,512,744,18856,1778,870,20352,9723,870,20,18723
+human_class_I_functional_ifng_elispot,Human + class I + IFNg ELISPOT,15281,4143,9921,1217,39167,0,0,38490,216,223,12721,1343,450,13936,5976,450,20,12876
+human_class_I_functional_ifng_ics,Human + class I + IFNg ICS,3458,1757,1285,416,50990,0,0,7229,84,88,2756,286,258,2942,421,258,14,2728
+human_class_I_functional_chromium,Human + class I + chromium cytotoxicity,1963,1198,548,217,52485,0,0,4818,84,97,1575,171,392,1574,211,392,11,1473
+human_class_I_recognition_binding,"Human + class I + recognition/binding (contrast, not adopted)",11299,4707,5366,1226,43149,0,0,24304,108,113,8975,1098,322,9913,7344,322,143,8941

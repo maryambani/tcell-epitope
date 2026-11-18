@@ -1,0 +1,6 @@
+{
+  "exact_peptide_overlap_train_test": 0,
+  "test_sample_size_for_hamming": 1500,
+  "test_frac_with_hamming_le_1_same_length_train_neighbor": 0.08066666666666666,
+  "note": "Approximate; subsampled test peptides; same-length Hamming only. Study/HLA leakage cannot be checked: those fields were absent from exports."
+}

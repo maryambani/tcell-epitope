@@ -1,0 +1,7 @@
+stage,n_rows,n_unique_peptides,n_pos_rows,n_neg_rows,n_IEDB,n_CEDAR,removed_reason,n_removed_rows,n_removed_peptides,note
+0_raw_combined_rows,308790,227699,88555,220235,254203,54587,,,,
+1_valid_standard_AA_only,306431,226064,87253,219178,252268,54163,non-standard AA / empty / non-string,2359,,
+2_drop_conflicting_peptides,243130,199860,55592,187538,199860,43270,same peptide has both labels in combined_raw,,26504,
+3_dedupe_to_one_row_per_peptide,199860,199860,46138,153722,199860,0,duplicate peptide rows after conflict drop,43270,,
+4_length_filter_8_to_11,47602,47602,14147,33455,47602,0,"peptide length not in [8,11]",152258,,
+3b_combined_cleaned_csv_on_disk,199860,199860,46138,153722,199860,0,,,,output of clean_data.py (should match stage 3)

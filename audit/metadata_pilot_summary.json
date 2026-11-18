@@ -1,0 +1,233 @@
+{
+  "retrieval_date": "2026-11-07T05:18:06Z",
+  "snapshot_warning": "These assay records reflect IEDB at retrieval_date, not the 2025-11-03 export. Keep original query membership separate from newly retrieved outcomes.",
+  "n_peptides_sampled": 46,
+  "n_peptides_linked": 46,
+  "n_observations": 1110,
+  "n_distinct_studies": 430,
+  "field_coverage_among_observations": {
+    "qualitative_measure": {
+      "n_non_null": 1110,
+      "frac": 1.0
+    },
+    "assay_names": {
+      "n_non_null": 1110,
+      "frac": 1.0
+    },
+    "host_organism_name": {
+      "n_non_null": 1110,
+      "frac": 1.0
+    },
+    "mhc_class": {
+      "n_non_null": 1104,
+      "frac": 0.9946
+    },
+    "mhc_allele_name": {
+      "n_non_null": 1104,
+      "frac": 0.9946
+    },
+    "reference_id": {
+      "n_non_null": 1110,
+      "frac": 1.0
+    },
+    "pubmed_id": {
+      "n_non_null": 1084,
+      "frac": 0.9766
+    },
+    "immunization_description": {
+      "n_non_null": 1097,
+      "frac": 0.9883
+    },
+    "parent_source_antigen_name": {
+      "n_non_null": 1099,
+      "frac": 0.9901
+    },
+    "source_organism_name": {
+      "n_non_null": 1099,
+      "frac": 0.9901
+    }
+  },
+  "by_stratum": {
+    "retained_pos_iedb_only": {
+      "n_peptides_sampled": 10,
+      "n_peptides_with_assays": 10,
+      "n_assays": 33,
+      "n_studies": 11,
+      "host_top": [
+        [
+          "Homo sapiens (human)",
+          29
+        ],
+        [
+          "Mus musculus C57BL/6",
+          1
+        ],
+        [
+          "Mus musculus B10.LP",
+          1
+        ],
+        [
+          "Sus scrofa (pig)",
+          1
+        ],
+        [
+          "Mus musculus 2C TCR Tg",
+          1
+        ]
+      ],
+      "mhc_class": {
+        "I": 31,
+        "II": 2
+      },
+      "qualitative_measure": {
+        "Positive-High": 2,
+        "Positive": 23,
+        "Positive-Low": 8
+      }
+    },
+    "retained_neg_iedb_only": {
+      "n_peptides_sampled": 10,
+      "n_peptides_with_assays": 10,
+      "n_assays": 22,
+      "n_studies": 8,
+      "host_top": [
+        [
+          "Homo sapiens (human)",
+          18
+        ],
+        [
+          "Mus musculus HLA-A*02:01 Tg",
+          2
+        ],
+        [
+          "Sus scrofa Landrace X Large White",
+          1
+        ],
+        [
+          "Mus musculus C57BL/6",
+          1
+        ]
+      ],
+      "mhc_class": {
+        "I": 20,
+        "MISSING": 2
+      },
+      "qualitative_measure": {
+        "Negative": 22
+      }
+    },
+    "retained_both_databases": {
+      "n_peptides_sampled": 10,
+      "n_peptides_with_assays": 10,
+      "n_assays": 11,
+      "n_studies": 8,
+      "host_top": [
+        [
+          "Homo sapiens (human)",
+          10
+        ],
+        [
+          "Mus musculus HLA-A*02:01 Tg",
+          1
+        ]
+      ],
+      "mhc_class": {
+        "MISSING": 1,
+        "I": 10
+      },
+      "qualitative_measure": {
+        "Negative": 9,
+        "Positive-Low": 1,
+        "Positive": 1
+      }
+    },
+    "conflict_iedb_only": {
+      "n_peptides_sampled": 8,
+      "n_peptides_with_assays": 8,
+      "n_assays": 56,
+      "n_studies": 26,
+      "host_top": [
+        [
+          "Mus musculus C57BL/6",
+          26
+        ],
+        [
+          "Homo sapiens (human)",
+          25
+        ],
+        [
+          "Mus musculus HLA-A*02:01 Tg",
+          3
+        ],
+        [
+          "Mus musculus (mouse)",
+          2
+        ]
+      ],
+      "mhc_class": {
+        "I": 55,
+        "MISSING": 1
+      },
+      "qualitative_measure": {
+        "Negative": 16,
+        "Positive": 34,
+        "Positive-High": 3,
+        "Positive-Low": 2,
+        "Positive-Intermediate": 1
+      }
+    },
+    "conflict_both_databases": {
+      "n_peptides_sampled": 8,
+      "n_peptides_with_assays": 8,
+      "n_assays": 988,
+      "n_studies": 385,
+      "host_top": [
+        [
+          "Homo sapiens (human)",
+          941
+        ],
+        [
+          "Mus musculus HLA-A2 Tg",
+          22
+        ],
+        [
+          "Mus musculus HLA-A*02:01 Tg",
+          19
+        ],
+        [
+          "Homo sapiens Caucasian",
+          2
+        ],
+        [
+          "Mus musculus HLA-DR1 Tg",
+          1
+        ],
+        [
+          "Mus musculus SCID (NOD.CB17-Prkdc<sup>scid</sup>)",
+          1
+        ],
+        [
+          "Mus musculus C57BL/6",
+          1
+        ],
+        [
+          "Mus musculus HLA-A*11:01 Tg",
+          1
+        ]
+      ],
+      "mhc_class": {
+        "I": 976,
+        "MISSING": 2,
+        "II": 10
+      },
+      "qualitative_measure": {
+        "Positive": 901,
+        "Negative": 46,
+        "Positive-High": 12,
+        "Positive-Low": 28,
+        "Positive-Intermediate": 1
+      }
+    }
+  },
+  "wording_for_exports": "The query-level restriction is documented (Linear peptides, T Cell Assay, Outcome Positive/Negative), but assay subtypes and experimental contexts cannot be verified from the retained epitope-level exports."
+}

@@ -1,0 +1,130 @@
+{
+  "split": "V1 reconstructed stratified random holdout (random_state=42)",
+  "n_train": 38081,
+  "n_test": 9521,
+  "exact_overlap": 0,
+  "full_test_same_length_hamming": {
+    "n_test_with_min_d_le_1": 761,
+    "frac_test_with_min_d_le_1": 0.0799,
+    "n_those_only_same_label_neighbors": 586,
+    "n_those_only_diff_label_neighbors": 113,
+    "distance_histogram": {
+      "1": 761,
+      "2": 380,
+      "3": 1222,
+      "4": 3812,
+      "5": 2251,
+      "6": 839,
+      "7": 251,
+      "8": 5
+    },
+    "by_length": {
+      "8": {
+        "n_test": 881,
+        "n_min_d_le_1": 90,
+        "frac": 0.1022,
+        "distance_histogram": {
+          "1": 90,
+          "2": 52,
+          "3": 317,
+          "4": 359,
+          "5": 63
+        }
+      },
+      "9": {
+        "n_test": 5166,
+        "n_min_d_le_1": 447,
+        "frac": 0.0865,
+        "distance_histogram": {
+          "1": 447,
+          "2": 227,
+          "3": 837,
+          "4": 3039,
+          "5": 615,
+          "6": 1
+        }
+      },
+      "10": {
+        "n_test": 2604,
+        "n_min_d_le_1": 175,
+        "frac": 0.0672,
+        "distance_histogram": {
+          "1": 175,
+          "2": 85,
+          "3": 59,
+          "4": 394,
+          "5": 1481,
+          "6": 409,
+          "7": 1
+        }
+      },
+      "11": {
+        "n_test": 870,
+        "n_min_d_le_1": 49,
+        "frac": 0.0563,
+        "distance_histogram": {
+          "1": 49,
+          "2": 16,
+          "3": 9,
+          "4": 20,
+          "5": 92,
+          "6": 429,
+          "7": 250,
+          "8": 5
+        }
+      }
+    }
+  },
+  "different_length_containment": {
+    "n_test_contained_or_containing_train": 2250,
+    "frac": 0.2363,
+    "note": "Substring relationship across lengths; not a grouping rule."
+  },
+  "connected_components_same_length_hamming_le_1": {
+    "n_components": 44673,
+    "max_size": 72,
+    "median_size": 1.0,
+    "n_size_ge_2": 1617,
+    "n_size_ge_10": 47,
+    "n_peptides_in_size_ge_2": 4546,
+    "top10_sizes": [
+      72,
+      71,
+      67,
+      63,
+      38,
+      22,
+      21,
+      20,
+      19,
+      19
+    ]
+  },
+  "connected_components_exact_sequence": {
+    "n_components": 47602,
+    "max_size": 1,
+    "median_size": 1.0,
+    "n_size_ge_2": 0,
+    "n_size_ge_10": 0,
+    "n_peptides_in_size_ge_2": 0,
+    "top10_sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "prior_quickcheck": {
+    "n_sampled": 1500,
+    "frac_d_le_1": 0.0807,
+    "selection": "numpy default_rng(42) choice without replacement from test peptides",
+    "note": "Quickcheck is a subsample. Use full-test numbers above for design, not score chasing."
+  },
+  "do_not": "Do not pick a similarity cutoff to maximize or minimize V1 AUC. Keep the random split as a reference; a similarity-separated evaluation answers a different question."
+}

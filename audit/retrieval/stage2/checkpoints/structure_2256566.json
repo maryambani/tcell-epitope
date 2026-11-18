@@ -1,0 +1,26 @@
+{
+  "structure_id": "2256566",
+  "page_size": 1000,
+  "order": "tcell_id",
+  "status": "ok",
+  "error": "",
+  "reported_total": 1,
+  "n_rows": 1,
+  "n_unique_tcell_id": 1,
+  "pages": [
+    {
+      "offset": 0,
+      "n": 1,
+      "n_new_ids": 1,
+      "sha256": "af61b97969512d30770f9bb3c322acc588276b27eb3e99b1585b61cd76d1181d",
+      "content_range": "0-0/1",
+      "range_start": 0,
+      "range_end": 0,
+      "reported_total": 1,
+      "first_tcell_id": 22788700,
+      "last_tcell_id": 22788700,
+      "raw_path": "audit/retrieval/stage2/raw/structure_2256566_limit_1000_offset_0.json",
+      "retrieval_time_utc": "2026-11-07T18:12:51Z"
+    }
+  ]
+}

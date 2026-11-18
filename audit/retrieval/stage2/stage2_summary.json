@@ -1,0 +1,54 @@
+{
+  "n_peptides_queried": 240,
+  "n_epitope_ids_queried": 240,
+  "n_observations": 766,
+  "n_unique_tcell_id": 766,
+  "log_status": {
+    "ok": 240
+  },
+  "elapsed_seconds": 133.63,
+  "seconds_per_epitope_id": 0.557,
+  "assays_per_peptide_min": 1,
+  "assays_per_peptide_median": 2,
+  "assays_per_peptide_max": 40,
+  "top_peptide": "ALDPHSGHFV",
+  "top_peptide_n": 40,
+  "frac_obs_from_top_peptide": 0.0522,
+  "endpoint_family": {
+    "functional_response": 604,
+    "recognition_binding": 132,
+    "other_or_unresolved": 30
+  },
+  "outcome_family": {
+    "positive": 420,
+    "negative": 346
+  },
+  "mhc_specificity": {
+    "allele": 565,
+    "class_only": 24,
+    "other": 51,
+    "serotype": 94,
+    "missing": 32
+  },
+  "mhc_class": {
+    "I": 694,
+    "II": 38,
+    "MISSING": 32,
+    "non classical": 2
+  },
+  "host_is_human_assays": 530,
+  "n_mixed_outcome_peptides": 98,
+  "disagreement_classes": {
+    "across_known_context": 84,
+    "within_recorded_context": 14
+  },
+  "n_distinct_reference_id": 266,
+  "n_unresolved_peptides": 0,
+  "do_not_extrapolate_from_pilot": true,
+  "v2_labels_defined": false,
+  "retrieval_time_utc": "2026-11-07T18:11:32Z",
+  "n_epitope_id_requests": 240,
+  "n_unresolved_queries": 0,
+  "n_peptides_with_ok_or_empty": 240,
+  "n_peptides_queried_unresolved": 0
+}

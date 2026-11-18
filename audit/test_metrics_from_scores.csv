@@ -1,0 +1,4 @@
+model,partition,n,roc_auc,average_precision,ap_definition
+LogisticRegression,test,9521,0.6337393249621215,0.42340387446338384,"sklearn.metrics.average_precision_score(y_true, continuous scores)"
+RandomForest,test,9521,0.7023937011533344,0.5705471781137113,"sklearn.metrics.average_precision_score(y_true, continuous scores)"
+CNN,test,9521,0.6489134711307263,0.45118668301481324,"sklearn.metrics.average_precision_score(y_true, continuous scores)"

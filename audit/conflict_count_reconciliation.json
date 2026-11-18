@@ -1,0 +1,12 @@
+{
+  "n_export_rows": 308790,
+  "n_unique_peptides_any": 227699,
+  "n_unique_valid_aa": 226064,
+  "n_conflicting_peptides_any_including_invalid_aa": 26504,
+  "n_conflicting_peptides_valid_aa": 26204,
+  "n_retained_valid_aa_any_length": 199860,
+  "n_valid_8_11": 54448,
+  "n_valid_8_11_conflict": 6846,
+  "n_valid_8_11_retained": 47602,
+  "note": "26,504-style count is unique peptides with both pos and neg membership before requiring standard AA. The valid-AA conflict count is smaller. V1 modeling set is the length 8-11 slice of retained valid peptides."
+}

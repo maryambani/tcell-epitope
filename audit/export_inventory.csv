@@ -1,0 +1,5 @@
+file,source,file_label,n_rows,n_cols,peptide_col_used,n_unique_peptide_name,n_unique_epitope_id
+iedb_tcell_pos_fixed.csv,IEDB,1,73435,32,Epitope.1|Name,73435,73435
+iedb_tcell_neg_fixed.csv,IEDB,0,180768,32,Epitope.1|Name,180768,180768
+cedar_tcell_pos_fixed.csv,CEDAR,1,15120,33,Epitope.1|Name,15120,15120
+cedar_tcell_neg_fixed.csv,CEDAR,0,39467,33,Epitope.1|Name,39467,39467

@@ -1,0 +1,1035 @@
+reference_id,n_peptides,n_peptides_exclusive,n_positive_only,n_negative_only,n_mixed,n_uninterpretable,n_peptides_globally_posneg_only,n_exclusive_globally_posneg_only,n_assays,top3_host_organism_name,top3_mhc_allele_name,top3_assay_names,pubmed_id
+1001865,5636,4804,0,5636,0,0,5520,4804,20274,Homo sapiens (human) (20274),HLA-A*33:01 (1582); HLA-A*33:03 (1531); HLA-A*68:01 (1340),IFNg release|ELISPOT (20274),
+1039665,366,354,18,348,0,0,361,354,374,Homo sapiens (human) (374),HLA-A*02:01 (68); HLA-B*08:01 (38); HLA-B*27:05 (38),IFNg release|ELISPOT (374),33479501
+1045556,240,225,81,159,0,0,226,225,241,Homo sapiens (human) (241),HLA-B*57:01 (42); HLA-A*31:01 (40); HLA-B*44:03 (37),IFNg release|ELISPOT (241),39840067
+1043337,225,225,4,214,7,0,218,218,238,Homo sapiens (human) (238),HLA-A*01:01 (84); HLA-A*02:01 (57); HLA-A*11:01 (52),IFNg release|ELISPOT (238),23644516
+1024519,375,223,375,0,0,0,370,223,408,Homo sapiens (human) (408),HLA-B*35:01 (96); HLA-B*07:02 (54); HLA-B*58:01 (41),IFNg release|ELISPOT (408),
+1026371,258,193,53,204,1,0,227,192,259,Homo sapiens (human) (259),HLA-A*02:01 (149); HLA-B*07:02 (110),IFNg release|ELISPOT (259),23543059
+1027503,299,181,299,0,0,0,299,181,314,Homo sapiens (human) (314),HLA-B*08:01 (102); HLA-B*35:01 (101); HLA-B*07:02 (20),IFNg release|ELISPOT (314),
+1041806,174,174,8,162,4,0,170,170,183,Homo sapiens (human) (183),HLA-A23 (80); HLA-B8 (69); HLA-A1 (34),IFNg release|ELISPOT (183),35413271
+1034576,172,171,55,100,17,0,154,154,191,Homo sapiens (human) (191),HLA-A*02:01 (191),IFNg release|ELISPOT (191),30713784
+1041879,213,159,1,195,17,0,156,146,445,Homo sapiens (human) (445),human (426); HLA-A*11:01 (6); HLA-A*24:02 (4),IFNg release|ELISPOT (445),36603583
+1039102,160,159,4,152,4,0,155,155,168,Homo sapiens (human) (168),HLA-A*03:01 (22); HLA-A*68:01 (18); HLA-A*68:02 (17),IFNg release|ELISPOT (168),30556813
+1043273,161,152,29,131,1,0,160,151,169,Homo sapiens (human) (169),HLA-A3 (30); HLA-A24 (29); HLA-B44 (29),IFNg release|ELISPOT (169),37705976
+1030971,164,146,2,162,0,0,151,146,165,Homo sapiens (human) (165),HLA-A*02:01 (165),IFNg release|ELISPOT (165),27821860
+1004633,202,138,61,138,3,0,171,136,212,Homo sapiens (human) (212),HLA-A2 (69); HLA-A1 (29); HLA-A24 (24),IFNg release|ELISPOT (212),12692225
+1001794,899,131,80,810,9,0,806,131,1221,Homo sapiens (human) (1221),HLA-A*03:01 (279); HLA-A*11:01 (245); HLA-A*02:01 (161),IFNg release|ELISPOT (1221),
+1037748,115,110,0,114,1,0,110,110,117,Homo sapiens (human) (117),HLA-C*14:03 (21); HLA-A*02:01 (20); HLA-A*30:01 (17),IFNg release|ELISPOT (117),24323902
+1042182,108,108,24,84,0,0,108,108,108,Homo sapiens (human) (108),HLA-A*02:01 (22); HLA-C*03:03 (13); HLA-B*07:02 (8),IFNg release|ELISPOT (108),35727629
+1013628,101,101,1,100,0,0,101,101,101,Homo sapiens (human) (101),HLA-A*02:02 (100); HLA-A1 (1),IFNg release|ELISPOT (101),12667209
+1030086,110,100,45,65,0,0,106,100,110,Homo sapiens (human) (110),HLA-B*07:02 (41); HLA-A*03:01 (18); HLA-A*11:01 (8),IFNg release|ELISPOT (110),26983786
+1038969,135,98,124,11,0,0,116,98,135,Homo sapiens (human) (135),HLA-A*02:01 (135),IFNg release|ELISPOT (135),33633736
+1043722,99,98,64,35,0,0,98,98,99,Homo sapiens (human) (99),HLA-B*07:02 (15); HLA-B*53:01 (15); HLA-A*23:01 (14),IFNg release|ELISPOT (99),38244726
+1045036,94,94,94,0,0,0,94,94,97,Homo sapiens (human) (97),HLA-B*15:01 (24); HLA-A*24:02 (14); HLA-A*02:07 (14),IFNg release|ELISPOT (97),39559350
+1003942,94,93,3,68,23,0,70,70,120,Homo sapiens (human) (120),HLA-A*02:01 (120),IFNg release|ELISPOT (120),15848276
+1036355,100,91,100,0,0,0,94,91,103,Homo sapiens (human) (103),HLA-A*02:01 (19); HLA-B*07:02 (17); HLA-A*01:01 (15),IFNg release|ELISPOT (103),31869419
+1029098,90,89,0,90,0,0,90,89,90,Homo sapiens (human) (90),HLA-A*02:01 (90),IFNg release|ELISPOT (90),26061065
+1039475,91,88,17,73,1,0,88,87,116,Homo sapiens (human) (116),HLA-A3 (19); HLA-B27 (16); HLA-A1 (15),IFNg release|ELISPOT (116),34506564
+1003735,84,84,30,54,0,0,84,84,84,Homo sapiens (human) (84),human (84),IFNg release|ELISPOT (84),17397010
+1015029,90,83,90,0,0,0,85,83,90,Homo sapiens (human) (90),human (85); HLA-B*35:01 (5),IFNg release|ELISPOT (90),18941227
+307,87,83,11,76,0,0,83,83,90,Homo sapiens (human) (90),human (77); HLA-A*24:02 (6); HLA-C*03:04 (2),IFNg release|ELISPOT (90),15166436
+1041391,75,75,3,72,0,0,75,75,75,Homo sapiens (human) (75),HLA-A*24:02 (23); HLA-A*11:01 (19); HLA-B*07:02 (17),IFNg release|ELISPOT (75),35122353
+1037486,96,67,6,68,22,0,65,57,196,Homo sapiens (human) (196),HLA-B*15:01 (20); HLA-A*11:01 (20); HLA-A*02:01 (20),IFNg release|ELISPOT (196),32999467
+1042742,65,59,13,52,0,0,59,59,65,Homo sapiens (human) (65),human (65),IFNg release|ELISPOT (65),37376412
+1005858,75,57,5,70,0,0,70,57,79,Homo sapiens (human) (79),HLA-A*24:02 (79),IFNg release|ELISPOT (79),11535524
+1028546,94,55,94,0,0,0,94,55,109,Homo sapiens (human) (109),HLA-B*35:01 (19); HLA-B*07:02 (15); HLA-A*03:01 (8),IFNg release|ELISPOT (109),25320311
+1031480,62,52,8,54,0,0,62,52,74,Homo sapiens (human) (74),HLA-A*01:01 (20); HLA-B*07:02 (11); HLA-B*41:02 (11),IFNg release|ELISPOT (74),28978707
+1035088,50,50,16,34,0,0,50,50,50,Homo sapiens (human) (50),HLA-A*02:01 (44); HLA-A*24:02 (6),IFNg release|ELISPOT (50),31015529
+1013134,104,49,8,96,0,0,91,49,105,Homo sapiens (human) (105),HLA-B7 (15); HLA-A2 (13); HLA-A26 (12),IFNg release|ELISPOT (105),18797815
+1029115,54,47,25,16,13,0,38,36,90,Homo sapiens (human) (90),HLA-A*02:01 (29); HLA-B*27:01 (12); HLA-B*27:05 (9),IFNg release|ELISPOT (90),26107956
+1047202,49,47,21,28,0,0,47,47,49,Homo sapiens (human) (49),HLA-A*24:02 (49),IFNg release|ELISPOT (49),22778556
+1033905,59,46,50,9,0,0,52,46,59,Homo sapiens (human) (59),HLA-A*02:01 (14); HLA-B*07:02 (8); HLA-B*15:01 (7),IFNg release|ELISPOT (59),30154146
+1039752,47,46,0,47,0,0,47,46,47,Homo sapiens (human) (47),HLA-B*27:05 (24); HLA-A*03:01 (23),IFNg release|ELISPOT (47),34518289
+1029871,45,45,31,14,0,0,45,45,45,Homo sapiens (human) (45),human (20); HLA-A11 (17); HLA-A24 (3),IFNg release|ELISPOT (45),22869377
+1043723,44,44,44,0,0,0,44,44,44,Homo sapiens (human) (44),HLA-A*03:01 (8); HLA-B*57:01 (8); HLA-A*02:01 (7),IFNg release|ELISPOT (44),35970920
+1015058,51,42,50,1,0,0,50,42,51,Homo sapiens (human) (51),HLA-A*02:01 (48); HLA-B8 (1); HLA-B27 (1),IFNg release|ELISPOT (51),19412183
+1019286,41,41,30,2,9,0,32,32,50,Homo sapiens (human) (50),HLA-A*02:01 (50),IFNg release|ELISPOT (50),20160060
+1043979,41,39,8,33,0,0,39,39,41,Homo sapiens (human) (41),HLA-A*02:01 (41),IFNg release|ELISPOT (41),28536262
+1038399,40,39,19,21,0,0,39,39,40,Homo sapiens (human) (40),HLA-A*02:01 (40),IFNg release|ELISPOT (40),33665637
+1005857,45,36,16,29,0,0,40,36,49,Homo sapiens (human) (49),HLA-A*24:02 (49),IFNg release|ELISPOT (49),12393434
+1047335,39,36,2,30,7,0,30,29,94,Homo sapiens (human) (94),human (75); HLA-A*02:01 (4); HLA-B*27:05 (4),IFNg release|ELISPOT (94),40861436
+1022258,60,35,23,37,0,0,46,35,60,Homo sapiens (human) (60),HLA-A2 (39); HLA-B7 (21),IFNg release|ELISPOT (60),19559119
+1028510,39,35,21,1,17,0,19,19,63,Homo sapiens (human) (63),HLA-B7 (12); HLA-A*02:01 (10); human (8),IFNg release|ELISPOT (63),25548167
+1034934,38,35,0,31,7,0,28,28,76,Homo sapiens (human) (76),HLA-B*08:01 (10); HLA-A*01:01 (10); HLA-A*02:01 (10),IFNg release|ELISPOT (76),29789417
+1046844,35,35,10,25,0,0,35,35,35,Homo sapiens (human) (35),HLA-A*02:01 (35),IFNg release|ELISPOT (35),40273911
+1037171,35,34,35,0,0,0,35,34,54,Homo sapiens (human) (54),HLA-B*57:01 (54),IFNg release|ELISPOT (54),32716298
+1003536,33,33,17,16,0,0,33,33,33,Homo sapiens (human) (33),HLA-A*02:01 (25); HLA-A*24:02 (6); HLA-B*44:03 (2),IFNg release|ELISPOT (33),17291638
+1013149,33,33,3,29,1,0,32,32,47,Homo sapiens (human) (47),HLA-A*02:01 (35); HLA-A*01:01 (12),IFNg release|ELISPOT (47),18753217
+1013714,38,32,38,0,0,0,36,32,38,Homo sapiens (human) (38),HLA-A2 (17); HLA-B44 (10); HLA-A3 (5),IFNg release|ELISPOT (38),18842709
+1020882,35,32,29,6,0,0,35,32,35,Homo sapiens (human) (35),HLA-A*02:01 (9); HLA-A*01:01 (8); HLA-B*39:01 (3),IFNg release|ELISPOT (35),20856867
+1012343,31,31,0,31,0,0,31,31,62,Homo sapiens (human) (62),HLA-B*07:02 (62),IFNg release|ELISPOT (62),18444086
+1014154,50,30,50,0,0,0,41,30,141,Homo sapiens (human) (141),HLA-A23 (11); HLA-A24 (10); HLA-B7 (9),IFNg release|ELISPOT (141),17705138
+1044947,50,30,48,0,2,0,35,29,75,Homo sapiens (human) (75),HLA-A*26:01 (12); HLA-A*24:02 (11); HLA-C*12:03 (6),IFNg release|ELISPOT (75),39394480
+1040671,43,30,43,0,0,0,36,30,56,Homo sapiens (human) (56),HLA-A*02:01 (17); HLA-A*02:07 (13); HLA-A*11:01 (11),IFNg release|ELISPOT (56),35464415
+1044681,30,30,28,2,0,0,30,30,30,Homo sapiens (human) (30),HLA-A*01:01 (6); HLA-A*03:01 (5); HLA-A*02:01 (5),IFNg release|ELISPOT (30),25629522
+1037980,52,29,14,7,31,0,19,15,98,Homo sapiens (human) (98),HLA-A*02:01 (28); HLA-A*11:01 (18); HLA-B*44:03 (10),IFNg release|ELISPOT (98),32582212
+1039268,29,29,3,26,0,0,29,29,29,Homo sapiens (human) (29),human (26); HLA-B*44:03 (1); HLA-A*02:24 (1),IFNg release|ELISPOT (29),31221207
+1013407,54,28,51,3,0,0,52,28,54,Homo sapiens (human) (54),HLA-A*02:01 (27); HLA-A2 (16); HLA-A3 (9),IFNg release|ELISPOT (54),18846233
+1022253,29,28,6,15,8,0,20,20,43,Homo sapiens (human) (43),HLA-A11 (25); HLA-A24 (14); HLA-A2 (4),IFNg release|ELISPOT (43),21503915
+1021063,28,27,1,17,10,0,18,18,91,Homo sapiens (human) (91),HLA-A11 (56); HLA-A24 (22); HLA-A2 (13),IFNg release|ELISPOT (91),20668141
+1036986,27,27,0,2,25,0,2,2,81,Homo sapiens (human) (81),HLA-A*02:01 (81),IFNg release|ELISPOT (81),32198668
+1005870,29,26,26,3,0,0,29,26,29,Homo sapiens (human) (29),HLA-A2 (29),IFNg release|ELISPOT (29),17492596
+1022393,35,25,0,35,0,0,26,25,35,Homo sapiens (human) (35),HLA-A*02:01 (13); HLA-A1 (6); HLA-B*07:02 (5),IFNg release|ELISPOT (35),21846636
+1012295,29,25,16,13,0,0,26,25,31,Homo sapiens (human) (31),HLA-A2 (31),IFNg release|ELISPOT (31),18582999
+1041068,26,25,4,22,0,0,26,25,26,Homo sapiens (human) (26),HLA-A*11:01 (26),IFNg release|ELISPOT (26),32793190
+1042127,25,25,0,21,4,0,21,21,38,Homo sapiens (human) (38),HLA-A*02:01 (13); HLA-B*07:02 (13); HLA-A*03:01 (6),IFNg release|ELISPOT (38),28619968
+1037870,24,24,5,0,19,0,5,5,48,Homo sapiens (human) (48),HLA-A*02:01 (48),IFNg release|ELISPOT (48),33329543
+1045495,24,24,2,17,5,0,19,19,48,Homo sapiens (human) (48),HLA-A2 (20); HLA-B35 (16); HLA-A24 (12),IFNg release|ELISPOT (48),39738923
+1028443,37,23,29,8,0,0,33,23,37,Homo sapiens (human) (37),HLA-B*07:02 (12); HLA-A*02:01 (10); HLA-A*11:01 (9),IFNg release|ELISPOT (37),21918184
+1037874,23,23,18,5,0,0,23,23,23,Homo sapiens (human) (23),human (11); HLA-A*02:01 (4); HLA-B*07:02 (2),IFNg release|ELISPOT (23),33230881
+1044972,29,22,29,0,0,0,23,22,30,Homo sapiens (human) (30),HLA-A*02:01 (30),IFNg release|ELISPOT (30),39456150
+1039736,25,22,5,20,0,0,24,22,25,Homo sapiens (human) (25),HLA-A*02:01 (25),IFNg release|ELISPOT (25),34724090
+1030307,22,22,19,0,3,0,19,19,29,Homo sapiens (human) (29),HLA-B*40:01 (10); human (4); HLA-A*02:05 (2),IFNg release|ELISPOT (29),26631611
+1030713,22,22,22,0,0,0,22,22,22,Homo sapiens (human) (22),HLA-A*11:01 (22),IFNg release|ELISPOT (22),27072810
+1022512,44,21,0,44,0,0,22,21,62,Homo sapiens (human) (62),HLA-A*02:01 (36); HLA-A*03:01 (26),IFNg release|ELISPOT (62),21551190
+1035473,31,21,24,7,0,0,23,21,31,Homo sapiens (human) (31),HLA-A2 (31),IFNg release|ELISPOT (31),31331771
+1026891,27,21,12,15,0,0,23,21,27,Homo sapiens (human) (27),HLA-A*11:01 (11); HLA-A*24:02 (10); HLA-B*40:01 (2),IFNg release|ELISPOT (27),24058176
+1027077,27,21,27,0,0,0,25,21,33,Homo sapiens (human) (33),human (12); HLA-A*02:01 (7); HLA-B*07:02 (4),IFNg release|ELISPOT (33),24146041
+1019788,28,20,28,0,0,0,24,20,115,Homo sapiens (human) (115),HLA-A*11:01 (9); HLA-A*31:01 (9); HLA-A*68:01 (9),IFNg release|ELISPOT (115),20156506
+1038271,20,20,3,17,0,0,20,20,20,Homo sapiens (human) (20),HLA-A*02:06 (10); HLA-A*02:01 (6); HLA-A*11:02 (4),IFNg release|ELISPOT (20),33262196
+1044352,29,19,19,10,0,0,24,19,31,Homo sapiens (human) (31),human (12); HLA-A*02:01 (5); HLA-B*27:04 (3),IFNg release|ELISPOT (31),38866784
+1042344,20,19,7,4,9,0,11,11,40,Homo sapiens (human) (40),HLA-A*02:01 (18); HLA-A*29:02 (14); HLA-A*03:01 (8),IFNg release|ELISPOT (40),36284347
+1016598,19,19,18,1,0,0,19,19,19,Homo sapiens (human) (19),HLA-A3 (10); HLA-A24 (5); HLA-A1 (4),IFNg release|ELISPOT (19),19446588
+1033608,19,19,5,14,0,0,19,19,19,Homo sapiens (human) (19),HLA-A*24:02 (19),IFNg release|ELISPOT (19),30140382
+1045596,19,19,11,8,0,0,19,19,19,Homo sapiens (human) (19),HLA-A*02:01 (15); HLA-A*11:01 (4),IFNg release|ELISPOT (19),39725148
+1031485,36,18,36,0,0,0,36,18,37,Homo sapiens (human) (37),HLA-A*02:01 (16); HLA-B*07:02 (8); HLA-B*58:01 (5),IFNg release|ELISPOT (37),28148797
+1048673,25,18,24,1,0,0,20,18,25,Homo sapiens (human) (25),HLA-A*02:01 (25),IFNg release|ELISPOT (25),42181242
+1029726,22,18,5,9,8,0,14,13,66,Homo sapiens (human) (66),HLA-A*24:02 (13); HLA-A*03:01 (11); HLA-A*02:01 (10),IFNg release|ELISPOT (66),26092843
+1030790,20,18,8,12,0,0,19,18,23,Homo sapiens (human) (23),HLA-A*01:01 (9); HLA-A*02:01 (6); HLA-B*08:01 (6),IFNg release|ELISPOT (23),27717382
+1037891,18,18,2,16,0,0,18,18,18,Homo sapiens (human) (18),HLA-A*02:01 (18),IFNg release|ELISPOT (18),33257508
+1024474,25,17,6,14,5,0,16,16,58,Homo sapiens (human) (58),HLA-A2 (58),IFNg release|ELISPOT (58),22701633
+1022035,22,17,4,18,0,0,19,17,23,Homo sapiens (human) (23),HLA-A*02:01 (23),IFNg release|ELISPOT (23),21668362
+1008057,17,17,0,17,0,0,17,17,18,Homo sapiens (human) (18),HLA-A*02:01 (18),IFNg release|ELISPOT (18),12133270
+1022978,17,17,2,15,0,0,17,17,19,Homo sapiens (human) (19),HLA-A*02:01 (19),IFNg release|ELISPOT (19),22267603
+1043446,17,17,12,5,0,0,17,17,17,Homo sapiens (human) (17),HLA-A*02:01 (14); HLA-A*11:01 (2); HLA-B*07:02 (1),IFNg release|ELISPOT (17),29563135
+1036700,31,16,31,0,0,0,31,16,66,Homo sapiens (human) (66),HLA-B*07:02 (22); HLA-A*23:01 (15); HLA-B*35:01 (11),IFNg release|ELISPOT (66),32132233
+1024927,24,16,18,5,1,0,23,16,49,Homo sapiens Caucasian (39); Homo sapiens (human) (10),HLA-A*02:01 (49),IFNg release|ELISPOT (49),16388312
+1005887,21,16,21,0,0,0,17,16,21,Homo sapiens (human) (21),HLA-B7 (21),IFNg release|ELISPOT (21),14981767
+1006383,16,16,0,16,0,0,16,16,17,Homo sapiens (human) (17),HLA-A*68:02 (17),IFNg release|ELISPOT (17),11168000
+1006652,44,15,42,2,0,0,20,15,44,Homo sapiens (human) (44),HLA-A2 (40); human (4),IFNg release|ELISPOT (44),17488297
+315582,20,15,14,5,1,0,15,14,23,Homo sapiens (human) (23),HLA-A*02:01 (21); human (2),IFNg release|ELISPOT (23),11012976
+1025143,16,15,6,10,0,0,16,15,18,Homo sapiens (human) (18),HLA-A*24:02 (16); HLA-A*11:01 (2),IFNg release|ELISPOT (18),23015716
+1038348,16,15,16,0,0,0,16,15,25,Homo sapiens (human) (25),HLA-A*02:01 (25),IFNg release|ELISPOT (25),33323464
+1038531,16,15,2,9,5,0,11,11,26,Homo sapiens (human) (26),HLA-A*02:01 (26),IFNg release|ELISPOT (26),33123756
+1039333,15,15,5,0,10,0,5,5,43,Homo sapiens (human) (43),HLA-A*02:01 (18); HLA-A*11:01 (7); HLA-B*07:02 (6),IFNg release|ELISPOT (43),28678784
+1041218,15,15,6,0,9,0,6,6,24,Homo sapiens (human) (24),HLA-B*07:02 (5); HLA-A*02:01 (5); HLA-A*03:01 (3),IFNg release|ELISPOT (24),33303615
+1043055,15,15,1,14,0,0,15,15,15,Homo sapiens (human) (15),human (15),IFNg release|ELISPOT (15),37744342
+1013436,32,14,32,0,0,0,23,14,32,Homo sapiens (human) (32),HLA-A2 (11); human (9); HLA-B35 (6),IFNg release|ELISPOT (32),17699568
+1040266,26,14,26,0,0,0,17,14,26,Homo sapiens (human) (26),human (26),IFNg release|ELISPOT (26),35104433
+1037675,19,14,7,12,0,0,19,14,19,Homo sapiens (human) (19),HLA-A*02:10 (7); HLA-B*40:01 (7); HLA-A*11:01 (5),IFNg release|ELISPOT (19),33208106
+1021328,17,14,14,3,0,0,15,14,27,Homo sapiens (human) (27),HLA-A*02:01 (27),IFNg release|ELISPOT (27),20719985
+1021568,16,14,12,2,2,0,14,13,20,Homo sapiens (human) (20),HLA-B57 (20),IFNg release|ELISPOT (20),20875418
+1028949,14,14,0,0,14,0,0,0,28,Homo sapiens (human) (28),HLA-A*02:01 (28),IFNg release|ELISPOT (28),25682073
+1033021,30,13,0,15,15,0,13,6,45,Homo sapiens (human) (45),HLA-B*27:05 (12); HLA-B*15:01 (6); HLA-A*11:01 (6),IFNg release|ELISPOT (45),29545564
+1043033,23,13,13,0,10,0,9,5,36,Homo sapiens (human) (36),HLA-B*35:03 (6); HLA-A*02:01 (5); HLA-B*44:03 (5),IFNg release|ELISPOT (36),34782741
+1029846,21,13,3,1,17,0,2,2,63,Homo sapiens (human) (63),HLA-A*02:01 (63),IFNg release|ELISPOT (63),26541133
+1021345,19,13,6,13,0,0,19,13,20,Homo sapiens (human) (20),HLA-A3 (17); HLA-A*11:01 (3),IFNg release|ELISPOT (20),21129215
+1044309,19,13,3,14,2,0,15,13,30,Homo sapiens (human) (30),HLA-A*01:01 (16); HLA-A*26:01 (14),IFNg release|ELISPOT (30),38885041
+1045777,18,13,17,1,0,0,13,13,21,Homo sapiens (human) (21),HLA-A*24:02 (12); HLA-A*02:01 (6); HLA-A*01:01 (2),IFNg release|ELISPOT (21),39875585
+1004602,16,13,1,4,11,0,5,4,32,Homo sapiens (human) (32),HLA-A11 (32),IFNg release|ELISPOT (32),14557636
+1037146,27,12,17,7,3,0,17,11,31,Homo sapiens (human) (31),HLA-A*02:11 (6); HLA-B*15:01 (5); HLA-B*27:05 (4),IFNg release|ELISPOT (31),29643231
+1035634,13,12,4,9,0,0,13,12,14,Homo sapiens (human) (14),HLA-C*12:02 (13); HLA-B*35:01 (1),IFNg release|ELISPOT (14),31217245
+1028945,12,12,12,0,0,0,12,12,12,Homo sapiens (human) (12),HLA-A*11:01 (7); HLA-A*24:02 (5),IFNg release|ELISPOT (12),25777343
+1040965,12,12,2,10,0,0,12,12,12,Homo sapiens (human) (12),HLA-A*02:06 (12),IFNg release|ELISPOT (12),35228610
+1044046,12,12,12,0,0,0,12,12,12,Homo sapiens (human) (12),HLA-C*01:02 (2); HLA-B*54:01 (2); HLA-C*07:01 (1),IFNg release|ELISPOT (12),38740147
+1002100,58,11,9,49,0,0,17,11,58,Homo sapiens (human) (58),HLA-A2 (22); HLA-A3 (12); HLA-A11 (5),IFNg release|ELISPOT (58),12173301
+1043281,38,11,10,3,25,0,6,3,76,Homo sapiens (human) (76),HLA-A24 (76),IFNg release|ELISPOT (76),29790264
+1012379,18,11,16,2,0,0,12,11,18,Homo sapiens (human) (18),HLA-A*02:01 (7); HLA-A1 (4); HLA-B*35:01 (3),IFNg release|ELISPOT (18),18353950
+1023207,15,11,11,1,3,0,10,9,29,Homo sapiens (human) (29),HLA-A*02:01 (29),IFNg release|ELISPOT (29),16912206
+1013178,14,11,5,9,0,0,14,11,14,Homo sapiens (human) (14),human (4); HLA-A1 (4); HLA-B35 (3),IFNg release|ELISPOT (14),18606712
+1028907,13,11,13,0,0,0,12,11,13,Homo sapiens (human) (13),HLA-B*57:01 (5); HLA-A*02:01 (3); HLA-A*68:02 (2),IFNg release|ELISPOT (13),25740982
+1032908,12,11,12,0,0,0,11,11,12,Homo sapiens (human) (12),HLA-A*03:01 (12),IFNg release|ELISPOT (12),29435138
+1033268,12,11,0,1,11,0,1,1,51,Homo sapiens (human) (51),HLA-A*24:02 (51),IFNg release|ELISPOT (51),29856876
+1019385,11,11,6,2,3,0,8,8,22,Homo sapiens (human) (22),HLA-A2 (22),IFNg release|ELISPOT (22),20140431
+1028484,11,11,11,0,0,0,11,11,12,Homo sapiens (human) (12),HLA-Cw6 (3); HLA-Cw3 (2); HLA-B62 (1),IFNg release|ELISPOT (12),25355876
+1031571,11,11,11,0,0,0,11,11,15,Homo sapiens (human) (15),HLA-A*24:02 (10); HLA-B*15:01 (5),IFNg release|ELISPOT (15),28423700
+1039044,11,11,2,9,0,0,11,11,12,Homo sapiens (human) (12),HLA-A*02:06 (12),IFNg release|ELISPOT (12),34193879
+1002077,33,10,33,0,0,0,22,10,33,Homo sapiens (human) (33),HLA-A2 (4); HLA-B35 (4); HLA-A25 (4),IFNg release|ELISPOT (33),15362047
+1036317,22,10,4,16,2,0,12,10,25,Homo sapiens (human) (25),human (20); HLA-A*02:01 (5),IFNg release|ELISPOT (25),32040522
+1043465,18,10,18,0,0,0,10,10,18,Homo sapiens (human) (18),human (18),IFNg release|ELISPOT (18),38105139
+1005811,14,10,14,0,0,0,13,10,14,Homo sapiens (human) (14),HLA-A*68:01 (4); HLA-B*44:02 (3); HLA-B*55:01 (2),IFNg release|ELISPOT (14),17372003
+1002322,13,10,13,0,0,0,11,10,13,Homo sapiens (human) (13),HLA-A2 (5); HLA-A3 (4); HLA-A*02:01 (3),IFNg release|ELISPOT (13),15845492
+1041376,12,10,11,0,1,0,9,9,24,Homo sapiens (human) (24),human (24),IFNg release|ELISPOT (24),35472243
+1042612,11,10,11,0,0,0,11,10,11,Homo sapiens (human) (11),human (10); HLA-B35 (1),IFNg release|ELISPOT (11),33832817
+1024451,10,10,3,7,0,0,10,10,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),22187063
+1026941,10,10,6,0,4,0,6,6,20,Homo sapiens (human) (20),HLA-A*02:01 (20),IFNg release|ELISPOT (20),24101547
+1027588,10,10,10,0,0,0,10,10,10,Homo sapiens (human) (10),HLA-A*02:01 (6); HLA-A*32:01 (3); HLA-A*32:05 (1),IFNg release|ELISPOT (10),24733843
+1029813,10,10,5,5,0,0,10,10,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),26577013
+1031258,10,10,0,0,10,0,0,0,22,Homo sapiens (human) (22),HLA-B*08:01 (18); HLA-A*01:01 (4),IFNg release|ELISPOT (22),28148736
+1040964,10,10,2,4,4,0,6,6,20,Homo sapiens (human) (20),HLA-B*35:01 (20),IFNg release|ELISPOT (20),34486463
+1041985,10,10,6,4,0,0,10,10,10,Homo sapiens (human) (10),HLA-A*02:01 (5); human (5),IFNg release|ELISPOT (10),36768267
+1043710,10,10,10,0,0,0,10,10,10,Homo sapiens (human) (10),HLA-A*11:01 (6); HLA-A*24:02 (3); HLA-C*07:02 (1),IFNg release|ELISPOT (10),38349410
+1002156,39,9,26,13,0,0,12,9,39,Homo sapiens (human) (39),HLA-A2 (18); HLA-A3 (9); HLA-B8 (3),IFNg release|ELISPOT (39),16792541
+1005821,22,9,2,20,0,0,12,9,22,Homo sapiens (human) (22),HLA-B*15:01 (10); HLA-B*27:05 (8); HLA-B44 (4),IFNg release|ELISPOT (22),15619009
+1025740,16,9,0,1,15,0,1,1,64,Homo sapiens (human) (64),HLA-B*27:05 (15); HLA-B*08:01 (11); HLA-A*03:01 (11),IFNg release|ELISPOT (64),23152369
+1001835,14,9,14,0,0,0,12,9,14,Homo sapiens (human) (14),HLA-A2 (14),IFNg release|ELISPOT (14),12566993
+1003540,13,9,13,0,0,0,10,9,13,Homo sapiens (human) (13),HLA-B8 (3); HLA-A1 (2); HLA-B62 (2),IFNg release|ELISPOT (13),17254671
+1035729,13,9,11,0,2,0,7,7,26,Homo sapiens (human) (26),HLA-A*02:01 (26),IFNg release|ELISPOT (26),31575892
+1001832,12,9,12,0,0,0,12,9,12,Homo sapiens (human) (12),human (7); HLA-A2 (2); HLA-B8 (1),IFNg release|ELISPOT (12),16140790
+1023945,11,9,11,0,0,0,9,9,11,Homo sapiens (human) (11),HLA-A*02:01 (11),IFNg release|ELISPOT (11),11391614
+1039796,10,9,8,0,2,0,8,8,20,Homo sapiens (human) (20),human (20),IFNg release|ELISPOT (20),34611019
+1004570,9,9,2,7,0,0,9,9,9,Homo sapiens (human) (9),HLA-B*46:01 (5); HLA-B*58:01 (3); HLA-B*27:04 (1),IFNg release|ELISPOT (9),15935885
+1026050,9,9,9,0,0,0,9,9,9,Homo sapiens (human) (9),HLA-A*02:01 (4); human (2); HLA-B*07:02 (1),IFNg release|ELISPOT (9),21900169
+1031168,9,9,9,0,0,0,9,9,11,Homo sapiens (human) (11),HLA-B7 (3); HLA-C*03:03 (2); HLA-C*07:01 (2),IFNg release|ELISPOT (11),27631819
+1035198,9,9,9,0,0,0,9,9,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),30340600
+1036361,9,9,7,1,1,0,8,8,16,Homo sapiens (human) (16),human (13); HLA-B*35:01 (1); HLA-B*27:05 (1),IFNg release|ELISPOT (16),31562500
+1039765,9,9,9,0,0,0,9,9,17,Homo sapiens (human) (17),HLA-B35 (9); HLA-A*02:01 (8),IFNg release|ELISPOT (17),34758478
+1040281,9,9,9,0,0,0,9,9,37,Homo sapiens (human) (37),HLA-A*02:01 (6); HLA-B*15:01 (6); HLA-B*44:02 (5),IFNg release|ELISPOT (37),35211638
+1046315,9,9,3,5,1,0,8,8,12,Homo sapiens (human) (12),human (8); HLA-B*35:43 (2); HLA-B*15:01 (2),IFNg release|ELISPOT (12),38241630
+1014511,22,8,17,5,0,0,13,8,30,Homo sapiens (human) (30),HLA-A*02:01 (4); HLA-B*35:01 (4); HLA-A2 (2),IFNg release|ELISPOT (30),16148164
+1007471,16,8,5,4,7,0,5,4,50,Homo sapiens (human) (50),HLA-B8 (14); HLA-A1 (10); HLA-A2 (9),IFNg release|ELISPOT (50),16030147
+1022288,12,8,4,8,0,0,9,8,12,Homo sapiens (human) (12),HLA-A3 (3); HLA-B53 (3); HLA-B35 (2),IFNg release|ELISPOT (12),21689436
+1047113,10,8,0,9,1,0,8,7,19,Homo sapiens (human) (19),HLA-A*02:01 (19),IFNg release|ELISPOT (19),40684438
+1004920,9,8,7,2,0,0,9,8,9,Homo sapiens (human) (9),HLA-B*07:02 (3); HLA-A*02:01 (2); HLA-A*01:01 (1),IFNg release|ELISPOT (9),14566059
+1030572,9,8,8,0,1,0,8,7,18,Homo sapiens (human) (18),HLA-A*02:01 (18),IFNg release|ELISPOT (18),27094591
+1031199,9,8,6,3,0,0,8,8,9,Homo sapiens (human) (9),HLA-A*31:01 (4); HLA-B*35:01 (3); HLA-C*03:03 (2),IFNg release|ELISPOT (9),28123873
+1463,9,8,9,0,0,0,9,8,9,Homo sapiens (human) (9),HLA-A2 (9),IFNg release|ELISPOT (9),14985857
+1019778,8,8,1,0,7,0,1,1,16,Homo sapiens (human) (16),HLA-A2 (16),IFNg release|ELISPOT (16),20370539
+1024273,8,8,5,0,3,0,5,5,13,Homo sapiens (human) (13),HLA-A*02:01 (13),IFNg release|ELISPOT (13),12402309
+1029687,8,8,7,1,0,0,8,8,9,Homo sapiens (human) (9),HLA-A*24:02 (5); HLA-A*03:01 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (9),26048577
+1036129,8,8,8,0,0,0,8,8,8,Homo sapiens (human) (8),human (6); HLA-A*11:01 (1); HLA-A*24:02 (1),IFNg release|ELISPOT (8),31775024
+1037284,8,8,1,7,0,0,8,8,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),31655052
+1037312,8,8,6,2,0,0,8,8,9,Homo sapiens (human) (9),HLA-B*07:02 (2); HLA-A*30:02 (2); human (2),IFNg release|ELISPOT (9),26901407
+1038825,8,8,2,6,0,0,8,8,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),34016795
+1036848,19,7,19,0,0,0,8,7,30,Homo sapiens (human) (30),HLA-A*02:01 (11); HLA-B*18:01 (4); HLA-B*40:01 (4),IFNg release|ELISPOT (30),32314731
+1024929,13,7,12,1,0,0,13,7,15,Homo sapiens (human) (15),HLA-B*57:01 (11); HLA-B*57:03 (4),IFNg release|ELISPOT (15),16951352
+1033318,11,7,11,0,0,0,10,7,11,Homo sapiens (human) (11),HLA-A*02:01 (11),IFNg release|ELISPOT (11),29603667
+1007432,10,7,1,0,9,0,0,0,20,Homo sapiens (human) (20),HLA-A*02:01 (20),IFNg release|ELISPOT (20),17513797
+1020909,9,7,9,0,0,0,8,7,9,Homo sapiens (human) (9),HLA-B*18:01 (4); HLA-A*02:01 (2); HLA-B*08:01 (1),IFNg release|ELISPOT (9),20735847
+1022229,9,7,1,7,1,0,7,6,15,Homo sapiens (human) (15),HLA-A2 (15),IFNg release|ELISPOT (15),21618548
+1026955,9,7,6,3,0,0,9,7,11,Homo sapiens (human) (11),HLA-A*02:01 (7); HLA-B*07:02 (4),IFNg release|ELISPOT (11),24130917
+1044686,9,7,9,0,0,0,7,7,18,Homo sapiens (human) (18),HLA-A*02:01 (12); HLA-A*24:02 (4); HLA-A*11:01 (2),IFNg release|ELISPOT (18),25483651
+1024986,8,7,1,7,0,0,7,7,8,Homo sapiens (human) (8),HLA-A24 (8),IFNg release|ELISPOT (8),22819798
+1036017,8,7,2,6,0,0,7,7,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),31540894
+1037592,8,7,8,0,0,0,7,7,15,Homo sapiens (human) (15),HLA-A*02:01 (15),IFNg release|ELISPOT (15),33102521
+1040715,8,7,4,0,4,0,3,3,14,Homo sapiens (human) (14),HLA-A*02:01 (14),IFNg release|ELISPOT (14),35636066
+1007943,7,7,7,0,0,0,7,7,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),18097044
+1010864,7,7,7,0,0,0,7,7,7,Homo sapiens (human) (7),HLA-B7 (3); HLA-A2 (3); HLA-A11 (1),IFNg release|ELISPOT (7),18240952
+1025110,7,7,2,0,5,0,2,2,14,Homo sapiens (human) (14),HLA-B*07:02 (14),IFNg release|ELISPOT (14),22997432
+1041119,7,7,7,0,0,0,7,7,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),35967402
+1042819,7,7,7,0,0,0,7,7,12,Homo sapiens (human) (12),HLA-A*24:02 (12),IFNg release|ELISPOT (12),37359417
+1045415,7,7,2,5,0,0,7,7,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),23426430
+1045666,7,7,4,0,3,0,4,4,15,Homo sapiens (human) (15),HLA-A*02:01 (13); HLA-A1 (2),IFNg release|ELISPOT (15),39920833
+375,7,7,5,2,0,0,7,7,7,Homo sapiens (human) (7),HLA-A2 (7),IFNg release|ELISPOT (7),15538043
+1004554,64,6,23,14,27,0,15,6,117,Homo sapiens (human) (117),HLA-A2 (40); HLA-B35 (11); HLA-B7 (10),IFNg release|ELISPOT (117),16206065
+1025101,37,6,22,14,1,0,8,6,60,Homo sapiens (human) (60),HLA-A*02:01 (26); HLA-A*03:01 (8); HLA-A*11:01 (6),IFNg release|ELISPOT (60),22508927
+1013323,19,6,19,0,0,0,12,6,21,Homo sapiens (human) (21),HLA-A*02:01 (16); HLA-B*07:02 (2); HLA-B12 (1),IFNg release|ELISPOT (21),18953722
+1043506,16,6,3,13,0,0,8,6,21,Homo sapiens (human) (21),HLA-A24 (14); HLA-A*24:02 (7),IFNg release|ELISPOT (21),38236134
+1014811,12,6,11,0,1,0,7,5,26,Homo sapiens (human) (26),HLA-A*02:01 (14); HLA-B8 (12),IFNg release|ELISPOT (26),15693083
+1007450,11,6,1,2,8,0,1,1,22,Homo sapiens (human) (22),HLA-A*02:01 (22),IFNg release|ELISPOT (22),17065344
+1038594,11,6,11,0,0,0,8,6,12,Homo sapiens (human) (12),HLA-A*02:01 (2); HLA-B*58:01 (2); HLA-B7 (1),IFNg release|ELISPOT (12),33658348
+1004574,10,6,2,8,0,0,7,6,10,Homo sapiens (human) (10),HLA-A*01:01 (10),IFNg release|ELISPOT (10),15914199
+1045810,10,6,4,4,2,0,6,6,16,Homo sapiens (human) (16),HLA-A*02:01 (15); HLA-A*11:01 (1),IFNg release|ELISPOT (16),22799277
+1022241,9,6,7,0,2,0,7,6,23,Homo sapiens (human) (23),HLA-A*02:01 (23),IFNg release|ELISPOT (23),21550027
+1029406,9,6,7,2,0,0,7,6,15,Homo sapiens (human) (15),HLA-B*07:02 (3); HLA-A*02:01 (3); HLA-B*08:01 (3),IFNg release|ELISPOT (15),26445723
+1015773,7,6,7,0,0,0,7,6,14,Homo sapiens (human) (14),HLA-B57 (8); human (6),IFNg release|ELISPOT (14),16808432
+1033769,7,6,2,5,0,0,7,6,8,Homo sapiens (human) (8),HLA-A*03:01 (4); HLA-B*27:05 (3); HLA-B*35:03 (1),IFNg release|ELISPOT (8),27869121
+1043347,7,6,1,6,0,0,7,6,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),38100550
+1025507,6,6,6,0,0,0,6,6,8,Homo sapiens (human) (8),HLA-C*07:02 (2); HLA-B*39:01 (2); HLA-B*56:01 (1),IFNg release|ELISPOT (8),
+1033474,6,6,2,4,0,0,6,6,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),30008894
+1034730,6,6,3,3,0,0,6,6,6,Homo sapiens (human) (6),HLA-C*05:01 (2); HLA-C*06:02 (1); HLA-B*44:02 (1),IFNg release|ELISPOT (6),30906654
+1038020,6,6,6,0,0,0,6,6,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),33490292
+1039875,6,6,0,2,4,0,2,2,12,Homo sapiens (human) (12),HLA-A*02:06 (12),IFNg release|ELISPOT (12),34281881
+1043928,6,6,0,4,2,0,4,4,14,Homo sapiens (human) (14),human (10); HLA-B*15:01 (2); HLA-B*35:01 (2),IFNg release|ELISPOT (14),38631707
+1044595,6,6,0,0,6,0,0,0,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),25126583
+1045451,6,6,6,0,0,0,6,6,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),23503586
+1045734,6,6,6,0,0,0,6,6,6,Homo sapiens (human) (6),HLA-B*15:01 (4); human (2),IFNg release|ELISPOT (6),36897229
+1042927,19,5,19,0,0,0,8,5,22,Homo sapiens (human) (22),HLA-A*02:01 (15); HLA-A*01:01 (2); HLA-B*35:01 (1),IFNg release|ELISPOT (22),37280206
+1039204,15,5,15,0,0,0,8,5,18,Homo sapiens (human) (18),HLA-A*02:01 (8); HLA-A*24:02 (8); HLA-A*11:01 (2),IFNg release|ELISPOT (18),34222571
+1026345,12,5,12,0,0,0,6,5,17,Homo sapiens (human) (17),HLA-A*02:01 (4); HLA-A*29:02 (4); HLA-A*23:01 (3),IFNg release|ELISPOT (17),23738590
+1013773,11,5,3,2,6,0,2,1,37,Homo sapiens (human) (37),HLA-A2 (19); HLA-B8 (7); HLA-A24 (6),IFNg release|ELISPOT (37),19011169
+1001708,10,5,10,0,0,0,6,5,20,Homo sapiens (human) (20),human (8); HLA-A*01:01 (6); HLA-A*02:01 (6),IFNg release|ELISPOT (20),15939790
+1024967,10,5,1,1,8,0,1,0,38,Homo sapiens (human) (38),HLA-A*02:01 (38),IFNg release|ELISPOT (38),22526607
+1041926,10,5,6,4,0,0,10,5,10,Homo sapiens (human) (10),human (4); HLA-B*40:01 (3); HLA-A*11:01 (1),IFNg release|ELISPOT (10),36651232
+1005871,9,5,9,0,0,0,6,5,9,Homo sapiens (human) (9),HLA-A*02:01 (2); HLA-A*24:02 (2); HLA-B7 (1),IFNg release|ELISPOT (9),17492595
+1039141,9,5,9,0,0,0,7,5,9,Homo sapiens (human) (9),human (9),IFNg release|ELISPOT (9),34249101
+1010228,8,5,0,1,7,0,1,1,16,Homo sapiens (human) (16),HLA-A2 (16),IFNg release|ELISPOT (16),16141246
+1017816,8,5,4,4,0,0,5,5,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),19958537
+1044179,8,5,8,0,0,0,8,5,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),25376540
+1014107,6,5,6,0,0,0,5,5,6,Homo sapiens (human) (6),human (6),IFNg release|ELISPOT (6),19054151
+1029095,6,5,6,0,0,0,6,5,6,Homo sapiens (human) (6),HLA-B40 (2); HLA-Cw6 (1); HLA-A1 (1),IFNg release|ELISPOT (6),26029371
+1038883,6,5,6,0,0,0,5,5,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),34049932
+1045939,6,5,6,0,0,0,5,5,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),22917214
+1001694,5,5,4,1,0,0,5,5,5,Homo sapiens (human) (5),HLA-A2 (3); HLA-B7 (2),IFNg release|ELISPOT (5),16393977
+1002962,5,5,5,0,0,0,5,5,12,Homo sapiens (human) (12),HLA-A*02:01 (4); HLA-A*02:13 (4); HLA-A*02:05 (2),IFNg release|ELISPOT (12),12078650
+1004965,5,5,3,2,0,0,5,5,5,Homo sapiens (human) (5),HLA-B7 (4); HLA-A2 (1),IFNg release|ELISPOT (5),17360751
+1013203,5,5,5,0,0,0,5,5,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),18546263
+1023568,5,5,5,0,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*03:01 (3); HLA-B*07:02 (1); HLA-B*38:01 (1),IFNg release|ELISPOT (5),16247014
+1023975,5,5,1,4,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),15563124
+1027471,5,5,4,1,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),24709642
+1027956,5,5,5,0,0,0,5,5,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),24971174
+1029414,5,5,5,0,0,0,5,5,5,Homo sapiens (human) (5),HLA-A2 (5),IFNg release|ELISPOT (5),26417538
+1030441,5,5,3,2,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*01:01 (3); HLA-A*02:01 (2),IFNg release|ELISPOT (5),27070377
+1032643,5,5,3,2,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),28954787
+1038286,5,5,5,0,0,0,5,5,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),21874303
+1039841,5,5,5,0,0,0,5,5,5,Homo sapiens (human) (5),human (5),IFNg release|ELISPOT (5),34844524
+1041069,5,5,0,4,1,0,4,4,6,Homo sapiens (human) (6),HLA-A*11:01 (3); HLA-B*49:01 (2); HLA-B*44:03 (1),IFNg release|ELISPOT (6),32002298
+1042042,5,5,0,4,1,0,4,4,12,Homo sapiens (human) (12),HLA-A*02:06 (12),IFNg release|ELISPOT (12),36831375
+1042838,5,5,2,1,2,0,3,3,10,Homo sapiens (human) (10),human (10),IFNg release|ELISPOT (10),37545536
+1043690,5,5,2,3,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*11:01 (5),IFNg release|ELISPOT (5),38508656
+1043918,5,5,5,0,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*11:01 (5),IFNg release|ELISPOT (5),27840923
+1045904,5,5,2,3,0,0,5,5,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),22231555
+1049094,5,5,5,0,0,0,5,5,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),42488951
+302,5,5,3,2,0,0,5,5,6,Homo sapiens (human) (6),HLA-B*46:01 (3); HLA-B*44:03 (2); HLA-B*35:01 (1),IFNg release|ELISPOT (6),15496958
+1002106,44,4,11,33,0,0,12,4,44,Homo sapiens (human) (44),HLA-A2 (19); HLA-B60 (5); HLA-A11 (4),IFNg release|ELISPOT (44),12021343
+1037835,27,4,25,2,0,0,14,4,27,Homo sapiens (human) (27),HLA-A*02:01 (6); HLA-B18 (5); HLA-A11 (3),IFNg release|ELISPOT (27),33329532
+1042929,13,4,6,0,7,0,4,1,39,Homo sapiens (human) (39),HLA-A2 (39),IFNg release|ELISPOT (39),37358499
+1022297,12,4,8,4,0,0,10,4,35,Homo sapiens (human) (35),H2-Ld (4); HLA-A*02:01 (3); HLA-A*02:03 (3),IFNg release|ELISPOT (35),20347630
+1025656,11,4,7,4,0,0,5,4,11,Homo sapiens (human) (11),HLA-A*02:01 (3); HLA-A*02:03 (2); HLA-A*02:06 (1),IFNg release|ELISPOT (11),23348421
+1002090,9,4,1,8,0,0,4,4,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),16887973
+1045819,9,4,6,3,0,0,4,4,9,Homo sapiens (human) (9),HLA-A*24:02 (5); HLA-A*02:01 (4),IFNg release|ELISPOT (9),22895835
+1027175,8,4,7,1,0,0,6,4,8,Homo sapiens (human) (8),HLA-A*02:01 (4); HLA-A*01:01 (2); HLA-B*35:01 (2),IFNg release|ELISPOT (8),24257602
+1039835,8,4,8,0,0,0,4,4,9,Homo sapiens (human) (9),HLA-A2 (3); HLA-A3 (2); HLA-A24 (1),IFNg release|ELISPOT (9),34814158
+1001414,7,4,7,0,0,0,7,4,7,Homo sapiens (human) (7),HLA-A11 (7),IFNg release|ELISPOT (7),12808447
+1044655,7,4,2,1,4,0,2,2,40,Homo sapiens (human) (40),HLA-A*02:01 (27); HLA-A*03:01 (9); HLA-B*07:02 (2),IFNg release|ELISPOT (40),24487961
+1022895,6,4,0,0,6,0,0,0,12,Homo sapiens (human) (12),HLA-A*24:02 (12),IFNg release|ELISPOT (12),22032938
+1031073,6,4,6,0,0,0,5,4,6,Homo sapiens (human) (6),HLA-A3 (2); HLA-A*02:01 (2); HLA-A*11:01 (2),IFNg release|ELISPOT (6),27738054
+1001605,5,4,5,0,0,0,4,4,5,Homo sapiens (human) (5),HLA-A*24:02 (5),IFNg release|ELISPOT (5),12629644
+1001661,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),HLA-B27 (5),IFNg release|ELISPOT (5),16496339
+1008035,5,4,4,1,0,0,5,4,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),12798617
+1022675,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),human (3); HLA-B7 (1); HLA-A11 (1),IFNg release|ELISPOT (5),22111596
+1025287,5,4,5,0,0,0,4,4,51,Homo sapiens (human) (51),HLA-A*02:01 (51),IFNg release|ELISPOT (51),23144892
+1025613,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),HLA-A33 (2); HLA-B35 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (5),23469304
+1027880,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),HLA-A*33:03 (5),IFNg release|ELISPOT (5),24813999
+1031573,5,4,4,0,1,0,4,4,7,Homo sapiens (human) (7),HLA-A*24:02 (7),IFNg release|ELISPOT (7),28188748
+1031919,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),HLA-A*11:01 (5),IFNg release|ELISPOT (5),28698575
+1034226,5,4,5,0,0,0,4,4,14,Homo sapiens (human) (14),HLA-A*02:01 (14),IFNg release|ELISPOT (14),30504837
+1039860,5,4,2,3,0,0,4,4,5,Homo sapiens (human) (5),HLA-C*15:02 (2); HLA-A*11:01 (2); HLA-A*31:01 (1),IFNg release|ELISPOT (5),34244308
+1040454,5,4,0,0,5,0,0,0,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),22862954
+1044177,5,4,2,2,1,0,4,3,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),25532027
+1200,5,4,5,0,0,0,5,4,5,Homo sapiens (human) (5),human (5),IFNg release|ELISPOT (5),11709777
+1001899,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-Cw3 (1); HLA-B*27:02 (1); HLA-B55 (1),IFNg release|ELISPOT (4),12634388
+1002176,4,4,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A2 (6); HLA-B7 (2),IFNg release|ELISPOT (8),15367612
+1006171,4,4,3,1,0,0,4,4,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),16720209
+1006603,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),human (2); HLA-A2 (2),IFNg release|ELISPOT (4),10662802
+1015765,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),17202211
+1024181,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),21710262
+1025182,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-B*57:01 (4),IFNg release|ELISPOT (4),22645359
+1028103,4,4,4,0,0,0,4,4,6,Homo sapiens (human) (6),HLA-B*44:02 (6),IFNg release|ELISPOT (6),
+1029683,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),26562161
+1029832,4,4,2,2,0,0,4,4,4,Homo sapiens (human) (4),HLA-B*08:01 (2); HLA-B*44:03 (1); HLA-A*29:02 (1),IFNg release|ELISPOT (4),26728094
+1032980,4,4,3,0,1,0,3,3,8,Homo sapiens (human) (8),HLA-A*24:02 (8),IFNg release|ELISPOT (8),29515106
+1033020,4,4,3,1,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*24:02 (2); HLA-A*02:01 (2),IFNg release|ELISPOT (4),29541393
+1033805,4,4,2,2,0,0,4,4,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),30254248
+1034056,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),29720506
+1034209,4,4,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A2 (8),IFNg release|ELISPOT (8),29908955
+1034286,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),30596107
+1034347,4,4,2,2,0,0,4,4,4,Homo sapiens (human) (4),human (4),IFNg release|ELISPOT (4),30568305
+1036358,4,4,4,0,0,0,4,4,8,Homo sapiens (human) (8),HLA-A*02:01 (4); HLA-C*03:13 (2); HLA-C*03:03 (2),IFNg release|ELISPOT (8),31908851
+1036801,4,4,3,1,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:03 (4),IFNg release|ELISPOT (4),32439798
+1037120,4,4,0,1,3,0,1,1,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),32660279
+1037895,4,4,2,1,1,0,3,3,5,Homo sapiens (human) (5),HLA-A*02:01 (3); HLA-B*35:01 (2),IFNg release|ELISPOT (5),24891321
+1038178,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),33537174
+1038340,4,4,3,1,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),20003233
+1039780,4,4,3,1,0,0,4,4,4,Homo sapiens (human) (4),HLA-B*07:02 (4),IFNg release|ELISPOT (4),34675220
+1041071,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),human (3); HLA-A*02:01 (1),IFNg release|ELISPOT (4),31011208
+1043193,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),human (4),IFNg release|ELISPOT (4),37756564
+1044301,4,4,1,3,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*11:01 (4),IFNg release|ELISPOT (4),38832948
+1045363,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),23754640
+1045388,4,4,4,0,0,0,4,4,8,Homo sapiens (human) (8),HLA-A*24:02 (4); HLA-A*11:01 (3); HLA-A*02:01 (1),IFNg release|ELISPOT (8),39748060
+1045779,4,4,4,0,0,0,4,4,6,Homo sapiens (human) (6),HLA-B*35:03 (2); HLA-B35 (1); HLA-A26 (1),IFNg release|ELISPOT (6),40034846
+1045894,4,4,4,0,0,0,4,4,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),22405859
+1004980,32,3,32,0,0,0,20,3,64,Homo sapiens (human) (64),HLA-A3 (33); HLA-A24 (4); HLA-B35 (3),IFNg release|ELISPOT (64),17462006
+1205,23,3,23,0,0,0,5,3,23,Homo sapiens (human) (23),HLA-A2 (17); HLA-A3 (2); HLA-B7 (2),IFNg release|ELISPOT (23),15558593
+1005885,12,3,12,0,0,0,7,3,13,Homo sapiens (human) (13),HLA-B*40:01 (2); HLA-C*01:02 (2); HLA-B*40:06 (1),IFNg release|ELISPOT (13),12947002
+606,12,3,12,0,0,0,8,3,12,Homo sapiens (human) (12),HLA-A*02:01 (4); HLA-B*27:05 (2); HLA-B*45:01 (1),IFNg release|ELISPOT (12),15684323
+1044643,11,3,11,0,0,0,3,3,11,Homo sapiens (human) (11),HLA-A*02:01 (11),IFNg release|ELISPOT (11),24154794
+1024444,9,3,0,0,9,0,0,0,36,Homo sapiens (human) (36),HLA-A*02:01 (36),IFNg release|ELISPOT (36),22586580
+1030142,9,3,7,2,0,0,4,3,14,Homo sapiens (human) (14),HLA-A*02:01 (6); human (5); HLA-B27 (2),IFNg release|ELISPOT (14),26474390
+1001343,6,3,3,0,3,0,3,0,11,Homo sapiens (human) (11),HLA-A24 (10); HLA-A11 (1),IFNg release|ELISPOT (11),16517753
+1010862,6,3,4,0,2,0,4,1,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),18299564
+1029560,6,3,6,0,0,0,5,3,12,Homo sapiens (human) (12),HLA-A2 (12),IFNg release|ELISPOT (12),26526193
+1019745,5,3,1,0,4,0,1,1,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),20166182
+1024120,5,3,4,0,1,0,3,2,13,Homo sapiens (human) (13),HLA-A*02:01 (13),IFNg release|ELISPOT (13),17294448
+1024344,5,3,1,1,3,0,2,1,9,Homo sapiens (human) (9),HLA-A2 (9),IFNg release|ELISPOT (9),14695157
+1040220,5,3,4,1,0,0,5,3,7,Homo sapiens (human) (7),HLA-B*57:01 (7),IFNg release|ELISPOT (7),35173258
+315624,5,3,3,2,0,0,3,3,5,Homo sapiens (human) (5),HLA-A2 (5),IFNg release|ELISPOT (5),11281563
+1005467,4,3,4,0,0,0,3,3,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),12417567
+1013648,4,3,4,0,0,0,3,3,5,Homo sapiens (human) (5),HLA-B35 (2); HLA-B*53:01 (2); HLA-A*02:02 (1),IFNg release|ELISPOT (5),17942545
+1022775,4,3,4,0,0,0,4,3,25,Homo sapiens (human) (25),HLA-A*02:01 (25),IFNg release|ELISPOT (25),22246683
+1033236,4,3,4,0,0,0,4,3,4,Homo sapiens (human) (4),HLA-A*03:01 (4),IFNg release|ELISPOT (4),29712860
+1036477,4,3,4,0,0,0,4,3,4,Homo sapiens (human) (4),human (4),IFNg release|ELISPOT (4),32157095
+1036608,4,3,4,0,0,0,4,3,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),21692558
+1039788,4,3,1,1,2,0,2,2,13,Homo sapiens (human) (13),HLA-B*08:01 (5); HLA-A*02:01 (4); HLA-C*07:01 (4),IFNg release|ELISPOT (13),34721410
+1040529,4,3,2,0,2,0,2,1,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),19171173
+1041093,4,3,4,0,0,0,3,3,4,Homo sapiens (human) (4),HLA-C*07:01 (2); HLA-A*02:05 (2),IFNg release|ELISPOT (4),24987109
+1041270,4,3,2,0,2,0,2,2,16,Homo sapiens (human) (16),HLA-A*11:01 (16),IFNg release|ELISPOT (16),36088370
+1044699,4,3,4,0,0,0,4,3,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),24416375
+1044800,4,3,4,0,0,0,4,3,6,Homo sapiens (human) (6),HLA-A*02:01 (3); HLA-A2 (3),IFNg release|ELISPOT (6),39294656
+1045867,4,3,3,1,0,0,3,3,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),21928126
+1366,4,3,4,0,0,0,4,3,4,Homo sapiens (human) (4),HLA-B*35:02 (4),IFNg release|ELISPOT (4),11853408
+200151,4,3,1,3,0,0,4,3,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),12594302
+315643,4,3,3,0,1,0,2,2,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),11689620
+1003542,3,3,3,0,0,0,3,3,7,Homo sapiens (human) (7),HLA-B*40:02 (4); HLA-B*15:03 (3),IFNg release|ELISPOT (7),17251571
+1006549,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-B8 (3),IFNg release|ELISPOT (3),17567768
+1014721,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),17273751
+1014908,3,3,0,3,0,0,3,3,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),19403058
+1030731,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),27622067
+1031221,3,3,2,1,0,0,3,3,7,Homo sapiens (human) (7),HLA-A*02:01 (6); human (1),IFNg release|ELISPOT (7),27705933
+1031450,3,3,3,0,0,0,3,3,24,Homo sapiens (human) (24),HLA-A*02:01 (12); HLA-A*24:02 (12),IFNg release|ELISPOT (24),28344864
+1033751,3,3,3,0,0,0,3,3,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),29375131
+1037052,3,3,1,1,1,0,2,2,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),32391625
+1038305,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),23721092
+1039330,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),34236583
+1042747,3,3,0,0,3,0,0,0,10,Homo sapiens (human) (10),HLA-A*24:02 (8); HLA-A*02:01 (2),IFNg release|ELISPOT (10),37076248
+1043249,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*11:01 (3),IFNg release|ELISPOT (3),37939617
+1043292,3,3,1,2,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),38020063
+1044230,3,3,0,0,3,0,0,0,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),26031574
+1044239,3,3,3,0,0,0,3,3,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),26304717
+1044457,3,3,3,0,0,0,3,3,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),25387894
+1044466,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*68:01 (3),IFNg release|ELISPOT (3),38713894
+1044628,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),25212176
+1044671,3,3,3,0,0,0,3,3,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),24842630
+1045291,3,3,0,1,2,0,1,1,12,Homo sapiens (human) (12),HLA-A1 (12),IFNg release|ELISPOT (12),24073381
+1045461,3,3,3,0,0,0,3,3,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),23524651
+1045511,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-B*40:01 (1); HLA-A*33:03 (1); HLA-B*15:01 (1),IFNg release|ELISPOT (3),39766103
+1046269,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),40234091
+1046328,3,3,1,2,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),40270965
+1204,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-B35 (3),IFNg release|ELISPOT (3),11237810
+1209,3,3,2,1,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (2); human (1),IFNg release|ELISPOT (3),11120838
+315581,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),11012624
+547,3,3,3,0,0,0,3,3,6,Homo sapiens (human) (6),HLA-C*05:01 (6),IFNg release|ELISPOT (6),15048720
+566,3,3,3,0,0,0,3,3,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),15683221
+1003945,28,2,24,4,0,0,26,2,28,Homo sapiens (human) (28),HLA-A*02:01 (28),IFNg release|ELISPOT (28),16879036
+1040490,23,2,7,8,8,0,4,1,46,Homo sapiens (human) (46),HLA-A*24:02 (46),IFNg release|ELISPOT (46),24633336
+1048906,19,2,15,4,0,0,15,2,19,Homo sapiens (human) (19),HLA-A*02:01 (19),IFNg release|ELISPOT (19),42383812
+1046246,16,2,5,0,11,0,1,1,32,Homo sapiens (human) (32),HLA-A*02:01 (32),IFNg release|ELISPOT (32),40133500
+1004716,12,2,12,0,0,0,2,2,14,Homo sapiens (human) (14),HLA-A2 (6); HLA-B40 (1); HLA-B61 (1),IFNg release|ELISPOT (14),11948498
+1004702,11,2,11,0,0,0,4,2,22,Homo sapiens (human) (22),HLA-A*02:01 (6); HLA-A2 (4); HLA-A*02:06 (2),IFNg release|ELISPOT (22),12116028
+1007442,11,2,3,1,7,0,1,1,22,Homo sapiens (human) (22),HLA-A2 (22),IFNg release|ELISPOT (22),17327428
+1028528,11,2,9,2,0,0,3,2,11,Homo sapiens (human) (11),HLA-A*02:01 (11),IFNg release|ELISPOT (11),25263407
+1028921,10,2,2,8,0,0,2,2,19,Homo sapiens (human) (19),HLA-A*02:01 (19),IFNg release|ELISPOT (19),25728493
+1004720,9,2,3,6,0,0,5,2,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),11930311
+1025848,8,2,8,0,0,0,7,2,10,Homo sapiens (human) (10),HLA-B41 (2); HLA-A3 (2); HLA-B7 (2),IFNg release|ELISPOT (10),15726667
+1002032,7,2,6,1,0,0,2,2,9,Homo sapiens (human) (9),HLA-A2 (9),IFNg release|ELISPOT (9),16301660
+1032698,7,2,7,0,0,0,7,2,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),29312318
+1032714,7,2,3,0,4,0,1,1,16,Homo sapiens (human) (16),HLA-C*14:03 (7); HLA-B*39:01 (7); HLA-A*02:01 (2),IFNg release|ELISPOT (16),29296522
+1014881,6,2,6,0,0,0,3,2,8,Homo sapiens (human) (8),HLA-A3 (2); HLA-A11 (2); HLA-A24 (1),IFNg release|ELISPOT (8),19428924
+299,6,2,4,2,0,0,2,2,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),15140958
+1024225,5,2,0,2,3,0,1,1,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),16482569
+1027760,5,2,5,0,0,0,4,2,5,Homo sapiens (human) (5),HLA-A2 (2); HLA-B35 (2); HLA-B8 (1),IFNg release|ELISPOT (5),15713795
+1032669,5,2,5,0,0,0,2,2,7,Homo sapiens (human) (7),HLA-A*02:02 (1); HLA-A*02:01 (1); HLA-B*42:01 (1),IFNg release|ELISPOT (7),29232408
+1038687,5,2,0,5,0,0,4,2,5,Homo sapiens (human) (5),HLA-A*01:01 (3); HLA-B*08:01 (2),IFNg release|ELISPOT (5),33923363
+1003454,4,2,0,4,0,0,2,2,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),10655280
+1006166,4,2,4,0,0,0,4,2,8,Homo sapiens (human) (8),HLA-A*02:01 (2); HLA-B35 (2); HLA-B*40:02 (2),IFNg release|ELISPOT (8),17108051
+1012473,4,2,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A2 (8),IFNg release|ELISPOT (8),18358785
+1026992,4,2,4,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),24073713
+1032274,4,2,4,0,0,0,4,2,12,Homo sapiens (human) (12),HLA-A*11:01 (12),IFNg release|ELISPOT (12),28945243
+1033307,4,2,1,3,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),29724463
+1036895,4,2,4,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-B*07:02 (4),IFNg release|ELISPOT (4),28314751
+1038804,4,2,4,0,0,0,2,2,8,Homo sapiens (human) (8),HLA-A2 (3); HLA-A29 (3); HLA-B7 (1),IFNg release|ELISPOT (8),33995351
+1040509,4,2,0,0,4,0,0,0,37,Homo sapiens (human) (37),HLA-A*01:01 (37),IFNg release|ELISPOT (37),23926201
+1041079,4,2,4,0,0,0,3,2,6,Homo sapiens (human) (6),human (3); HLA-A*01:01 (2); HLA-A*30:01 (1),IFNg release|ELISPOT (6),35699447
+1041349,4,2,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A*02:01 (4); HLA-A*03:01 (4),IFNg release|ELISPOT (8),34480368
+1025396,3,2,3,0,0,0,3,2,3,Homo sapiens (human) (3),HLA-B40 (3),IFNg release|ELISPOT (3),23152545
+1026078,3,2,2,1,0,0,3,2,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),23678186
+1027914,3,2,3,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-A*24:02 (3),IFNg release|ELISPOT (3),24886641
+1029677,3,2,3,0,0,0,3,2,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),24223798
+1031773,3,2,3,0,0,0,3,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),28486273
+1034661,3,2,3,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),25958206
+1038890,3,2,3,0,0,0,2,2,5,Homo sapiens (human) (5),HLA-A24 (3); HLA-A2 (2),IFNg release|ELISPOT (5),24734272
+1044647,3,2,3,0,0,0,3,2,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),24861249
+1045412,3,2,0,0,3,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),22926105
+1045583,3,2,1,0,2,0,1,1,10,Homo sapiens (human) (10),HLA-A*11:01 (5); HLA-A*03:01 (3); HLA-A*33:01 (1),IFNg release|ELISPOT (10),39287991
+1045788,3,2,2,1,0,0,2,2,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),22021066
+585,3,2,3,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-B8 (3),IFNg release|ELISPOT (3),15611288
+737,3,2,3,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),12356679
+782,3,2,3,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-B*35:01 (3),IFNg release|ELISPOT (3),11836437
+1001904,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-B38 (2),IFNg release|ELISPOT (2),16114108
+1006089,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-Cw12 (1); HLA-B57 (1),IFNg release|ELISPOT (2),11024156
+1006346,2,2,1,1,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),17030875
+1012488,2,2,2,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-B62 (2); HLA-A*68:01 (1),IFNg release|ELISPOT (3),18448624
+1015822,2,2,1,1,0,0,2,2,5,Homo sapiens (human) (5),HLA-A*02:01 (4); human (1),IFNg release|ELISPOT (5),12569558
+1019814,2,2,1,1,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),20123035
+1020296,2,2,1,0,1,0,1,1,4,Homo sapiens (human) (4),HLA-B60 (4),IFNg release|ELISPOT (4),12218130
+1022376,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),21756938
+1022781,2,2,2,0,0,0,2,2,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),
+1023027,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),human (2),IFNg release|ELISPOT (2),21801778
+1024195,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),22480777
+1025672,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23527138
+1027438,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24675761
+1029673,2,2,0,1,1,0,1,1,8,Homo sapiens (human) (8),HLA-A*03:01 (8),IFNg release|ELISPOT (8),22912393
+1030375,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),27105560
+1032718,2,2,0,1,1,0,1,1,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),29203539
+1032782,2,2,2,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),26945006
+1033265,2,2,0,0,2,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),29549963
+1033536,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),30087171
+1033576,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),29950410
+1034341,2,2,0,0,2,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),30622521
+1034697,2,2,2,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-B15 (2); HLA-A2 (2),IFNg release|ELISPOT (4),30396848
+1034963,2,2,2,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (2); human (2),IFNg release|ELISPOT (4),30817223
+1036403,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),32099535
+1037049,2,2,0,0,2,0,0,0,22,Homo sapiens (human) (22),HLA-A*24:02 (10); HLA-A*02:06 (6); HLA-A*02:01 (6),IFNg release|ELISPOT (22),32219501
+1037963,2,2,0,2,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),33372950
+1038338,2,2,2,0,0,0,2,2,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),19495750
+1040491,2,2,2,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),25960935
+1040515,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),21760528
+1040768,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-B*07:02 (2),IFNg release|ELISPOT (2),35704596
+1041059,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-C*08:02 (2),IFNg release|ELISPOT (2),27959684
+1041334,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),35623660
+1042696,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),human (2),IFNg release|ELISPOT (2),35413272
+1043493,2,2,2,0,0,0,2,2,6,Homo sapiens (human) (6),HLA-B*40:02 (3); HLA-C*01:02 (3),IFNg release|ELISPOT (6),38231165
+1043855,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-B*35:01 (1); HLA-C*04:01 (1),IFNg release|ELISPOT (2),29867227
+1044460,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),38964950
+1044600,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24375541
+1044612,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A11 (1); HLA-A2 (1),IFNg release|ELISPOT (2),25483677
+1044651,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23604623
+1044660,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24623841
+1045464,2,2,1,1,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24077852
+1046187,2,2,2,0,0,0,2,2,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),24032635
+1046899,2,2,2,0,0,0,2,2,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),40443655
+1047483,2,2,0,2,0,0,2,2,6,Homo sapiens (human) (6),HLA-A29 (2); HLA-B35 (2); HLA-A3 (2),IFNg release|ELISPOT (6),41067882
+1438,2,2,2,0,0,0,2,2,5,Homo sapiens (human) (5),HLA-B52 (4); HLA-A*02:01 (1),IFNg release|ELISPOT (5),9419365
+274,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),15448372
+565,2,2,2,0,0,0,2,2,2,Homo sapiens (human) (2),human (2),IFNg release|ELISPOT (2),15265931
+697,2,2,2,0,0,0,2,2,3,Homo sapiens (human) (3),human (2); HLA-B7 (1),IFNg release|ELISPOT (3),15827181
+1022697,38,1,7,31,0,0,6,1,38,Homo sapiens (human) (38),HLA-A2 (9); HLA-B27 (5); HLA-A24 (4),IFNg release|ELISPOT (38),22095540
+1035029,33,1,30,3,0,0,13,1,33,Homo sapiens (human) (33),HLA-A*02:01 (16); HLA-A*03:01 (4); HLA-A*11:01 (3),IFNg release|ELISPOT (33),31105686
+1025309,31,1,17,14,0,0,6,1,31,Homo sapiens (human) (31),HLA-A*02:01 (5); HLA-A11 (4); HLA-B8 (4),IFNg release|ELISPOT (31),23202497
+1014911,28,1,19,9,0,0,15,1,28,Homo sapiens (human) (28),HLA-A*02:01 (28),IFNg release|ELISPOT (28),19534819
+1031680,21,1,13,3,5,0,1,1,42,Homo sapiens (human) (42),HLA-A*24:02 (12); HLA-A*02:01 (12); human (10),IFNg release|ELISPOT (42),28188670
+1025846,16,1,16,0,0,0,9,1,16,Homo sapiens (human) (16),HLA-A*02:01 (4); HLA-B8 (4); HLA-B41 (2),IFNg release|ELISPOT (16),15597326
+1013364,12,1,9,3,0,0,7,1,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),18941228
+1025460,12,1,12,0,0,0,3,1,13,Homo sapiens (human) (13),HLA-A*02:01 (3); HLA-B*35:01 (2); HLA-A*01:01 (2),IFNg release|ELISPOT (13),23146941
+1004544,9,1,9,0,0,0,1,1,9,Homo sapiens (human) (9),HLA-A2 (4); HLA-A*02:01 (2); HLA-B44 (1),IFNg release|ELISPOT (9),16336973
+1038382,9,1,4,5,0,0,2,1,9,Homo sapiens (human) (9),HLA-A*02:01 (8); HLA-B*40:01 (1),IFNg release|ELISPOT (9),33664060
+1041919,9,1,9,0,0,0,2,1,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),36679999
+1001820,8,1,7,1,0,0,5,1,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),10790425
+1042633,8,1,8,0,0,0,5,1,8,Homo sapiens (human) (8),HLA-A2 (8),IFNg release|ELISPOT (8),37380166
+1016593,7,1,7,0,0,0,4,1,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),18708671
+1028940,7,1,7,0,0,0,1,1,11,Homo sapiens (human) (11),HLA-A*02:01 (10); HLA-B35 (1),IFNg release|ELISPOT (11),25925682
+1040905,7,1,4,3,0,0,3,1,7,Homo sapiens (human) (7),HLA-A2 (6); HLA-B7 (1),IFNg release|ELISPOT (7),12782677
+1041250,7,1,7,0,0,0,4,1,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),36100624
+1008386,6,1,5,1,0,0,2,1,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),18246203
+1020824,6,1,1,2,3,0,0,0,12,Homo sapiens Caucasian (12),human (8); HLA-A*02:01 (4),IFNg release|ELISPOT (12),20667615
+1039715,6,1,6,0,0,0,3,1,8,Homo sapiens (human) (8),HLA-A*03:01 (3); HLA-B*27:05 (2); HLA-A*11:01 (1),IFNg release|ELISPOT (8),34729465
+1044204,6,1,6,0,0,0,2,1,24,Homo sapiens (human) (24),HLA-A*02:01 (24),IFNg release|ELISPOT (24),25415440
+1002182,5,1,5,0,0,0,5,1,5,Homo sapiens (human) (5),HLA-A*02:01 (2); HLA-B40 (2); HLA-A*24:02 (1),IFNg release|ELISPOT (5),16775358
+1030841,5,1,5,0,0,0,4,1,5,Homo sapiens Black (3); Homo sapiens Caucasian (2),HLA-B57 (2); HLA-B*08:01 (1); HLA-Cw18 (1),IFNg release|ELISPOT (5),27760342
+1033693,5,1,5,0,0,0,1,1,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),30219821
+1037741,5,1,4,0,1,0,4,0,10,Homo sapiens (human) (10),HLA-A*02:04 (6); HLA-A*02:01 (4),IFNg release|ELISPOT (10),33235818
+1000806,4,1,4,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),9185691
+1006163,4,1,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),17325352
+1021184,4,1,4,0,0,0,2,1,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),21040277
+1025511,4,1,2,2,0,0,3,1,4,Homo sapiens (human) (4),HLA-B*52:01 (4),IFNg release|ELISPOT (4),23236061
+1029220,4,1,4,0,0,0,1,1,6,Homo sapiens (human) (6),HLA-B44 (3); HLA-B40 (2); HLA-B37 (1),IFNg release|ELISPOT (6),18991276
+1029966,4,1,4,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),26826277
+1035542,4,1,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),31428094
+1044258,4,1,4,0,0,0,4,1,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),25936538
+1044574,4,1,4,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A2 (2); HLA-A1 (1); HLA-A3 (1),IFNg release|ELISPOT (4),24756419
+1045371,4,1,4,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*02:01 (2); HLA-A*24:02 (2),IFNg release|ELISPOT (4),24366042
+1437,4,1,4,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*02:01 (2); HLA-B27 (2),IFNg release|ELISPOT (4),9765409
+315645,4,1,3,1,0,0,2,1,4,Homo sapiens (human) (4),HLA-B8 (4),IFNg release|ELISPOT (4),11920575
+1001594,3,1,3,0,0,0,1,1,5,Homo sapiens (human) (5),HLA-B7 (4); HLA-B57 (1),IFNg release|ELISPOT (5),16436130
+1004545,3,1,2,1,0,0,1,1,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),16307312
+1004972,3,1,0,0,3,0,0,0,6,Homo sapiens (human) (6),HLA-B35 (3); HLA-B*35:01 (2); HLA-B*35:08 (1),IFNg release|ELISPOT (6),17357107
+1011093,3,1,3,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),16000958
+1024948,3,1,3,0,0,0,2,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),22831976
+1025631,3,1,3,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),23246542
+1028181,3,1,3,0,0,0,2,1,5,Homo sapiens (human) (5),HLA-B*58:01 (2); HLA-B*58:02 (1); HLA-A*11:01 (1),IFNg release|ELISPOT (5),25211344
+1034421,3,1,2,0,1,0,1,1,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),30193086
+1040089,3,1,3,0,0,0,3,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),35080970
+1041737,3,1,3,0,0,0,2,1,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),36526910
+1043804,3,1,2,0,1,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),26892612
+1044261,3,1,1,0,2,0,0,0,6,Homo sapiens (human) (6),HLA-A*24:02 (6),IFNg release|ELISPOT (6),25982205
+1044564,3,1,0,0,3,0,0,0,6,Homo sapiens (human) (6),human (6),IFNg release|ELISPOT (6),25277238
+1045770,3,1,3,0,0,0,2,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),40008881
+1047159,3,1,3,0,0,0,3,1,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),40759443
+1000206,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),9647225
+1004493,2,1,2,0,0,0,1,1,6,Homo sapiens (human) (6),HLA-C*03:03 (2); HLA-C*03:04 (2); HLA-B*35:01 (2),IFNg release|ELISPOT (6),17325349
+1005202,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),9568678
+1005884,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),15172452
+1007117,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),12507814
+1010865,2,1,1,0,1,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),18234055
+1013774,2,1,2,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),18802479
+1013792,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-B57 (2),IFNg release|ELISPOT (2),18802118
+1014583,2,1,2,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-B*27:05 (4),IFNg release|ELISPOT (4),10880047
+1014907,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A25 (1),IFNg release|ELISPOT (2),19242369
+1014959,2,1,2,0,0,0,2,1,5,Homo sapiens (human) (5),HLA-A2 (5),IFNg release|ELISPOT (5),19212346
+1016642,2,1,1,0,1,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),19483644
+1019151,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),20060945
+1019759,2,1,0,0,2,0,0,0,7,Homo sapiens (human) (7),HLA-A*24:02 (7),IFNg release|ELISPOT (7),20423521
+1021361,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),20831383
+1024385,2,1,0,1,1,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),22253836
+1025165,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),human (1); HLA-B*35:01 (1),IFNg release|ELISPOT (2),22337948
+1026449,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-B*57:01 (1); HLA-B*35:14 (1),IFNg release|ELISPOT (2),23805289
+1026754,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A*02:05 (1),IFNg release|ELISPOT (2),
+1027628,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24659387
+1028883,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-B*18:01 (2),IFNg release|ELISPOT (2),25855358
+1028908,2,1,1,1,0,0,2,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),25499803
+1030608,2,1,1,0,1,0,1,1,6,Homo sapiens (human) (6),HLA-A*02:01 (4); HLA-A3 (1); HLA-B44 (1),IFNg release|ELISPOT (6),27490575
+1030793,2,1,1,1,0,0,2,1,2,Homo sapiens (human) (2),HLA-A*11:01 (2),IFNg release|ELISPOT (2),27695088
+1031456,2,1,2,0,0,0,1,1,5,Homo sapiens (human) (5),HLA-A24 (3); HLA-A*24:02 (2),IFNg release|ELISPOT (5),28344889
+1031875,2,1,2,0,0,0,2,1,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),28638739
+1034651,2,1,2,0,0,0,2,1,5,Homo sapiens (human) (5),HLA-C*08:01 (3); HLA-B*35:03 (2),IFNg release|ELISPOT (5),24227846
+1034865,2,1,2,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),30930889
+1036257,2,1,2,0,0,0,1,1,11,Homo sapiens (human) (11),HLA-A*02:01 (10); HLA-A*02:05 (1),IFNg release|ELISPOT (11),32002290
+1037262,2,1,2,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-B35 (3),IFNg release|ELISPOT (3),32747299
+1039036,2,1,2,0,0,0,2,1,2,Homo sapiens (human) (2),HLA-B*51:01 (1); HLA-B*13:01 (1),IFNg release|ELISPOT (2),34145459
+1041006,2,1,1,1,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*11:01 (2),IFNg release|ELISPOT (2),34138742
+1045257,2,1,2,0,0,0,1,1,9,Homo sapiens (human) (9),HLA-A*02:01 (9),IFNg release|ELISPOT (9),23180824
+1045364,2,1,2,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*24:02 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (2),23714729
+1045825,2,1,1,0,1,0,1,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),22033581
+1001903,1,1,0,1,0,0,1,1,1,Homo sapiens Caucasian (1),human (1),IFNg release|ELISPOT (1),15939788
+1001908,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B7 (1),IFNg release|ELISPOT (1),11851899
+1002204,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),16496333
+1002511,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*35:01 (1),IFNg release|ELISPOT (1),16275762
+1003632,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*07:02 (1),IFNg release|ELISPOT (1),16859951
+1004435,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-B57 (1); HLA-B58 (1),IFNg release|ELISPOT (2),17329344
+1004538,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:06 (1),IFNg release|ELISPOT (1),16479544
+1005820,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),16441508
+1005904,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),8890900
+1007780,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*07:02 (1),IFNg release|ELISPOT (1),18000163
+1012380,1,1,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),18353920
+1013016,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),15239626
+1013353,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-B*15:01 (2),IFNg release|ELISPOT (2),17499403
+1013403,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*15:01 (1),IFNg release|ELISPOT (1),
+1015108,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19435415
+1015583,1,1,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),16339578
+1015783,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),16353149
+1016074,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-B14 (2),IFNg release|ELISPOT (2),17955486
+1016506,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19524620
+1018720,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19578865
+1019099,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),20164419
+1019355,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-C*06:02 (1),IFNg release|ELISPOT (1),
+1019595,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B35 (1),IFNg release|ELISPOT (1),20174562
+1020369,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),17719173
+1020872,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),20705101
+1021225,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),20844028
+1021694,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*45:01 (1),IFNg release|ELISPOT (1),
+1023295,1,1,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*01:01 (3),IFNg release|ELISPOT (3),17119119
+1024226,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),15958640
+1024956,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),22537173
+1025549,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*45:01 (1),IFNg release|ELISPOT (1),
+1029253,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*07:02 (1),IFNg release|ELISPOT (1),26261890
+1030079,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),26954467
+1030586,1,1,0,1,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),27467910
+1030587,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),27471607
+1031100,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),27999757
+1031278,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),26681737
+1031457,1,1,1,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),28344885
+1031496,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-C*07:02 (1),IFNg release|ELISPOT (1),28085643
+1031499,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),28413500
+1033022,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),29556319
+1034201,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),30542352
+1035027,1,1,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),29955175
+1035132,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),31143508
+1035454,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A24 (2),IFNg release|ELISPOT (2),29371260
+1036404,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B18 (1),IFNg release|ELISPOT (1),32111817
+1036514,1,1,1,0,0,0,1,1,6,Homo sapiens (human) (6),HLA-A*24:02 (6),IFNg release|ELISPOT (6),31849039
+1036723,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),32310221
+1038296,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),22729556
+1038950,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),34104546
+1039053,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),34142235
+1039421,1,1,1,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),34405274
+1039457,1,1,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-C*03:03 (3),IFNg release|ELISPOT (3),34491407
+1039642,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),34630356
+1040300,1,1,0,1,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),35260532
+1041063,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*01:01 (1),IFNg release|ELISPOT (1),28408606
+1041081,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*13:02 (1),IFNg release|ELISPOT (1),35113651
+1041158,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*11:01 (1),IFNg release|ELISPOT (1),35950597
+1041217,1,1,1,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-C*01:02 (3),IFNg release|ELISPOT (3),34168045
+1042737,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A24 (1),IFNg release|ELISPOT (1),34185709
+1042830,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),37390984
+1043873,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-B*37:01 (2),IFNg release|ELISPOT (2),38506710
+1044047,1,1,1,0,0,0,1,1,3,Homo sapiens (human) (3),human (2); HLA-B*07:02 (1),IFNg release|ELISPOT (3),28811957
+1044049,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),26784514
+1044237,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),26327325
+1045365,1,1,1,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),23806269
+1045621,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-B*07:02 (2),IFNg release|ELISPOT (2),39902862
+1045737,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B*54:01 (1),IFNg release|ELISPOT (1),38186348
+1045890,1,1,1,0,0,0,1,1,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),23243592
+1046201,1,1,0,0,1,0,0,0,9,Homo sapiens (human) (9),HLA-A*01:01 (9),IFNg release|ELISPOT (9),40165973
+1047048,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),40631515
+1047312,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),22424217
+1047534,1,1,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),41136363
+1047557,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),40751736
+1047674,1,1,1,0,0,0,1,1,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),38240239
+1048419,1,1,0,0,1,0,0,0,12,Homo sapiens (human) (12),HLA-A2 (12),IFNg release|ELISPOT (12),24979674
+1319,1,1,1,0,0,0,1,1,3,Homo sapiens (human) (3),HLA-A*68:02 (3),IFNg release|ELISPOT (3),11009107
+315604,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-B35 (1),IFNg release|ELISPOT (1),11119624
+367,1,1,1,0,0,0,1,1,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15368525
+1034868,65,0,9,43,13,0,45,0,130,Homo sapiens (human) (130),human (130),IFNg release|ELISPOT (130),30828331
+1035739,65,0,4,61,0,0,45,0,65,Homo sapiens (human) (65),human (65),IFNg release|ELISPOT (65),31331958
+1026282,51,0,51,0,0,0,51,0,59,Homo sapiens (human) (59),HLA-B*35:01 (22); HLA-B*07:02 (12); HLA-B*40:01 (6),IFNg release|ELISPOT (59),23580623
+1001254,49,0,49,0,0,0,11,0,49,Homo sapiens (human) (49),HLA-A2 (14); HLA-A3 (13); HLA-A1 (11),IFNg release|ELISPOT (49),16172378
+1025948,37,0,23,13,1,0,6,0,38,Homo sapiens (human) (38),HLA-A*02:01 (16); HLA-B44 (5); HLA-A*11:01 (4),IFNg release|ELISPOT (38),15542583
+1027763,30,0,30,0,0,0,5,0,30,Homo sapiens (human) (30),HLA-A2 (7); HLA-B35 (5); HLA-A11 (4),IFNg release|ELISPOT (30),16835376
+1045013,30,0,2,7,21,0,0,0,195,Homo sapiens (human) (195),HLA-A24 (79); HLA-A2 (53); HLA-A3 (45),IFNg release|ELISPOT (195),24992895
+1039783,29,0,10,7,12,0,0,0,62,Homo sapiens (human) (62),HLA-A24 (26); HLA-A2 (20); HLA-A3 (16),IFNg release|ELISPOT (62),29938870
+1040393,29,0,5,13,11,0,0,0,72,Homo sapiens (human) (72),HLA-A24 (28); HLA-A2 (20); HLA-A3 (16),IFNg release|ELISPOT (72),21932426
+1043821,29,0,21,4,4,0,0,0,53,Homo sapiens (human) (53),HLA-A2 (23); HLA-A24 (20); HLA-A3 (10),IFNg release|ELISPOT (53),27703488
+1037968,27,0,27,0,0,0,15,0,54,Homo sapiens (human) (54),HLA-A*02:01 (54),IFNg release|ELISPOT (54),33911008
+1043934,27,0,25,0,2,0,15,0,81,Homo sapiens (human) (81),HLA-A*02:01 (81),IFNg release|ELISPOT (81),38605956
+1004304,21,0,15,6,0,0,3,0,21,Homo sapiens (human) (21),HLA-A11 (3); HLA-B8 (3); HLA-A*24:02 (3),IFNg release|ELISPOT (21),11120837
+691,21,0,16,5,0,0,3,0,21,Homo sapiens (human) (21),HLA-B8 (4); HLA-A2 (3); HLA-A3 (3),IFNg release|ELISPOT (21),11792386
+1001726,20,0,20,0,0,0,1,0,20,Homo sapiens (human) (20),HLA-A*02:01 (12); HLA-A*03:01 (8),IFNg release|ELISPOT (20),12691700
+1039918,20,0,8,8,4,0,0,0,36,Homo sapiens (human) (36),HLA-A24 (10); HLA-A2 (7); HLA-A11 (6),IFNg release|ELISPOT (36),25662406
+1045489,20,0,6,6,8,0,0,0,40,Homo sapiens (human) (40),HLA-A24 (26); HLA-A2 (14),IFNg release|ELISPOT (40),25351849
+1045868,20,0,15,0,5,0,0,0,38,Homo sapiens (human) (38),HLA-A24 (13); HLA-A2 (13); HLA-A26 (8),IFNg release|ELISPOT (38),22321067
+1004914,19,0,14,1,4,0,1,0,35,Homo sapiens (human) (35),HLA-A2 (32); HLA-B7 (2); HLA-B8 (1),IFNg release|ELISPOT (35),10823750
+1027629,19,0,19,0,0,0,10,0,19,Homo sapiens (human) (19),HLA-A*02:01 (19),IFNg release|ELISPOT (19),24721533
+1031750,19,0,18,1,0,0,10,0,19,Homo sapiens (human) (19),HLA-A2 (19),IFNg release|ELISPOT (19),28256402
+1037571,17,0,8,9,0,0,1,0,17,Homo sapiens (human) (17),HLA-A*02:01 (7); HLA-B*07:02 (4); HLA-B*44:02 (3),IFNg release|ELISPOT (17),31736946
+1046548,17,0,0,0,17,0,0,0,94,Homo sapiens (human) (94),HLA-A24 (47); HLA-A2 (43); HLA-A3 (4),IFNg release|ELISPOT (94),23829867
+1013351,16,0,16,0,0,0,7,0,17,Homo sapiens (human) (17),HLA-B7 (3); HLA-A1 (3); HLA-A2 (3),IFNg release|ELISPOT (17),18955096
+1029234,15,0,15,0,0,0,3,0,15,Homo sapiens (human) (15),HLA-A2 (4); HLA-A24 (3); HLA-B44 (3),IFNg release|ELISPOT (15),26276009
+1004568,14,0,13,1,0,0,5,0,14,Homo sapiens (human) (14),HLA-B7 (3); HLA-A2 (2); HLA-B35 (2),IFNg release|ELISPOT (14),15971271
+1028281,14,0,2,7,5,0,0,0,34,Homo sapiens (human) (34),HLA-A*02:01 (4); HLA-A*02:03 (4); HLA-A2 (2),IFNg release|ELISPOT (34),25124688
+1021194,13,0,13,0,0,0,9,0,56,Homo sapiens (human) (56),HLA-A*02:01 (14); HLA-A*02:02 (11); HLA-A*02:03 (11),IFNg release|ELISPOT (56),21095258
+200106,13,0,13,0,0,0,1,0,13,Homo sapiens (human) (13),HLA-A2 (8); HLA-A3 (5),IFNg release|ELISPOT (13),10352286
+1000768,12,0,12,0,0,0,1,0,12,Homo sapiens (human) (12),HLA-A*02:01 (8); HLA-A2 (4),IFNg release|ELISPOT (12),12559624
+1003616,12,0,12,0,0,0,11,0,15,Homo sapiens (human) (15),HLA-B*08:01 (2); HLA-B*45:01 (2); HLA-B*44:02 (2),IFNg release|ELISPOT (15),
+1004292,12,0,2,2,8,0,0,0,24,Homo sapiens (human) (24),HLA-A*02:01 (12); HLA-A2 (12),IFNg release|ELISPOT (24),11395212
+1007658,12,0,12,0,0,0,11,0,24,Homo sapiens (human) (24),HLA-B*08:01 (4); HLA-B*45:01 (4); HLA-B*35:14 (4),IFNg release|ELISPOT (24),17892322
+1004509,11,0,11,0,0,0,1,0,16,Homo sapiens (human) (16),HLA-A*02:01 (6); HLA-B35 (2); HLA-B7 (2),IFNg release|ELISPOT (16),16982932
+1042452,11,0,0,3,8,0,0,0,44,Homo sapiens (human) (44),HLA-A3 (16); HLA-A2 (16); HLA-A1 (12),IFNg release|ELISPOT (44),34035112
+1046310,11,0,10,1,0,0,0,0,11,Homo sapiens (human) (11),HLA-A3 (4); HLA-A2 (4); HLA-A1 (3),IFNg release|ELISPOT (11),23653149
+1014443,10,0,4,0,6,0,0,0,19,Homo sapiens (human) (19),HLA-A2 (19),IFNg release|ELISPOT (19),18305140
+1020932,10,0,10,0,0,0,7,0,11,Homo sapiens (human) (11),HLA-A*02:01 (11),IFNg release|ELISPOT (11),20615877
+1002078,9,0,9,0,0,0,1,0,9,Homo sapiens (human) (9),HLA-A*02:01 (2); HLA-A1 (2); HLA-B*08:01 (1),IFNg release|ELISPOT (9),16731941
+1002526,9,0,6,3,0,0,2,0,9,Homo sapiens (human) (9),HLA-A2 (2); HLA-A*02:01 (2); HLA-A1 (1),IFNg release|ELISPOT (9),11526203
+1004636,9,0,9,0,0,0,2,0,9,Homo sapiens (human) (9),HLA-A2 (7); HLA-B7 (2),IFNg release|ELISPOT (9),12653848
+1007749,9,0,6,3,0,0,2,0,9,Homo sapiens (human) (9),HLA-A*02:01 (6); HLA-B*08:01 (3),IFNg release|ELISPOT (9),18032491
+1045786,9,0,1,3,5,0,0,0,23,Homo sapiens (human) (23),HLA-A*24:02 (18); HLA-A*02:01 (5),IFNg release|ELISPOT (23),23270484
+1004374,8,0,5,3,0,0,1,0,8,Homo sapiens (human) (8),HLA-A*02:01 (6); HLA-B7 (2),IFNg release|ELISPOT (8),10518571
+1004725,8,0,6,2,0,0,0,0,8,Homo sapiens (human) (8),HLA-A2 (5); HLA-B7 (3),IFNg release|ELISPOT (8),11896935
+1005989,8,0,5,1,2,0,3,0,16,Homo sapiens (human) (16),HLA-A2 (4); HLA-B8 (4); HLA-B7 (4),IFNg release|ELISPOT (16),17686874
+1013208,8,0,6,2,0,0,1,0,8,Homo sapiens (human) (8),HLA-A2 (7); HLA-B8 (1),IFNg release|ELISPOT (8),18524682
+1031575,8,0,0,3,5,0,0,0,32,Homo sapiens (human) (32),HLA-A*11:01 (16); HLA-A*33:03 (16),IFNg release|ELISPOT (32),28178396
+1004405,7,0,7,0,0,0,1,0,9,Homo sapiens (human) (9),HLA-A2 (3); HLA-A11 (2); HLA-B8 (2),IFNg release|ELISPOT (9),9973448
+1006044,7,0,7,0,0,0,3,0,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),17629360
+1007781,7,0,0,7,0,0,0,0,7,Homo sapiens (human) (7),HLA-A2 (7),IFNg release|ELISPOT (7),17987110
+1012845,7,0,4,3,0,0,1,0,7,Homo sapiens (human) (7),HLA-B7 (7),IFNg release|ELISPOT (7),17023054
+1019134,6,0,3,3,0,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (3); human (2); HLA-B44 (1),IFNg release|ELISPOT (6),20103780
+1020870,6,0,6,0,0,0,6,0,12,Homo sapiens (human) (12),HLA-B*45:01 (4); HLA-B*15:01 (2); HLA-B*41:02 (2),IFNg release|ELISPOT (12),20802151
+1022561,6,0,6,0,0,0,1,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),22069251
+1028735,6,0,3,3,0,0,2,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),25646416
+1034555,6,0,5,0,1,0,2,0,12,Homo sapiens (human) (12),HLA-A*24:02 (12),IFNg release|ELISPOT (12),30791546
+1038477,6,0,6,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A24 (6),IFNg release|ELISPOT (6),33723016
+1465,6,0,6,0,0,0,2,0,6,Homo sapiens (human) (6),HLA-B35 (1); HLA-B8 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (6),9294140
+1004367,5,0,4,1,0,0,2,0,5,Homo sapiens (human) (5),HLA-B8 (3); HLA-A3 (2),IFNg release|ELISPOT (5),10562493
+1025845,5,0,4,1,0,0,1,0,8,Homo sapiens (human) (8),HLA-A*02:01 (6); HLA-B8 (2),IFNg release|ELISPOT (8),14525597
+1030792,5,0,5,0,0,0,5,0,5,Homo sapiens (human) (5),HLA-A*11:01 (5),IFNg release|ELISPOT (5),27699241
+1031517,5,0,5,0,0,0,2,0,5,Homo sapiens (human) (5),HLA-A*24:02 (5),IFNg release|ELISPOT (5),28393243
+1032414,5,0,5,0,0,0,0,0,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),28887632
+1033124,5,0,5,0,0,0,4,0,10,Homo sapiens (human) (10),HLA-A*24:02 (10),IFNg release|ELISPOT (10),29432282
+1039402,5,0,2,3,0,0,0,0,5,Homo sapiens (human) (5),HLA-A2 (3); HLA-A3 (2),IFNg release|ELISPOT (5),34413169
+1043844,5,0,0,0,5,0,0,0,25,Homo sapiens (human) (25),HLA-A*24:02 (25),IFNg release|ELISPOT (25),27072896
+1043858,5,0,5,0,0,0,1,0,10,Homo sapiens (human) (10),HLA-A*24:02 (10),IFNg release|ELISPOT (10),23578144
+1044603,5,0,5,0,0,0,3,0,5,Homo sapiens (human) (5),HLA-A*24:02 (5),IFNg release|ELISPOT (5),24612787
+1045550,5,0,5,0,0,0,1,0,10,Homo sapiens (human) (10),HLA-A*24:02 (10),IFNg release|ELISPOT (10),24708624
+1045821,5,0,3,0,2,0,0,0,10,Homo sapiens (human) (10),HLA-A*02:01 (10),IFNg release|ELISPOT (10),23032742
+1001711,4,0,4,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A2 (3); HLA-A1 (1),IFNg release|ELISPOT (4),16189000
+1002064,4,0,4,0,0,0,2,0,5,Homo sapiens (human) (5),HLA-B7 (3); HLA-A2 (1); HLA-B35 (1),IFNg release|ELISPOT (5),16829305
+1002683,4,0,2,2,0,0,0,0,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),12601356
+1004622,4,0,4,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A2 (2); HLA-B60 (1); HLA-A23 (1),IFNg release|ELISPOT (4),12792514
+1013951,4,0,1,0,3,0,1,0,15,Homo sapiens (human) (11); Homo sapiens Caucasian (4),HLA-A2 (9); HLA-B57 (3); HLA-B58 (3),IFNg release|ELISPOT (15),12805439
+1014108,4,0,4,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-B*35:01 (3); HLA-B*53:01 (1),IFNg release|ELISPOT (4),19032105
+1024925,4,0,4,0,0,0,4,0,4,Homo sapiens (human) (4),HLA-B*57:01 (4),IFNg release|ELISPOT (4),16081817
+1027765,4,0,4,0,0,0,1,0,4,Homo sapiens (human) (4),HLA-A*02:01 (2); HLA-B*08:01 (2),IFNg release|ELISPOT (4),21460204
+1029418,4,0,4,0,0,0,4,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),26210043
+1030459,4,0,4,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),26509579
+1031916,4,0,4,0,0,0,1,0,4,Homo sapiens (human) (4),HLA-A*02:01 (1); HLA-B*08:01 (1); HLA-B*07:02 (1),IFNg release|ELISPOT (4),28630092
+1036234,4,0,4,0,0,0,4,0,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),32005266
+1037047,4,0,4,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A*24:02 (6),IFNg release|ELISPOT (6),32500232
+1039391,4,0,0,0,4,0,0,0,8,Homo sapiens (human) (8),HLA-A*02:01 (4); HLA-A*24:02 (4),IFNg release|ELISPOT (8),34424997
+1044105,4,0,2,0,2,0,1,0,8,Homo sapiens (human) (8),HLA-A*02:01 (8),IFNg release|ELISPOT (8),25424847
+1044363,4,0,0,0,4,0,0,0,70,Homo sapiens (human) (70),HLA-A*26:01 (70),IFNg release|ELISPOT (70),26212219
+1045320,4,0,4,0,0,0,0,0,8,Homo sapiens (human) (8),HLA-A*24:02 (8),IFNg release|ELISPOT (8),24498547
+1047027,4,0,2,0,2,0,0,0,24,Homo sapiens (human) (24),HLA-A*24:02 (24),IFNg release|ELISPOT (24),23479678
+1048240,4,0,4,0,0,0,3,0,4,Homo sapiens (human) (4),HLA-A*11:01 (3); HLA-A*02:01 (1),IFNg release|ELISPOT (4),38923358
+1137,4,0,0,2,2,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),15972696
+1000755,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),15753202
+1001602,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),14980436
+1002190,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),12004269
+1004548,3,0,0,2,1,0,0,0,9,Homo sapiens (human) (9),HLA-A*02:01 (3); HLA-A*02:06 (3); HLA-A*02:07 (3),IFNg release|ELISPOT (9),16281937
+1004571,3,0,3,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),15935301
+1004639,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),12616496
+1004645,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),12552018
+1005846,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (2); HLA-A11 (1),IFNg release|ELISPOT (3),14694109
+1005947,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),17331111
+1005984,3,0,3,0,0,0,3,0,3,Homo sapiens (human) (3),HLA-B8 (2); HLA-A2 (1),IFNg release|ELISPOT (3),17641066
+1006474,3,0,3,0,0,0,3,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),12905010
+1014071,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),19220834
+1022037,3,0,3,0,0,0,2,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),21535873
+1022318,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),21765016
+1024945,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (3),IFNg release|ELISPOT (3),22776426
+1024955,3,0,3,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A2 (1); HLA-A24 (1); HLA-A1 (1),IFNg release|ELISPOT (3),22801446
+1025557,3,0,3,0,0,0,0,0,7,Homo sapiens (human) (7),HLA-A*02:01 (7),IFNg release|ELISPOT (7),23233149
+1026677,3,0,3,0,0,0,0,0,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),23681926
+1028463,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (2); HLA-B*07:02 (1),IFNg release|ELISPOT (3),25227910
+1030544,3,0,0,0,3,0,0,0,24,Homo sapiens (human) (24),HLA-A*02:01 (24),IFNg release|ELISPOT (24),26984745
+1031018,3,0,3,0,0,0,0,0,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),27624914
+1031239,3,0,3,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*24:02 (3),IFNg release|ELISPOT (3),27783849
+1031514,3,0,3,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A2 (6),IFNg release|ELISPOT (6),28388966
+1032092,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),28536308
+1032584,3,0,3,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),29203107
+1033870,3,0,3,0,0,0,3,0,3,Homo sapiens (human) (3),HLA-A24 (1); HLA-A*02:01 (1); HLA-B40 (1),IFNg release|ELISPOT (3),16253012
+1035727,3,0,0,0,3,0,0,0,17,Homo sapiens (human) (17),HLA-A*02:01 (9); HLA-A*24:02 (8),IFNg release|ELISPOT (17),31390678
+1036612,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),18619726
+1036720,3,0,3,0,0,0,1,0,5,Homo sapiens (human) (5),HLA-A*02:01 (5),IFNg release|ELISPOT (5),32184297
+1036889,3,0,2,1,0,0,0,0,3,Homo sapiens (human) (3),HLA-A11 (2); HLA-A*80:01 (1),IFNg release|ELISPOT (3),29895573
+1037487,3,0,1,2,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),16441627
+1039050,3,0,3,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (4); HLA-A*01:01 (2),IFNg release|ELISPOT (6),34149689
+1039301,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),34341170
+1041061,3,0,0,0,3,0,0,0,8,Homo sapiens (human) (8),HLA-A*02:01 (6); HLA-A*68:01 (2),IFNg release|ELISPOT (8),30714987
+1042196,3,0,2,0,1,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (2); HLA-A*24:02 (2),IFNg release|ELISPOT (4),36165170
+1044162,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),26451296
+1044199,3,0,3,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),25391695
+1044531,3,0,0,0,3,0,0,0,12,Homo sapiens (human) (12),HLA-A*02:01 (12),IFNg release|ELISPOT (12),24888813
+1044704,3,0,1,0,2,0,0,0,18,Homo sapiens (human) (18),HLA-A*24:02 (18),IFNg release|ELISPOT (18),24606884
+1045927,3,0,3,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),22512631
+1048808,3,0,3,0,0,0,3,0,3,Homo sapiens (human) (3),HLA-A*02:01 (2); HLA-A*11:01 (1),IFNg release|ELISPOT (3),42297226
+1181,3,0,3,0,0,0,3,0,4,Homo sapiens (human) (4),HLA-B8 (2); HLA-A2 (1); HLA-B7 (1),IFNg release|ELISPOT (4),12208874
+1341,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (2); HLA-B8 (1),IFNg release|ELISPOT (3),11687239
+315392,3,0,3,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (1); HLA-A*11:01 (1); HLA-B*07:02 (1),IFNg release|ELISPOT (3),11986243
+486,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (2); HLA-A3 (1),IFNg release|ELISPOT (3),15542798
+526,3,0,3,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (3),15102666
+1000154,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),15728728
+1000371,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A3 (1),IFNg release|ELISPOT (2),9815676
+1001101,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),16339586
+1001441,2,0,1,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),14722889
+1001959,2,0,1,1,0,0,0,0,2,Homo sapiens (human) (2),HLA-A11 (2),IFNg release|ELISPOT (2),12774012
+1003042,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),11449351
+1003474,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),11874993
+1004273,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-B*07:02 (1),IFNg release|ELISPOT (2),11703346
+1004288,2,0,2,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-B8 (3); HLA-B57 (1),IFNg release|ELISPOT (4),11418474
+1004363,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),10607708
+1004543,2,0,1,0,1,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),16378990
+1004584,2,0,1,0,1,0,0,0,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),15802973
+1004693,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-B*07:02 (1),IFNg release|ELISPOT (2),12165524
+1005936,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),17686555
+1006356,2,0,2,0,0,0,2,0,8,Homo sapiens (human) (8),HLA-A2 (8),IFNg release|ELISPOT (8),15819706
+1007165,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),14764694
+1013389,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),14729650
+1014072,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-A*68:02 (1); HLA-A*02:06 (1),IFNg release|ELISPOT (2),19211798
+1015788,2,0,2,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),16284959
+1015839,2,0,1,1,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),11342606
+1022505,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),21807054
+1022700,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A*01:01 (1),IFNg release|ELISPOT (2),22218690
+1022710,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-B*07:02 (2),IFNg release|ELISPOT (2),22027386
+1024241,2,0,1,1,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),18942640
+1024493,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (2); HLA-A*02:01 (2),IFNg release|ELISPOT (4),22577059
+1024497,2,0,1,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (3),IFNg release|ELISPOT (3),22636067
+1024505,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),22735807
+1025014,2,0,2,0,0,0,2,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),15583017
+1025245,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),22052242
+1025444,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23100361
+1026280,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-C*07:02 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (2),23717207
+1026335,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),21541358
+1028278,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),25051027
+1031099,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (3),27999758
+1031518,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),27998971
+1031679,2,0,2,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),28266765
+1031870,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),27872103
+1032069,2,0,1,1,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A*03:01 (1),IFNg release|ELISPOT (2),28818566
+1032343,2,0,2,0,0,0,1,0,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),29057249
+1032504,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (3),29123959
+1032648,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),28972039
+1032712,2,0,2,0,0,0,0,0,5,Homo sapiens (human) (5),HLA-A*02:01 (4); HLA-A*24:02 (1),IFNg release|ELISPOT (5),29296538
+1032843,2,0,2,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),29386195
+1032898,2,0,2,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),29429978
+1033226,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),29568993
+1033232,2,0,2,0,0,0,1,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),29765561
+1033342,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),29872563
+1033752,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),29971464
+1034288,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),30375705
+1036327,2,0,0,0,2,0,0,0,6,Homo sapiens (human) (6),HLA-A*24:02 (6),IFNg release|ELISPOT (6),31853575
+1036607,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),20200354
+1036928,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*24:02 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (3),32547743
+1037179,2,0,2,0,0,0,1,0,5,Homo sapiens (human) (5),HLA-A*02:01 (3); HLA-C*03:03 (2),IFNg release|ELISPOT (5),32737142
+1039186,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),17009043
+1039580,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*11:01 (2),IFNg release|ELISPOT (2),34609506
+1044248,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),human (3),IFNg release|ELISPOT (3),26942076
+1044276,2,0,1,1,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (2),26690485
+1044315,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*01:01 (1); HLA-B*07:02 (1),IFNg release|ELISPOT (2),38855806
+1044510,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),38947322
+1044694,2,0,2,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),24583792
+1044702,2,0,2,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),25130084
+1045324,2,0,2,0,0,0,2,0,3,Homo sapiens (human) (3),HLA-A*02:01 (2); HLA-A*24:02 (1),IFNg release|ELISPOT (3),23470466
+1045441,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),24482751
+1045452,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),23143746
+1045570,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24422723
+1045572,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (1); HLA-A*02:01 (1),IFNg release|ELISPOT (2),25189159
+1045852,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),22842485
+1045936,2,0,0,0,2,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),21858533
+1046184,2,0,2,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (2); HLA-B*35:08 (1),IFNg release|ELISPOT (3),25245536
+1047490,2,0,2,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-B*35:01 (2); HLA-A*02:01 (1),IFNg release|ELISPOT (3),41098775
+1047505,2,0,0,2,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),41122178
+1048534,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),41842944
+1390,2,0,2,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A2 (1); HLA-B8 (1),IFNg release|ELISPOT (2),11062606
+315328,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),10553078
+315626,2,0,1,1,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),11291058
+543,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),human (2),IFNg release|ELISPOT (2),15096491
+605,2,0,2,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A2 (1); HLA-B7 (1),IFNg release|ELISPOT (2),15556681
+766,2,0,2,0,0,0,2,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),12668642
+915,2,0,2,0,0,0,2,0,4,Homo sapiens (human) (4),HLA-B44 (2); HLA-B14 (2),IFNg release|ELISPOT (4),11123322
+1000340,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),11150533
+1000770,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),12218168
+1001589,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),15919939
+1001692,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15800857
+1002031,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),11861829
+1002213,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),14647055
+1003446,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),11115698
+1004436,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B8 (1),IFNg release|ELISPOT (1),17236233
+1004504,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:06 (1),IFNg release|ELISPOT (1),17063516
+1004520,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),16822314
+1004576,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*11:01 (1),IFNg release|ELISPOT (1),15896201
+1004612,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B*35:02 (1),IFNg release|ELISPOT (1),12964124
+1004630,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),12714256
+1004708,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),12033779
+1004713,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),11953041
+1005924,1,0,1,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-B8 (3),IFNg release|ELISPOT (3),14769850
+1006045,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-B*55:02 (1),IFNg release|ELISPOT (1),17626101
+1006231,1,0,1,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),17427008
+1006272,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),17067378
+1006683,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),12663809
+1007463,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),16339897
+1009723,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A11 (1),IFNg release|ELISPOT (1),16005014
+1011055,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),17929331
+1011469,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),18366814
+1011880,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-B*35:01 (1); HLA-B*35:08 (1),IFNg release|ELISPOT (2),17981331
+1012286,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),16181618
+1012397,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B*35:08 (1),IFNg release|ELISPOT (1),18270323
+1012407,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),17698636
+1012427,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),18395083
+1013390,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),14574331
+1013468,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),18614638
+1013519,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15814707
+1013953,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),18802496
+1014061,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),19248785
+1014066,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B7 (1),IFNg release|ELISPOT (1),19232664
+1014127,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19234187
+1014256,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A11 (1),IFNg release|ELISPOT (1),19102689
+1014773,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),9545200
+1015139,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),17321896
+1015824,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),12960314
+1017711,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19801502
+1017732,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),19908941
+1017752,1,0,1,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A2 (3),IFNg release|ELISPOT (3),19656902
+1019105,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19950243
+1019713,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19307587
+1019751,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),19922423
+1019990,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),20543110
+1020300,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),11807003
+1021547,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-B8 (2),IFNg release|ELISPOT (2),21429247
+1021548,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),21093097
+1021549,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B35 (1),IFNg release|ELISPOT (1),21342184
+1021559,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),21251902
+1022534,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B57 (1),IFNg release|ELISPOT (1),21880756
+1022583,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),21453202
+1022891,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B*07:02 (1),IFNg release|ELISPOT (1),22323539
+1022918,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),12475762
+1023178,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),16243821
+1024221,1,0,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),16622681
+1024359,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),19228720
+1025272,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),23155466
+1025343,1,0,1,0,0,0,1,0,4,Homo sapiens (human) (4),HLA-B*57:03 (2); HLA-B*57:01 (2),IFNg release|ELISPOT (4),23161907
+1025359,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),22930221
+1026375,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-B*18:01 (1),IFNg release|ELISPOT (1),23749632
+1026439,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),23787011
+1026820,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),23933510
+1026879,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),23910932
+1027007,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15235393
+1027414,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),24389072
+1028071,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),25063864
+1028747,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),25302633
+1029162,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),26181057
+1029435,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),25199103
+1030580,1,0,1,0,0,0,1,0,5,Homo sapiens (human) (5),HLA-A*02:01 (3); HLA-A*02:17 (1); HLA-A*02:09 (1),IFNg release|ELISPOT (5),27471654
+1030955,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),27281613
+1031143,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),27757561
+1031366,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),28300170
+1031675,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),28536414
+1031708,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),28489076
+1031806,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),20823160
+1031867,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),28498618
+1032029,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),28637663
+1032441,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),28860210
+1032791,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),29344432
+1033078,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*01:01 (1),IFNg release|ELISPOT (1),29267278
+1033434,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),29963201
+1033653,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-B57 (1),IFNg release|ELISPOT (1),29915023
+1033804,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),30069687
+1033852,1,0,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),30326856
+1034170,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),30464762
+1034350,1,0,1,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A*24:02 (6),IFNg release|ELISPOT (6),30306202
+1034739,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),30827508
+1034847,1,0,1,0,0,0,1,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),30561769
+1035427,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),31206934
+1035430,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),31218770
+1035676,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),31555299
+1035728,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),31585951
+1036467,1,0,1,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),32102902
+1037046,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),32610710
+1037053,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),30709841
+1037240,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),32752904
+1037352,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),32820120
+1037393,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B*40:01 (1),IFNg release|ELISPOT (1),32887977
+1037407,1,0,0,1,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*03:01 (1),IFNg release|ELISPOT (1),27397612
+1037461,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),33023190
+1038275,1,0,0,0,1,0,0,0,11,Homo sapiens (human) (11),HLA-A2 (11),IFNg release|ELISPOT (11),21175594
+1038307,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24149465
+1038880,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),34046897
+1040004,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-B*07:02 (2),IFNg release|ELISPOT (2),34853448
+1040328,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23831327
+1040511,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*01:01 (2),IFNg release|ELISPOT (2),23770775
+1040641,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A11 (2),IFNg release|ELISPOT (2),33086340
+1041060,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*68:01 (1),IFNg release|ELISPOT (1),31996390
+1041452,1,0,0,1,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),12070713
+1041677,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),36428578
+1041928,1,0,0,0,1,0,0,0,5,Homo sapiens (human) (5),HLA-A*24:02 (5),IFNg release|ELISPOT (5),36672344
+1042076,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A*02:06 (1),IFNg release|ELISPOT (2),35768164
+1042367,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),37141092
+1042560,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-B*07:02 (1),IFNg release|ELISPOT (1),37275518
+1042882,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),32913031
+1043097,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A24 (1),IFNg release|ELISPOT (1),37809871
+1043204,1,0,1,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),37879364
+1043437,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),38214610
+1043629,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),28862699
+1043740,1,0,1,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),38538867
+1043817,1,0,0,0,1,0,0,0,13,Homo sapiens (human) (13),HLA-A*02:01 (13),IFNg release|ELISPOT (13),27091407
+1044064,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),38816232
+1044196,1,0,1,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*02:01 (4),IFNg release|ELISPOT (4),25538264
+1044200,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),25414129
+1044270,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),25802083
+1044273,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),25614082
+1044278,1,0,0,1,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),25395422
+1044571,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),24713579
+1044631,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),25340007
+1044637,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A2 (2),IFNg release|ELISPOT (2),24218513
+1044692,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),24316554
+1044696,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23609828
+1044703,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),24398900
+1044869,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),39349449
+1045245,1,0,1,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A2 (4),IFNg release|ELISPOT (4),24829746
+1045309,1,0,1,0,0,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:07 (3),IFNg release|ELISPOT (3),23903757
+1045316,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),23466818
+1045337,1,0,1,0,0,0,0,0,6,Homo sapiens (human) (6),HLA-A*02:01 (6),IFNg release|ELISPOT (6),23825678
+1045433,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),24121927
+1045447,1,0,1,0,0,0,0,0,4,Homo sapiens (human) (4),HLA-A*24:02 (4),IFNg release|ELISPOT (4),23078230
+1045471,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*24:02 (1),IFNg release|ELISPOT (1),23641014
+1045555,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*11:01 (1),IFNg release|ELISPOT (1),39846249
+1045841,1,0,0,0,1,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),22565484
+1045884,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),22992138
+1045924,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),21927947
+1046183,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15067036
+1046346,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),24237633
+1047031,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*24:02 (2),IFNg release|ELISPOT (2),24363758
+1047411,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),human (1),IFNg release|ELISPOT (1),41055008
+1047488,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),41099151
+1047976,1,0,0,1,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),41671353
+1048687,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),38689020
+1048757,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),42305766
+1193,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15004143
+200121,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*11:01 (1),IFNg release|ELISPOT (1),11082510
+315654,1,0,0,0,1,0,0,0,3,Homo sapiens (human) (3),HLA-A*02:01 (3),IFNg release|ELISPOT (3),14578281
+482,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),15451471
+493,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A24 (1),IFNg release|ELISPOT (1),15388261
+522,1,0,1,0,0,0,1,0,1,Homo sapiens (human) (1),HLA-A1 (1),IFNg release|ELISPOT (1),15265797
+532,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A*02:01 (1),IFNg release|ELISPOT (1),15603888
+537,1,0,1,0,0,0,0,0,1,Homo sapiens (human) (1),HLA-A2 (1),IFNg release|ELISPOT (1),15561890
+624,1,0,1,0,0,0,1,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),15609329
+642,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (2),IFNg release|ELISPOT (2),15016646
+851,1,0,1,0,0,0,0,0,2,Homo sapiens (human) (2),HLA-A*02:01 (1); HLA-A*02:06 (1),IFNg release|ELISPOT (2),12974795

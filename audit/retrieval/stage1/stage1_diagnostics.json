@@ -1,0 +1,307 @@
+{
+  "retrieval_time_utc": "2026-11-07T10:27:24Z",
+  "n_peptides_queried": 240,
+  "n_epitope_ids_queried": 240,
+  "n_observations": 2235,
+  "n_unique_tcell_id": 2235,
+  "n_duplicate_tcell_id": 0,
+  "n_sequence_mismatches": 0,
+  "n_structure_id_mismatches": 0,
+  "completeness_status": {
+    "ok": 240
+  },
+  "n_reported_total_mismatch": 0,
+  "n_queries_gt_one_page": 0,
+  "max_pages": 1,
+  "elapsed_seconds": 199.43,
+  "seconds_per_epitope_id": 0.831,
+  "assays_per_peptide": {
+    "min": 1,
+    "median": 2.0,
+    "mean": 9.31,
+    "max": 920
+  },
+  "top_peptide": "NLVPMVATV",
+  "top_peptide_n": 920,
+  "frac_obs_from_top_peptide": 0.4116,
+  "do_not_extrapolate_runtime_from_this_batch": true,
+  "reason_not_to_extrapolate": "Median assays/peptide is 2, but the remaining 54k pool still contains other high-volume peptides; wall-clock is not 54448 times seconds_per_epitope_id.",
+  "coverage": {
+    "all_assays": {
+      "n": 2235,
+      "mhc_class": {
+        "n": 2203,
+        "pct_assays": 98.6,
+        "n_assays": 2235
+      },
+      "mhc_allele_name": {
+        "n": 2203,
+        "pct_assays": 98.6,
+        "n_assays": 2235
+      },
+      "pubmed_id": {
+        "n": 2148,
+        "pct_assays": 96.1,
+        "n_assays": 2235
+      },
+      "parent_source_antigen_name": {
+        "n": 2076,
+        "pct_assays": 92.9,
+        "n_assays": 2235
+      },
+      "mhc_annotation_present": {
+        "n": 2203,
+        "pct_assays": 98.6
+      }
+    },
+    "without_NLVPMVATV": {
+      "n": 1315,
+      "n_peptides": 239,
+      "n_references": 433,
+      "mhc_class": {
+        "n": 1283,
+        "pct_assays": 97.6,
+        "n_assays": 1315
+      },
+      "pubmed_id": {
+        "n": 1229,
+        "pct_assays": 93.5,
+        "n_assays": 1315
+      },
+      "parent_source_antigen_name": {
+        "n": 1156,
+        "pct_assays": 87.9,
+        "n_assays": 1315
+      }
+    },
+    "peptide_level_any_observation": {
+      "pubmed_id": {
+        "n_peptides": 222,
+        "of_peptides": 240,
+        "pct_peptides": 92.5
+      },
+      "mhc_class": {
+        "n_peptides": 230,
+        "of_peptides": 240,
+        "pct_peptides": 95.8
+      },
+      "mhc_allele_name": {
+        "n_peptides": 230,
+        "of_peptides": 240,
+        "pct_peptides": 95.8
+      },
+      "parent_source_antigen_name": {
+        "n_peptides": 191,
+        "of_peptides": 240,
+        "pct_peptides": 79.6
+      }
+    }
+  },
+  "mhc_specificity": {
+    "allele": 1759,
+    "class_only": 44,
+    "serotype": 342,
+    "other": 58,
+    "missing": 32
+  },
+  "mhc_specificity_notes": {
+    "n_star_allele": 1664,
+    "n_HLA_A0201": 1235,
+    "n_HLA_A2_serotype": 243,
+    "n_human_generic_allele_name": 44,
+    "n_H2_haplotype_like": 10,
+    "do_not_treat_as_usable_allele_rate": true
+  },
+  "mhc_class": {
+    "I": 2087,
+    "II": 72,
+    "non classical": 44,
+    "MISSING": 32
+  },
+  "mhc_modified_experiment_n": 13,
+  "mhc_evidence_category": {
+    "prediction": 159,
+    "other": 104,
+    "cited_reference": 1296,
+    "binding_assay": 252,
+    "not_determined": 135,
+    "single_allele_present": 259,
+    "missing": 30
+  },
+  "endpoint_family": {
+    "functional_response": 1494,
+    "recognition_binding": 644,
+    "other_or_unresolved": 88,
+    "structural": 9
+  },
+  "top_assay_names": [
+    [
+      "qualitative binding|multimer/tetramer",
+      614
+    ],
+    [
+      "IFNg release|ELISPOT",
+      466
+    ],
+    [
+      "cytotoxicity|51 chromium",
+      242
+    ],
+    [
+      "IFNg release|ICS",
+      188
+    ],
+    [
+      "IFNg release|ELISA",
+      105
+    ],
+    [
+      "TNFa release|ICS",
+      70
+    ],
+    [
+      "cytotoxicity|in vitro assay",
+      63
+    ],
+    [
+      "activation|biological activity",
+      50
+    ],
+    [
+      "IL-2 release|ICS",
+      35
+    ],
+    [
+      "degranulation|biological activity",
+      26
+    ],
+    [
+      "dissociation constant KD|surface plasmon resonance (SPR)|nM",
+      23
+    ],
+    [
+      "proliferation|CFSE",
+      22
+    ],
+    [
+      "proliferation|3H-thymidine",
+      20
+    ],
+    [
+      "granzyme B release|intracellular staining",
+      18
+    ],
+    [
+      "IL-2 release|ELISA",
+      18
+    ]
+  ],
+  "host_bucket": {
+    "mouse": 138,
+    "other": 20,
+    "human": 1927,
+    "transgenic_mouse": 150
+  },
+  "n_class_II_peptides": 21,
+  "n_mixed_outcome_peptides": 96,
+  "disagreement_classes": {
+    "across_known_context": 82,
+    "within_recorded_context": 14
+  },
+  "n_disagreement_peptides": 96,
+  "mixed_vs_v1_conflict": {
+    "v1_conflict_and_mixed": 96,
+    "v1_conflict_not_mixed": 0,
+    "v1_retained_and_mixed": 0
+  },
+  "references": {
+    "n_distinct_reference_id": 748,
+    "n_refs_with_only_one_sampled_peptide": 650,
+    "n_sampled_peptides_in_multiple_refs": 71,
+    "max_sampled_peptides_per_ref": 18,
+    "note": "Counts are among the 240 sampled peptides only. They do not establish study-holdout feasibility for the full 54,448 pool."
+  },
+  "v2_labels_defined": false,
+  "strata": [
+    {
+      "stage_stratum": "conflict_both_databases",
+      "n_peptides": 48,
+      "n_assays": 1633,
+      "assays_min": 2,
+      "assays_median": 4.0,
+      "assays_max": 920,
+      "n_mixed_outcome_peptides": 48,
+      "n_human_assays": 1529,
+      "n_class_I": 1611,
+      "n_class_II": 13,
+      "n_functional": 1022,
+      "n_binding": 542,
+      "n_structural": 5,
+      "n_distinct_refs": 566
+    },
+    {
+      "stage_stratum": "conflict_iedb_only",
+      "n_peptides": 48,
+      "n_assays": 326,
+      "assays_min": 2,
+      "assays_median": 4.0,
+      "assays_max": 42,
+      "n_mixed_outcome_peptides": 48,
+      "n_human_assays": 194,
+      "n_class_I": 256,
+      "n_class_II": 18,
+      "n_functional": 264,
+      "n_binding": 52,
+      "n_structural": 4,
+      "n_distinct_refs": 97
+    },
+    {
+      "stage_stratum": "retained_both_databases",
+      "n_peptides": 48,
+      "n_assays": 70,
+      "assays_min": 1,
+      "assays_median": 1.0,
+      "assays_max": 5,
+      "n_mixed_outcome_peptides": 0,
+      "n_human_assays": 65,
+      "n_class_I": 66,
+      "n_class_II": 0,
+      "n_functional": 44,
+      "n_binding": 26,
+      "n_structural": 0,
+      "n_distinct_refs": 40
+    },
+    {
+      "stage_stratum": "retained_neg_iedb_only",
+      "n_peptides": 48,
+      "n_assays": 92,
+      "assays_min": 1,
+      "assays_median": 1.0,
+      "assays_max": 5,
+      "n_mixed_outcome_peptides": 0,
+      "n_human_assays": 63,
+      "n_class_I": 85,
+      "n_class_II": 1,
+      "n_functional": 84,
+      "n_binding": 7,
+      "n_structural": 0,
+      "n_distinct_refs": 34
+    },
+    {
+      "stage_stratum": "retained_pos_iedb_only",
+      "n_peptides": 48,
+      "n_assays": 114,
+      "assays_min": 1,
+      "assays_median": 1.0,
+      "assays_max": 21,
+      "n_mixed_outcome_peptides": 0,
+      "n_human_assays": 76,
+      "n_class_I": 69,
+      "n_class_II": 40,
+      "n_functional": 80,
+      "n_binding": 17,
+      "n_structural": 0,
+      "n_distinct_refs": 49
+    }
+  ]
+}
