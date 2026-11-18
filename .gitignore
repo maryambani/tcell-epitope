@@ -5,3 +5,9 @@ outputs/models/
 data/processed/features.npz
 
 .ipynb_checkpoints/
+
+# Large retrieval data files (regeneratable from scripts)
+audit/retrieval/full/raw/
+audit/retrieval/full/observations.csv
+audit/retrieval/full/completeness_log.csv
+audit/retrieval/*/raw/
