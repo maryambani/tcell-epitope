@@ -1,39 +1,157 @@
 ## T-Cell Epitope Immunogenicity Classifier
 
-This is a personal learning project with the goal to build a binary classifier that can predict whether a T-cell epitope peptide is immunogenic (will provoke a T-cell response from the immune system) or not.
+Personal learning / research-portfolio project: **benchmarking peptide-only prediction of curated T-cell assay outcomes**, and investigating what sequence-only models learn under a simple encoding.
 
-What are T-cells? They are part of the immune system and are able to recognize problematic cells (such as virus-infected cells) by having their receptors bind to a small protein piece (peptide) that is presented on a cell's surface by molecules called the Major Histocompatibility Complex (MHC). The receptors can only bind the peptide-MHC complex and they are specific on what they can and cannot bind to for a particular combination of peptide and MHC. [1]
+### Prediction target (operational definition)
 
-MHC is highly polymorphic (many different versions exist in nature) giving the immune system the ability to recognize many, many pathogens. Recognizing an epitope and having an MHC-peptide complex is one of the early steps (although not sufficient on its own) to the immune response. [1]
+This project predicts **curated positive versus negative T-cell assay outcomes from peptide sequence**.
 
-Accurately predicting which antigens will trigger an immune response is important for better understanding autoimmune diseases, to guide vaccine design and to improve drug safety. With the help of ML, predictions can also be used to help researchers identify neo-antigens for personalized cancer immunotherapy. [2]
+A database “negative” means **no detected response under particular experimental conditions**. It is **not** proof that the peptide can never elicit a response in another host, HLA context, or assay. Positive labels come from MHC-dependent experimental contexts, but omitting HLA does **not** control for HLA-associated bias or isolate TCR-recognition signal.
 
-#### Scope
+You can still call this *peptide immunogenicity prediction*, with that definition in mind.
 
-This will be a supervised binary classification problem. The goal is to train a model on short peptide sequences. For MHC Class I molecules, they tend to fit peptides of about 8-10 amino acids in length, so for sake of simplicity the dataset will start with peptides within that length range, and only the peptide sequence will be considered as the input [3]. For the scope of this project it is acceptable to only consider the peptide sequences, since the peptides labeled as immunogenic from the dataset are inherently experimentally verified in the presence of an MHC molecule, meaning we can implicitly account for MHC binding.
+### Biological background
 
-#### Environment setup
+T cells recognize infected or abnormal cells when their receptors bind a small peptide presented on the cell surface by MHC molecules. Peptide–MHC recognition is an early step toward an immune response, but it is not sufficient on its own. [1]
 
-`pip install -r requirements.txt`
+Predicting which peptides are associated with T-cell responses matters for vaccine design, autoimmunity research, drug safety, and neoantigen discovery. [2]
 
-#### Data sources
+### Scope
 
-The dataset will be created from two complementary datasets: IEDB ([Immune Epitope Database](https://www.iedb.org/result_v3.php?cookie_id=aa2a4e)) for broad T-cell epitopes across different pathogens and self-antigens, and CEDAR ([Cancer Epitope Database and Analysis Resource](https://cedar.iedb.org)) for a subset of specifically cancer-derived epitopes.
+| Item | Choice |
+|------|--------|
+| Task | Supervised binary classification |
+| Input | Peptide sequence only (no explicit MHC allele) |
+| Length filter | 8–11 amino acids (typical MHC class I range) [3] |
+| Models | Logistic regression, random forest, small 1D CNN |
+| Current evaluation | Stratified random holdout (exploratory) |
 
-#### Data preparation
+**What this is:** an end-to-end prototype plus analysis of ranking signal, class imbalance, positional encoding, and planned biological ablations.
 
-#### Feature encoding
+**What this is not yet:** a claim of a generalizable immunogenicity predictor across related peptides, studies, alleles, or experimental contexts.
 
-#### Modeling
+### Suggested portfolio framing
 
-#### Evaluation
+> Benchmarking peptide-only prediction of curated T-cell assay outcomes: investigating generalization, dataset bias, and positional sequence signal.
 
-#### Results
+---
 
-#### References
+### Environment setup
 
-[1] Cano RLE, Lopera HDE. Introduction to T and B lymphocytes. In: Anaya JM, Shoenfeld Y, Rojas-Villarraga A, et al., editors. Autoimmunity: From Bench to Bedside [Internet]. Bogota (Colombia): El Rosario University Press; 2013 Jul 18. Chapter 5. Available from: https://www.ncbi.nlm.nih.gov/books/NBK459471/
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
-[2] Xu Z, Wang X, Zeng S, Ren X, Yan Y, Gong Z. Applying artificial intelligence for cancer immunotherapy. Acta Pharm Sin B. 2021 Nov;11(11):3393-3405. doi: 10.1016/j.apsb.2021.02.007. Epub 2021 Feb 11. PMID: 34900525; PMCID: PMC8642413.
+Use the project `venv` kernel for notebooks (Python 3.11).
 
-[3] Alberts B, Johnson A, Lewis J, et al. Molecular Biology of the Cell. 4th edition. New York: Garland Science; 2002. T Cells and MHC Proteins. Available from: https://www.ncbi.nlm.nih.gov/books/NBK26926/
+### Data sources
+
+- [IEDB](https://www.iedb.org/): T-cell epitope exports (positive and negative files)
+- [CEDAR](https://cedar.iedb.org): cancer epitope exports (positive and negative files)
+
+Exports were prepared as T-cell assay–oriented files (`*_tcell_pos_*` / `*_tcell_neg_*`). The modeling table currently retains only `peptide`, `source`, and `label`. Host species, HLA allele, and assay subtype are **not** carried into training features yet (documented limitation).
+
+### Data preparation
+
+1. `src/fix_headers.py`: merge two-row IEDB/CEDAR headers  
+2. `src/prepare_data.py`: combine four exports into `data/processed/combined_raw.csv`  
+3. `src/clean_data.py`: drop invalid amino-acid characters; **drop peptides with conflicting 0/1 labels**; deduplicate
+
+**Attrition (from EDA / cleaning, notebook 01 + `clean_data.py`):**
+
+| Step | Count |
+|------|------:|
+| Raw combined rows | 308,790 |
+| Invalid / non-standard sequences removed | 2,359 |
+| Unique peptides in both pos and neg lists (any AA) | 26,504 |
+| Valid-AA peptides dropped as conflicts | 26,204 |
+| Rows removed at conflict stage | 63,301 |
+| Remaining duplicates collapsed | (see cleaning log) |
+| Cleaned unique peptides | ~199,860 |
+| Class ratio (neg:pos) after cleaning | ~2.49:1 |
+
+**Conflict policy:** if the same peptide appears with both labels, it is dropped rather than majority-voted. That makes a cleaner binary benchmark, but the same sequence can genuinely differ across experimental contexts. Assay-level provenance should be preserved in future work even if the modeling table stays one row per peptide.
+
+**Length filter (notebook 02):** keep 8–11mers only (~47.6k sequences after filtering), right-pad to length 11, one-hot encode to 231 features (11 × 21), stratified 80/20 split.
+
+### Modeling
+
+All models use `class_weight='balanced'` (sklearn string; for Keras this is converted to a class→weight dict from **training** labels only).
+
+| Model | Notes |
+|-------|--------|
+| Logistic regression | Linear baseline; interpretable coefficients |
+| Random forest | 100 trees; captures nonlinear interactions; can overfit |
+| 1D CNN | Input shaped `(11, 21)`; Conv1D → GlobalMaxPooling → Dense |
+
+### Evaluation (notebook 04): exploratory holdout
+
+On the stratified random test set (n = 9,521; positive rate ≈ 0.297):
+
+| Model | Accuracy | ROC-AUC | Average precision |
+|-------|----------|---------|-------------------|
+| Logistic Regression | 0.596 | 0.634 | 0.423 |
+| Random Forest | 0.753 | **0.702** | **0.571** |
+| CNN | 0.577 | 0.649 | 0.451 |
+
+At threshold 0.5, RF positive-class **recall ≈ 0.24** (misses most labeled positives) despite high positive precision. CNN has higher positive recall/F1 at that threshold.
+
+**How to read these numbers**
+
+> On a stratified random holdout, random forest achieved the highest observed ROC-AUC (0.702) and average precision (0.571). RF AP is substantially above the prevalence baseline (0.297), so there is within-dataset ranking signal. These results do **not** establish generalization across related peptides, studies, or experimental contexts.
+
+The current test set has already been inspected (metrics, plots, threshold sweep). Treat results as **exploratory**. Do not treat a reshuffled random split as a fresh unconsulted test. Prefer development folds for future model / threshold / encoding choices.
+
+### V2 observation recovery (in progress — no new model)
+
+V1 is frozen. The V2 workstream recovers full assay-level provenance before choosing a new prediction task.
+
+**Completed:**
+- Staged IEDB T-cell observation retrieval for all 54,448 valid 8|11-mer peptides in `audit/epitope_pool_8_11_preconflict.csv` — 157,300 observations, 0 unresolved IDs, merge validation passed (`audit/retrieval/full/merge_validation.json`)
+- Two reporting corrections: `WICLLQFAY` and `VQSAKYWNL` have no eligible human evidence under functional subsets; mixed records are tetramer/binding and cannot supply functional labels
+- Full task-feasibility inventory across predeclared endpoint intersections (`audit/retrieval/full/task_feasibility.json`)
+- Per-study tables and split diagnostics for ELISPOT and functional candidates (`per_study_*.csv`, `split_diagnostics.json`)
+
+**Not yet decided:** primary prediction claim, label policy for mixed observations, evaluation split design, V2 model.
+
+The V1 conflict-drop policy (drop any peptide appearing in both positive and negative exports) is documented in V1 but should not be applied as the V2 label rule. Labels should be derived from eligible observations for a named task.
+
+---
+
+### Known limitations (priority for next work)
+
+1. **Label definition & provenance** — *In progress (V2 workstream).* Full-pool IEDB T-cell observation recovery is complete (54,448 peptides, 157,300 assays). Staged retrieval with per-query completeness checks, raw JSON, and append-only history is documented in `audit/RETRIEVAL_SPEC.md`. Feasibility inventory across candidate endpoint intersections is in `audit/retrieval/full/task_feasibility.json`. Primary prediction claim (host, MHC class, endpoint, mixed-label rule) is **not yet chosen**.
+2. **Evaluation design** — *In progress (V2 workstream).* Study concentration analysis and sequence-separation diagnostics are done (`audit/retrieval/full/split_diagnostics.json`, `per_study_*.csv`). One all-negative vaccinia study (reference 1001865) accounts for ~39% of ELISPOT labeled peptides; a predeclared stress test holding it out is required before committing to a split. Hamming ≤1 sequence groups are computed; largest group is 20 peptides. No split has been adopted.
+3. **Anchor ablation (notebook 06)** — mask P2/PΩ (identify PΩ **before** padding), add control masks and simple baselines; interpret as information removal, not proof of MHC mechanism.  
+4. **Encoding:** compare right-padding vs terminally aligned padding; report metrics by length.  
+5. **RF regularization / weighting / calibration:** tune on validation folds; treat impurity importances as training diagnostics, not biology.
+
+A larger neural net / transformer is **not** the priority.
+
+### Project structure
+
+```
+tcell-epitope/
+├── data/processed/          # combined_raw, combined_cleaned, features.npz
+├── src/                     # fix_headers, prepare_data, clean_data (V1)
+├── scripts/                 # iedb_annotate, iedb_pool_retrieve, task_feasibility,
+│                            #   validate_merged_retrieval, per_study_table,
+│                            #   split_diagnostics, similarity_audit, …
+├── audit/                   # staged retrieval outputs, feasibility inventory,
+│                            #   epitope pool, RETRIEVAL_SPEC.md
+├── notebooks/               # 01 EDA → 06 anchor ablation
+├── outputs/                 # figures (+ models/, regeneratable)
+└── requirements.txt
+```
+
+### References
+
+[1] Cano RLE, Lopera HDE. Introduction to T and B lymphocytes. In: Anaya JM et al., eds. *Autoimmunity: From Bench to Bedside*. El Rosario University Press; 2013. https://www.ncbi.nlm.nih.gov/books/NBK459471/
+
+[2] Xu Z et al. Applying artificial intelligence for cancer immunotherapy. *Acta Pharm Sin B.* 2021;11(11):3393-3405. https://doi.org/10.1016/j.apsb.2021.02.007
+
+[3] Alberts B et al. *Molecular Biology of the Cell.* 4th ed. Garland Science; 2002. T Cells and MHC Proteins. https://www.ncbi.nlm.nih.gov/books/NBK26926/
+
+**Methods literature informing next steps (not direct AUC comparators):** Calis et al. 2013 (PLOS Comp Biol); PRIME / PRIME2.0; TRAP (Genome Medicine 2023); leakage-aware IEDB evaluation work; MUNIS (Nat Mach Intell 2025). Endpoints and splits differ across papers, so do not compare headline AUCs directly.
