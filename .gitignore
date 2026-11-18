@@ -11,3 +11,4 @@ audit/retrieval/full/raw/
 audit/retrieval/full/observations.csv
 audit/retrieval/full/completeness_log.csv
 audit/retrieval/*/raw/
+__pycache__/
