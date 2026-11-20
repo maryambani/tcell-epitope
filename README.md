@@ -104,12 +104,12 @@ At threshold 0.5, RF positive-class **recall ≈ 0.24** (misses most labeled pos
 
 The current test set has already been inspected (metrics, plots, threshold sweep). Treat results as **exploratory**. Do not treat a reshuffled random split as a fresh unconsulted test. Prefer development folds for future model / threshold / encoding choices.
 
-### V2 observation recovery (in progress — no new model)
+### V2 observation recovery (in progress, no new model)
 
 V1 is frozen. The V2 workstream recovers full assay-level provenance before choosing a new prediction task.
 
 **Completed:**
-- Staged IEDB T-cell observation retrieval for all 54,448 valid 8|11-mer peptides in `audit/epitope_pool_8_11_preconflict.csv` — 157,300 observations, 0 unresolved IDs, merge validation passed (`audit/retrieval/full/merge_validation.json`)
+- Staged IEDB T-cell observation retrieval for all 54,448 valid 8|11-mer peptides in `audit/epitope_pool_8_11_preconflict.csv`: 157,300 observations, 0 unresolved IDs, merge validation passed (`audit/retrieval/full/merge_validation.json`)
 - Two reporting corrections: `WICLLQFAY` and `VQSAKYWNL` have no eligible human evidence under functional subsets; mixed records are tetramer/binding and cannot supply functional labels
 - Full task-feasibility inventory across predeclared endpoint intersections (`audit/retrieval/full/task_feasibility.json`)
 - Per-study tables and split diagnostics for ELISPOT and functional candidates (`per_study_*.csv`, `split_diagnostics.json`)
@@ -122,9 +122,9 @@ The V1 conflict-drop policy (drop any peptide appearing in both positive and neg
 
 ### Known limitations (priority for next work)
 
-1. **Label definition & provenance** — *In progress (V2 workstream).* Full-pool IEDB T-cell observation recovery is complete (54,448 peptides, 157,300 assays). Staged retrieval with per-query completeness checks, raw JSON, and append-only history is documented in `audit/RETRIEVAL_SPEC.md`. Feasibility inventory across candidate endpoint intersections is in `audit/retrieval/full/task_feasibility.json`. Primary prediction claim (host, MHC class, endpoint, mixed-label rule) is **not yet chosen**.
-2. **Evaluation design** — *In progress (V2 workstream).* Study concentration analysis and sequence-separation diagnostics are done (`audit/retrieval/full/split_diagnostics.json`, `per_study_*.csv`). One all-negative vaccinia study (reference 1001865) accounts for ~39% of ELISPOT labeled peptides; a predeclared stress test holding it out is required before committing to a split. Hamming ≤1 sequence groups are computed; largest group is 20 peptides. No split has been adopted.
-3. **Anchor ablation (notebook 06)** — mask P2/PΩ (identify PΩ **before** padding), add control masks and simple baselines; interpret as information removal, not proof of MHC mechanism.  
+1. **Label definition & provenance.** *In progress (V2 workstream).* Full-pool IEDB T-cell observation recovery is complete (54,448 peptides, 157,300 assays). Staged retrieval with per-query completeness checks, raw JSON, and append-only history is documented in `audit/RETRIEVAL_SPEC.md`. Feasibility inventory across candidate endpoint intersections is in `audit/retrieval/full/task_feasibility.json`. Primary prediction claim (host, MHC class, endpoint, mixed-label rule) is **not yet chosen**.
+2. **Evaluation design.** *In progress (V2 workstream).* Study concentration analysis and sequence-separation diagnostics are done (`audit/retrieval/full/split_diagnostics.json`, `per_study_*.csv`). One all-negative vaccinia study (reference 1001865) accounts for ~39% of ELISPOT labeled peptides; a predeclared stress test holding it out is required before committing to a split. Hamming ≤1 sequence groups are computed; largest group is 20 peptides. No split has been adopted.
+3. **Anchor ablation (notebook 06).** *Partially done.* Ablation ran on the 9-mer subset only (20,690 train / 5,166 test), avoiding the right-padding ambiguity by fixing PΩ at index 8. Masking P2 and PΩ costs 0.024 to 0.028 AUC across all three models (LR 0.637 to 0.612, RF 0.673 to 0.644, CNN 0.637 to 0.613). The drop is consistent but modest, so most predictive signal survives anchor removal. **Still missing:** control masks (equal-count non-anchor positions) and simple baselines to establish whether the drop exceeds what masking any two positions would cost. Interpret as information removal, not proof of MHC mechanism.  
 4. **Encoding:** compare right-padding vs terminally aligned padding; report metrics by length.  
 5. **RF regularization / weighting / calibration:** tune on validation folds; treat impurity importances as training diagnostics, not biology.
 
