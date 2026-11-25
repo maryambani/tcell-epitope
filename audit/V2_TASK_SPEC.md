@@ -123,6 +123,29 @@ Variant A is reported as a sensitivity analysis and is **not** the primary popul
 
 Variant A is still worth computing and reporting: it is the more generous population (9,355 labeled against 8,544), and its study-concentration and sequence-structure diagnostics are the ones computed in the JSON. Where a diagnostic exists only for Variant A, it is labeled as such below.
 
+### Predeclared stress test, and why it is not the one originally requested
+
+The review asked that the dominant study be a predeclared stress test rather than an automatic discard. That instruction is accepted, but the stress test as literally described cannot be computed.
+
+**Holding 1001865 out as a test set yields an undefined score.** Its 5,636 peptides are negative_only without exception: 0 positive, 0 mixed. A test set with one class present gives an undefined ROC-AUC and an undefined average precision. There is no number to report and nothing to compare.
+
+**The computable form of the same question is an inclusion test, not a hold-out test.** Predeclared now, before any fit:
+
+| | Training population | Test set |
+|---|---|---|
+| Primary fit | Variant B labeled peptides | Fixed Variant B test split |
+| Stress fit | Variant B labeled peptides **plus** 1001865's 5,636 peptides | **The same** fixed Variant B test split |
+
+Both fits are scored on the identical test set, which contains none of 1001865's peptides, so the test side stays uncontaminated and the comparison isolates the effect of the study's 5,636 negatives on what the model learns.
+
+The reading is predeclared too, so it cannot be chosen after the fact:
+
+- **Stress fit scores higher.** The study's negatives carry transferable information, and excluding them cost real signal. Variant B is then too conservative and the exclusion should be revisited in the open.
+- **Stress fit scores lower.** The negatives shift the decision boundary toward one experimental context and degrade generalization to other studies. The exclusion is doing the work it was intended to do.
+- **Scores within noise.** A third of the baseline labels were contributing nothing that transfers, which is itself the finding, and the smaller primary population loses nothing by dropping them.
+
+No outcome here reopens Decision 3 or Decision 4. It bears only on whether the primary population should have been Variant B, and it is reported whichever way it comes out.
+
 ---
 
 ## Populations
