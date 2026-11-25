@@ -1,0 +1,474 @@
+{
+  "purpose": "Exact population counts for two predeclared V2 task candidates, with and without reference 1001865. Input to a human task-definition decision.",
+  "v2_task_chosen": false,
+  "counts_only_no_labels_written": true,
+  "v1_unchanged": true,
+  "split_chosen": false,
+  "collection": "historical_8_11_preconflict_54448",
+  "source_observations": "audit/retrieval/full/observations.csv",
+  "dominant_reference_id": "1001865",
+  "missing_reference_convention": "rows without a reference_id are grouped under (missing_reference_id) as a pseudo-study, as in per_study_table.py; counts of such rows are reported per subset",
+  "subsets": [
+    {
+      "subset_id": "human_class_I_functional_ifng_elispot",
+      "subset_label": "Human + class I + IFNg ELISPOT",
+      "spec": {
+        "human": true,
+        "class_i": true,
+        "endpoint_family": "functional_response",
+        "assay_names": "IFNg release|ELISPOT"
+      },
+      "baseline_population": {
+        "n_eligible_peptides": 15281,
+        "n_positive_only": 4143,
+        "n_negative_only": 9921,
+        "n_mixed": 1217,
+        "n_uninterpretable": 0,
+        "n_labeled": 14064,
+        "labeled_positive_fraction": 0.294582,
+        "n_eligible_observations": 38490,
+        "n_studies": 1034,
+        "n_eligible_rows_missing_reference_id": 0
+      },
+      "dominant_study_contribution": {
+        "reference_id": "1001865",
+        "n_peptides_touched": 5636,
+        "n_peptides_exclusive": 4804,
+        "n_peptides_shared_with_other_studies": 832,
+        "n_eligible_observations_from_this_study": 20274,
+        "within_study_pattern_all_touched": {
+          "negative_only": 5636
+        },
+        "within_study_pattern_exclusive_only": {
+          "negative_only": 4804
+        },
+        "entirely_negative_within_study": true,
+        "global_pattern_of_exclusive_peptides": {
+          "negative_only": 4804
+        },
+        "global_pattern_of_all_touched_peptides": {
+          "negative_only": 5520,
+          "mixed": 116
+        },
+        "exclusive_global_matches_within_study": true,
+        "n_labeled_touched": 5520,
+        "n_labeled_exclusive": 4804,
+        "share_of_baseline_labeled_touched": 0.392491,
+        "share_of_baseline_labeled_exclusive": 0.341581
+      },
+      "variant_A_drop_exclusive_only": {
+        "definition": "drop peptides exclusive to 1001865; keep shared peptides with 1001865 rows removed",
+        "n_eligible_peptides": 10477,
+        "n_labeled": 9355,
+        "n_positive_only": 4238,
+        "n_negative_only": 5117,
+        "n_mixed": 1122,
+        "n_uninterpretable": 0,
+        "labeled_positive_fraction": 0.45302,
+        "n_studies_remaining_any_eligible": 1033,
+        "n_studies_remaining_among_labeled": 761,
+        "n_shared_peptides_kept": 832,
+        "n_shared_peptides_relabeled_by_removal": 95,
+        "shared_peptide_pattern_change": {
+          "mixed->positive_only": 95
+        },
+        "n_shared_peptides_losing_all_eligible_evidence": 0
+      },
+      "variant_B_drop_all_touched": {
+        "definition": "drop every peptide with any eligible 1001865 observation",
+        "n_eligible_peptides": 9645,
+        "n_labeled": 8544,
+        "n_positive_only": 4143,
+        "n_negative_only": 4401,
+        "n_mixed": 1101,
+        "n_uninterpretable": 0,
+        "labeled_positive_fraction": 0.484902,
+        "n_studies_remaining_any_eligible": 1032,
+        "n_studies_remaining_among_labeled": 760
+      },
+      "concentration_after_removal_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_labeled_reduced_population": 9355,
+        "top10_studies_by_exclusive_labeled_peptides": [
+          {
+            "reference_id": "1001794",
+            "n_exclusive_labeled_peptides": 820,
+            "n_positive_only": 38,
+            "n_negative_only": 782,
+            "positive_fraction": 0.046341,
+            "share_of_reduced_labeled_population": 0.087654,
+            "n_labeled_peptides_touched_any": 867,
+            "share_touched_any_of_reduced_labeled": 0.092678
+          },
+          {
+            "reference_id": "1039665",
+            "n_exclusive_labeled_peptides": 354,
+            "n_positive_only": 18,
+            "n_negative_only": 336,
+            "positive_fraction": 0.050847,
+            "share_of_reduced_labeled_population": 0.037841,
+            "n_labeled_peptides_touched_any": 361,
+            "share_touched_any_of_reduced_labeled": 0.038589
+          },
+          {
+            "reference_id": "1045556",
+            "n_exclusive_labeled_peptides": 225,
+            "n_positive_only": 69,
+            "n_negative_only": 156,
+            "positive_fraction": 0.306667,
+            "share_of_reduced_labeled_population": 0.024051,
+            "n_labeled_peptides_touched_any": 226,
+            "share_touched_any_of_reduced_labeled": 0.024158
+          },
+          {
+            "reference_id": "1024519",
+            "n_exclusive_labeled_peptides": 223,
+            "n_positive_only": 223,
+            "n_negative_only": 0,
+            "positive_fraction": 1.0,
+            "share_of_reduced_labeled_population": 0.023838,
+            "n_labeled_peptides_touched_any": 370,
+            "share_touched_any_of_reduced_labeled": 0.039551
+          },
+          {
+            "reference_id": "1043337",
+            "n_exclusive_labeled_peptides": 218,
+            "n_positive_only": 4,
+            "n_negative_only": 214,
+            "positive_fraction": 0.018349,
+            "share_of_reduced_labeled_population": 0.023303,
+            "n_labeled_peptides_touched_any": 218,
+            "share_touched_any_of_reduced_labeled": 0.023303
+          },
+          {
+            "reference_id": "1026371",
+            "n_exclusive_labeled_peptides": 209,
+            "n_positive_only": 30,
+            "n_negative_only": 179,
+            "positive_fraction": 0.143541,
+            "share_of_reduced_labeled_population": 0.022341,
+            "n_labeled_peptides_touched_any": 236,
+            "share_touched_any_of_reduced_labeled": 0.025227
+          },
+          {
+            "reference_id": "1027503",
+            "n_exclusive_labeled_peptides": 181,
+            "n_positive_only": 181,
+            "n_negative_only": 0,
+            "positive_fraction": 1.0,
+            "share_of_reduced_labeled_population": 0.019348,
+            "n_labeled_peptides_touched_any": 299,
+            "share_touched_any_of_reduced_labeled": 0.031962
+          },
+          {
+            "reference_id": "1041806",
+            "n_exclusive_labeled_peptides": 170,
+            "n_positive_only": 8,
+            "n_negative_only": 162,
+            "positive_fraction": 0.047059,
+            "share_of_reduced_labeled_population": 0.018172,
+            "n_labeled_peptides_touched_any": 170,
+            "share_touched_any_of_reduced_labeled": 0.018172
+          },
+          {
+            "reference_id": "1039102",
+            "n_exclusive_labeled_peptides": 155,
+            "n_positive_only": 4,
+            "n_negative_only": 151,
+            "positive_fraction": 0.025806,
+            "share_of_reduced_labeled_population": 0.016569,
+            "n_labeled_peptides_touched_any": 155,
+            "share_touched_any_of_reduced_labeled": 0.016569
+          },
+          {
+            "reference_id": "1034576",
+            "n_exclusive_labeled_peptides": 154,
+            "n_positive_only": 54,
+            "n_negative_only": 100,
+            "positive_fraction": 0.350649,
+            "share_of_reduced_labeled_population": 0.016462,
+            "n_labeled_peptides_touched_any": 154,
+            "share_touched_any_of_reduced_labeled": 0.016462
+          }
+        ],
+        "largest_single_study_share_exclusive": 0.087654,
+        "largest_single_study_share_touched_any": 0.092678,
+        "any_single_study_exceeds_10pct_of_reduced_population_exclusive": false,
+        "any_single_study_exceeds_10pct_of_reduced_population_touched_any": false,
+        "n_studies_with_any_exclusive_labeled_peptide": 609
+      },
+      "sequence_structure_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_peptides": 9355,
+        "hamming_le1_same_length_n_components": 8561,
+        "n_singleton_components": 8173,
+        "n_non_singleton_components": 388,
+        "largest_component_size": 20,
+        "n_peptides_in_non_singleton_components": 1182,
+        "singleton_count_cross_check_degree_zero": 8173,
+        "singleton_counts_agree": true
+      },
+      "joint_split_feasibility_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_study_exclusive_and_sequence_singleton": 7646,
+        "n_positive_only": 3077,
+        "n_negative_only": 4569,
+        "positive_fraction": 0.402433,
+        "share_of_reduced_labeled_population": 0.817317,
+        "n_study_exclusive_labeled": 8694,
+        "study_holdout_sweep": {
+          "n_random_orderings": 200,
+          "seed": 20261119,
+          "target_test_fraction": 0.2,
+          "n_studies_available_with_exclusive_labeled_peptides": 609,
+          "test_positive_fraction_median": 0.420106,
+          "test_positive_fraction_min": 0.138698,
+          "test_positive_fraction_max": 0.650501,
+          "n_studies_held_out_median": 136,
+          "n_studies_held_out_min": 53,
+          "n_studies_held_out_max": 222,
+          "n_test_peptides_median": 1897,
+          "n_test_peptides_min": 1871,
+          "n_test_peptides_max": 2655,
+          "representative_draw": {
+            "n_studies_held_out": 157,
+            "n_test_peptides": 1890,
+            "test_fraction_of_labeled": 0.202031,
+            "test_positive_fraction": 0.420106
+          },
+          "note": "Test set = union of the held-out studies' exclusive labeled peptides. Labeled peptides shared between a held-out and a kept study are excluded (they would leak), so the achieved test fraction can fall short or overshoot the 20% target in a single step when a large study is drawn early. Sequence separation is not imposed here."
+        }
+      }
+    },
+    {
+      "subset_id": "human_class_I_functional",
+      "subset_label": "Human host + annotated class I + functional endpoint",
+      "spec": {
+        "human": true,
+        "class_i": true,
+        "endpoint_family": "functional_response"
+      },
+      "baseline_population": {
+        "n_eligible_peptides": 23642,
+        "n_positive_only": 7015,
+        "n_negative_only": 13619,
+        "n_mixed": 3008,
+        "n_uninterpretable": 0,
+        "n_labeled": 20634,
+        "labeled_positive_fraction": 0.339973,
+        "n_eligible_observations": 71059,
+        "n_studies": 2722,
+        "n_eligible_rows_missing_reference_id": 0
+      },
+      "dominant_study_contribution": {
+        "reference_id": "1001865",
+        "n_peptides_touched": 5636,
+        "n_peptides_exclusive": 4799,
+        "n_peptides_shared_with_other_studies": 837,
+        "n_eligible_observations_from_this_study": 20274,
+        "within_study_pattern_all_touched": {
+          "negative_only": 5636
+        },
+        "within_study_pattern_exclusive_only": {
+          "negative_only": 4799
+        },
+        "entirely_negative_within_study": true,
+        "global_pattern_of_exclusive_peptides": {
+          "negative_only": 4799
+        },
+        "global_pattern_of_all_touched_peptides": {
+          "negative_only": 5513,
+          "mixed": 123
+        },
+        "exclusive_global_matches_within_study": true,
+        "n_labeled_touched": 5513,
+        "n_labeled_exclusive": 4799,
+        "share_of_baseline_labeled_touched": 0.26718,
+        "share_of_baseline_labeled_exclusive": 0.232577
+      },
+      "variant_A_drop_exclusive_only": {
+        "definition": "drop peptides exclusive to 1001865; keep shared peptides with 1001865 rows removed",
+        "n_eligible_peptides": 18843,
+        "n_labeled": 15930,
+        "n_positive_only": 7110,
+        "n_negative_only": 8820,
+        "n_mixed": 2913,
+        "n_uninterpretable": 0,
+        "labeled_positive_fraction": 0.446328,
+        "n_studies_remaining_any_eligible": 2721,
+        "n_studies_remaining_among_labeled": 1565,
+        "n_shared_peptides_kept": 837,
+        "n_shared_peptides_relabeled_by_removal": 95,
+        "shared_peptide_pattern_change": {
+          "mixed->positive_only": 95
+        },
+        "n_shared_peptides_losing_all_eligible_evidence": 0
+      },
+      "variant_B_drop_all_touched": {
+        "definition": "drop every peptide with any eligible 1001865 observation",
+        "n_eligible_peptides": 18006,
+        "n_labeled": 15121,
+        "n_positive_only": 7015,
+        "n_negative_only": 8106,
+        "n_mixed": 2885,
+        "n_uninterpretable": 0,
+        "labeled_positive_fraction": 0.463924,
+        "n_studies_remaining_any_eligible": 2718,
+        "n_studies_remaining_among_labeled": 1564
+      },
+      "concentration_after_removal_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_labeled_reduced_population": 15930,
+        "top10_studies_by_exclusive_labeled_peptides": [
+          {
+            "reference_id": "1037506",
+            "n_exclusive_labeled_peptides": 1042,
+            "n_positive_only": 4,
+            "n_negative_only": 1038,
+            "positive_fraction": 0.003839,
+            "share_of_reduced_labeled_population": 0.065411,
+            "n_labeled_peptides_touched_any": 1044,
+            "share_touched_any_of_reduced_labeled": 0.065537
+          },
+          {
+            "reference_id": "1001794",
+            "n_exclusive_labeled_peptides": 820,
+            "n_positive_only": 38,
+            "n_negative_only": 782,
+            "positive_fraction": 0.046341,
+            "share_of_reduced_labeled_population": 0.051475,
+            "n_labeled_peptides_touched_any": 858,
+            "share_touched_any_of_reduced_labeled": 0.053861
+          },
+          {
+            "reference_id": "1039665",
+            "n_exclusive_labeled_peptides": 349,
+            "n_positive_only": 17,
+            "n_negative_only": 332,
+            "positive_fraction": 0.048711,
+            "share_of_reduced_labeled_population": 0.021908,
+            "n_labeled_peptides_touched_any": 357,
+            "share_touched_any_of_reduced_labeled": 0.022411
+          },
+          {
+            "reference_id": "1047037",
+            "n_exclusive_labeled_peptides": 274,
+            "n_positive_only": 2,
+            "n_negative_only": 272,
+            "positive_fraction": 0.007299,
+            "share_of_reduced_labeled_population": 0.0172,
+            "n_labeled_peptides_touched_any": 274,
+            "share_touched_any_of_reduced_labeled": 0.0172
+          },
+          {
+            "reference_id": "1033246",
+            "n_exclusive_labeled_peptides": 273,
+            "n_positive_only": 0,
+            "n_negative_only": 273,
+            "positive_fraction": 0.0,
+            "share_of_reduced_labeled_population": 0.017137,
+            "n_labeled_peptides_touched_any": 276,
+            "share_touched_any_of_reduced_labeled": 0.017326
+          },
+          {
+            "reference_id": "456",
+            "n_exclusive_labeled_peptides": 236,
+            "n_positive_only": 1,
+            "n_negative_only": 235,
+            "positive_fraction": 0.004237,
+            "share_of_reduced_labeled_population": 0.014815,
+            "n_labeled_peptides_touched_any": 246,
+            "share_touched_any_of_reduced_labeled": 0.015443
+          },
+          {
+            "reference_id": "1045556",
+            "n_exclusive_labeled_peptides": 224,
+            "n_positive_only": 69,
+            "n_negative_only": 155,
+            "positive_fraction": 0.308036,
+            "share_of_reduced_labeled_population": 0.014062,
+            "n_labeled_peptides_touched_any": 225,
+            "share_touched_any_of_reduced_labeled": 0.014124
+          },
+          {
+            "reference_id": "1024519",
+            "n_exclusive_labeled_peptides": 217,
+            "n_positive_only": 217,
+            "n_negative_only": 0,
+            "positive_fraction": 1.0,
+            "share_of_reduced_labeled_population": 0.013622,
+            "n_labeled_peptides_touched_any": 366,
+            "share_touched_any_of_reduced_labeled": 0.022976
+          },
+          {
+            "reference_id": "1043337",
+            "n_exclusive_labeled_peptides": 217,
+            "n_positive_only": 3,
+            "n_negative_only": 214,
+            "positive_fraction": 0.013825,
+            "share_of_reduced_labeled_population": 0.013622,
+            "n_labeled_peptides_touched_any": 217,
+            "share_touched_any_of_reduced_labeled": 0.013622
+          },
+          {
+            "reference_id": "1026371",
+            "n_exclusive_labeled_peptides": 204,
+            "n_positive_only": 25,
+            "n_negative_only": 179,
+            "positive_fraction": 0.122549,
+            "share_of_reduced_labeled_population": 0.012806,
+            "n_labeled_peptides_touched_any": 222,
+            "share_touched_any_of_reduced_labeled": 0.013936
+          }
+        ],
+        "largest_single_study_share_exclusive": 0.065411,
+        "largest_single_study_share_touched_any": 0.065537,
+        "any_single_study_exceeds_10pct_of_reduced_population_exclusive": false,
+        "any_single_study_exceeds_10pct_of_reduced_population_touched_any": false,
+        "n_studies_with_any_exclusive_labeled_peptide": 1190
+      },
+      "sequence_structure_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_peptides": 15930,
+        "hamming_le1_same_length_n_components": 14703,
+        "n_singleton_components": 14025,
+        "n_non_singleton_components": 678,
+        "largest_component_size": 20,
+        "n_peptides_in_non_singleton_components": 1905,
+        "singleton_count_cross_check_degree_zero": 14025,
+        "singleton_counts_agree": true
+      },
+      "joint_split_feasibility_variant_A": {
+        "population": "variant_A labeled peptides",
+        "n_study_exclusive_and_sequence_singleton": 13151,
+        "n_positive_only": 5202,
+        "n_negative_only": 7949,
+        "positive_fraction": 0.395559,
+        "share_of_reduced_labeled_population": 0.825549,
+        "n_study_exclusive_labeled": 14831,
+        "study_holdout_sweep": {
+          "n_random_orderings": 200,
+          "seed": 20261119,
+          "target_test_fraction": 0.2,
+          "n_studies_available_with_exclusive_labeled_peptides": 1190,
+          "test_positive_fraction_median": 0.421596,
+          "test_positive_fraction_min": 0.177541,
+          "test_positive_fraction_max": 0.639864,
+          "n_studies_held_out_median": 263,
+          "n_studies_held_out_min": 108,
+          "n_studies_held_out_max": 392,
+          "n_test_peptides_median": 3216,
+          "n_test_peptides_min": 3186,
+          "n_test_peptides_max": 4176,
+          "representative_draw": {
+            "n_studies_held_out": 203,
+            "n_test_peptides": 3195,
+            "test_fraction_of_labeled": 0.200565,
+            "test_positive_fraction": 0.421596
+          },
+          "note": "Test set = union of the held-out studies' exclusive labeled peptides. Labeled peptides shared between a held-out and a kept study are excluded (they would leak), so the achieved test fraction can fall short or overshoot the 20% target in a single step when a large study is drawn early. Sequence separation is not imposed here."
+        }
+      }
+    }
+  ]
+}
