@@ -104,7 +104,7 @@ At threshold 0.5, RF positive-class **recall ≈ 0.24** (misses most labeled pos
 
 The current test set has already been inspected (metrics, plots, threshold sweep). Treat results as **exploratory**. Do not treat a reshuffled random split as a fresh unconsulted test. Prefer development folds for future model / threshold / encoding choices.
 
-### V2 observation recovery (in progress, no new model)
+### V2 observation recovery and task definition (in progress, no new model)
 
 V1 is frozen. The V2 workstream recovers full assay-level provenance before choosing a new prediction task.
 
@@ -113,8 +113,11 @@ V1 is frozen. The V2 workstream recovers full assay-level provenance before choo
 - Two reporting corrections: `WICLLQFAY` and `VQSAKYWNL` have no eligible human evidence under functional subsets; mixed records are tetramer/binding and cannot supply functional labels
 - Full task-feasibility inventory across predeclared endpoint intersections (`audit/retrieval/full/task_feasibility.json`)
 - Per-study tables and split diagnostics for ELISPOT and functional candidates (`per_study_*.csv`, `split_diagnostics.json`)
+- **Primary task predeclared** in `audit/V2_TASK_SPEC.md`, written before any V2 feature matrix, label column, or fit: given a human 8|11-mer with annotated class I restriction, predict a positive IFN-gamma ELISPOT response in a study and sequence neighborhood not used for training. Five decisions recorded with counts and rationale (host, restriction evidence, endpoint, mixed observations, confounded-study exclusion), computed by `scripts/v2_task_populations.py` into `audit/retrieval/full/v2_task_populations.json`
+- **Primary population:** 8,544 labeled peptides, positive fraction 0.485, 760 studies. Pooled functional response is kept as a predeclared secondary: it offers 77% more labeled peptides at a similar positive fraction, and was rejected because data volume does not establish construct validity
+- **Mixed observations are left unlabeled, not resolved.** No any-positive-wins rule, no majority vote. 1,101 mixed peptides are set aside against the 8,544 labeled, and that count is reported alongside every result
 
-**Not yet decided:** primary prediction claim, label policy for mixed observations, evaluation split design, V2 model.
+**Not yet decided:** fold assignment for the predeclared split, V2 feature matrix, V2 model. No V2 labels are written yet.
 
 The V1 conflict-drop policy (drop any peptide appearing in both positive and negative exports) is documented in V1 but should not be applied as the V2 label rule. Labels should be derived from eligible observations for a named task.
 
@@ -122,8 +125,8 @@ The V1 conflict-drop policy (drop any peptide appearing in both positive and neg
 
 ### Known limitations (priority for next work)
 
-1. **Label definition & provenance.** *In progress (V2 workstream).* Full-pool IEDB T-cell observation recovery is complete (54,448 peptides, 157,300 assays). Staged retrieval with per-query completeness checks, raw JSON, and append-only history is documented in `audit/RETRIEVAL_SPEC.md`. Feasibility inventory across candidate endpoint intersections is in `audit/retrieval/full/task_feasibility.json`. Primary prediction claim (host, MHC class, endpoint, mixed-label rule) is **not yet chosen**.
-2. **Evaluation design.** *In progress (V2 workstream).* Study concentration analysis and sequence-separation diagnostics are done (`audit/retrieval/full/split_diagnostics.json`, `per_study_*.csv`). One all-negative vaccinia study (reference 1001865) accounts for ~39% of ELISPOT labeled peptides; a predeclared stress test holding it out is required before committing to a split. Hamming ≤1 sequence groups are computed; largest group is 20 peptides. No split has been adopted.
+1. **Label definition & provenance.** *In progress (V2 workstream).* Full-pool IEDB T-cell observation recovery is complete (54,448 peptides, 157,300 assays). Staged retrieval with per-query completeness checks, raw JSON, and append-only history is documented in `audit/RETRIEVAL_SPEC.md`. Feasibility inventory across candidate endpoint intersections is in `audit/retrieval/full/task_feasibility.json`. Primary prediction claim (host, MHC class, endpoint, mixed-label rule) is **predeclared** in `audit/V2_TASK_SPEC.md`: human, annotated class I, IFN-gamma ELISPOT, mixed observations left unlabeled and counted.
+2. **Evaluation design.** *In progress (V2 workstream).* Study concentration analysis and sequence-separation diagnostics are done (`audit/retrieval/full/split_diagnostics.json`, `per_study_*.csv`). One all-negative vaccinia study (reference 1001865) accounts for 52.7% of eligible ELISPOT observations and ~39% of baseline labeled peptides; it is excluded from the primary population, and its effect is predeclared as an **inclusion** stress test rather than a hold-out, because all 5,636 of its peptides are negative and a single-class test set gives an undefined ROC-AUC and average precision. The split rule is predeclared as jointly study-separated and sequence-separated. Hamming ≤1 sequence groups are computed; largest group is 20 peptides. **No fold assignment has been adopted:** random study sampling reaches test positive fractions from 0.139 to 0.651 at the same target size, so the split must be stratified on study positive rate and fixed before the first fit.
 3. **Anchor ablation (notebook 06).** *Partially done.* Ablation ran on the 9-mer subset only (20,690 train / 5,166 test), avoiding the right-padding ambiguity by fixing PΩ at index 8. Masking P2 and PΩ costs 0.024 to 0.028 AUC across all three models (LR 0.637 to 0.612, RF 0.673 to 0.644, CNN 0.637 to 0.613). The drop is consistent but modest, so most predictive signal survives anchor removal. **Still missing:** control masks (equal-count non-anchor positions) and simple baselines to establish whether the drop exceeds what masking any two positions would cost. Interpret as information removal, not proof of MHC mechanism.  
 4. **Encoding:** compare right-padding vs terminally aligned padding; report metrics by length.  
 5. **RF regularization / weighting / calibration:** tune on validation folds; treat impurity importances as training diagnostics, not biology.
@@ -138,9 +141,11 @@ tcell-epitope/
 ├── src/                     # fix_headers, prepare_data, clean_data (V1)
 ├── scripts/                 # iedb_annotate, iedb_pool_retrieve, task_feasibility,
 │                            #   validate_merged_retrieval, per_study_table,
-│                            #   split_diagnostics, similarity_audit, …
+│                            #   split_diagnostics, similarity_audit,
+│                            #   v2_task_populations, …
 ├── audit/                   # staged retrieval outputs, feasibility inventory,
-│                            #   epitope pool, RETRIEVAL_SPEC.md
+│                            #   epitope pool, RETRIEVAL_SPEC.md,
+│                            #   V2_TASK_SPEC.md
 ├── notebooks/               # 01 EDA → 06 anchor ablation
 ├── outputs/                 # figures (+ models/, regeneratable)
 └── requirements.txt
